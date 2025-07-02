@@ -9,8 +9,8 @@ def import_questions_from_excel(file_path):
     level = os.path.splitext(os.path.basename(file_path))[0][-2:]
 
     sheet_parser_map = {
-        "grammar": parse_grammar_sheet,
-        "vocabulary": parse_vocabulary_sheet,
+        # "grammar": parse_grammar_sheet,
+        # "vocabulary": parse_vocabulary_sheet,
         "reading": parse_reading_sheet,
     }
 
@@ -105,76 +105,76 @@ def parse_grammar_sheet(sheet, level):
 def parse_reading_sheet(sheet, level):
     row = 1
     while row <= sheet.max_row:
+        # Look for a question number in column 2
         number_cell = sheet.cell(row=row, column=2).value
-        text_cell = sheet.cell(row=row, column=3).value
-
-        # Ищем начало блока вопроса
-        if is_numbered(number_cell) and isinstance(text_cell, str):
-            instruction = text_cell.strip()
-            paragraph_lines = []
-            row += 1
-
-            # Собираем параграф (пока не встретим пустую строку или "Answer the question.")
-            while row <= sheet.max_row:
-                para_text = sheet.cell(row=row, column=3).value
-                if para_text is None or str(para_text).strip() == "" or "Answer the question" in str(para_text):
-                    break
-                paragraph_lines.append(str(para_text).strip())
+        if number_cell and re.match(r"^\d+\.", str(number_cell).strip()):
+            # Find instruction in column 3
+            instruction = sheet.cell(row=row, column=3).value
+            instruction = str(instruction).strip() if instruction else ""
+            # Look for reading instruction
+            if re.search(r"read the (paragraph|article)", instruction, re.IGNORECASE):
                 row += 1
-
-            paragraph = "\n".join(paragraph_lines)
-
-            # Пропускаем строку с "Answer the question."
-            while row <= sheet.max_row:
-                answer_line = sheet.cell(row=row, column=3).value
-                if answer_line and "Answer the question" in str(answer_line):
+                # Collect paragraph lines until a block marker is found
+                paragraph_lines = []
+                while row <= sheet.max_row:
+                    para_text = sheet.cell(row=row, column=3).value
+                    if para_text is None:
+                        row += 1
+                        continue
+                    para_text_str = str(para_text).strip()
+                    # Stop at block marker
+                    if re.match(r"^(Complete the sentence:|Question:|Answer the questions\.)", para_text_str, re.IGNORECASE):
+                        break
+                    if para_text_str:
+                        paragraph_lines.append(para_text_str)
                     row += 1
-                    break
-                row += 1
+                paragraph = "\n".join(paragraph_lines)
 
-            # Следующая строка — текст вопроса
-            question_text = sheet.cell(row=row, column=3).value
-            if not question_text:
-                row += 1
-                continue
-            question_text = str(question_text).strip()
-            row += 1
-
-            # Собираем опции (A, B, C, D, E)
-            options = []
-            correct_index = None
-            option_labels = ['A', 'B', 'C', 'D', 'E']
-            for i, label in enumerate(option_labels):
-                if row > sheet.max_row:
-                    break
-                opt_label = sheet.cell(row=row, column=2).value
-                opt_text = sheet.cell(row=row, column=3).value
-                if (opt_label is None or str(opt_label).strip() != label) or not opt_text:
-                    break
-                opt_text = str(opt_text).strip()
-                # Если вариант выделен жирным (font.bold), считаем его правильным
-                cell_obj = sheet.cell(row=row, column=3)
-                is_correct = getattr(cell_obj.font, 'bold', False)
-                if is_correct:
-                    correct_index = i
-                options.append((label, opt_text))
-                row += 1
-
-            # Создаём вопрос
-            q = Question.objects.create(
-                type=QuestionType.READING,
-                level=level,
-                prompt=f"{instruction}\n\n{paragraph}\n\n{question_text}"
-            )
-
-            # Создаём опции
-            for i, (label, opt_text) in enumerate(options):
-                Option.objects.create(
-                    question=q,
-                    label=label,
-                    text=opt_text,
-                    is_correct=(i == correct_index)
+                # Now at the block marker row
+                question_text = ""
+                if row <= sheet.max_row:
+                    block_marker = sheet.cell(row=row, column=3).value
+                    block_marker_str = str(block_marker).strip() if block_marker else ""
+                    # If the question is on the same line as the marker
+                    m = re.match(r"^(Complete the sentence:|Question:|Answer the question\.)(.*)", block_marker_str, re.IGNORECASE)
+                    if m and m.group(2).strip():
+                        question_text = m.group(2).strip()
+                        row += 1
+                    else:
+                        # Otherwise, look for the next non-empty line as the question
+                        row += 1
+                        while row <= sheet.max_row:
+                            next_text = sheet.cell(row=row, column=3).value
+                            if next_text and str(next_text).strip():
+                                question_text = str(next_text).strip()
+                                row += 1
+                                break
+                            row += 1
+                # Create the question in the DB
+                q = Question.objects.create(
+                    type=QuestionType.READING,
+                    level=level,
+                    prompt=f"{instruction}\n\n{paragraph}\n\n{question_text}"
                 )
+                # Read 5 options (a,b,c,d,e) from column 2/3
+                option_labels = ['a', 'b', 'c', 'd', 'e']
+                for label in option_labels:
+                    if row > sheet.max_row:
+                        break
+                    opt_label = sheet.cell(row=row, column=2).value
+                    opt_text = sheet.cell(row=row, column=3).value
+                    if (opt_label is None or str(opt_label).strip().lower() != label) or not opt_text:
+                        break
+                    opt_text = str(opt_text).strip()
+                    Option.objects.create(
+                        question=q,
+                        label=label.upper(),
+                        text=opt_text,
+                        is_correct=False  # Correct answer logic can be added if needed
+                    )
+                    row += 1
+            else:
+                row += 1
         else:
             row += 1
 

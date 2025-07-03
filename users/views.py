@@ -7,9 +7,15 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.permissions import AllowAny
 from rest_framework.exceptions import ValidationError
+from drf_spectacular.utils import extend_schema
 
 # Create your views here.
 
+@extend_schema(
+    summary="Create test result",
+    description="Creates a new test result for an applicant.",
+    request=TestResultSerializer
+)
 class TestResultCreateView(generics.CreateAPIView):
     queryset = TestResult.objects.all()
     serializer_class = TestResultSerializer
@@ -17,6 +23,20 @@ class TestResultCreateView(generics.CreateAPIView):
 class ApplicantRegisterView(APIView):
     permission_classes = [AllowAny]
 
+    @extend_schema(
+        summary="Register applicant",
+        description="Registers a new applicant or updates the full name if the applicant already exists. Requires 'iin' and 'full_name' in the request body.",
+        request={
+            'application/json': {
+                'type': 'object',
+                'properties': {
+                    'iin': {'type': 'string', 'description': 'Individual Identification Number'},
+                    'full_name': {'type': 'string', 'description': 'Full name of the applicant'}
+                },
+                'required': ['iin', 'full_name']
+            }
+        }
+    )
     def post(self, request):
         iin = request.data.get('iin')
         full_name = request.data.get('full_name')

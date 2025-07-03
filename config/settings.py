@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'drf_spectacular',
     'rest_framework',
     'questions',
     'users',
@@ -90,7 +91,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
 
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'KELET TEST PORTAL',
+    'DESCRIPTION': 'Freelance work',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 

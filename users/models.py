@@ -39,6 +39,32 @@ class TestResult(models.Model):
     def __str__(self):
         return f"{self.applicant.iin} - {self.level} - {self.correct_answers}/{self.total_questions}"
 
+    def save(self, *args, **kwargs):
+        # Call the original save() to ensure the object has an ID
+        super().save(*args, **kwargs)
+
+        # Now update the applicant's level and is_completed
+        level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+        score = self.correct_answers / self.total_questions if self.total_questions else 0
+
+        applicant = self.applicant
+        try:
+            current_idx = level_order.index(applicant.current_level)
+            passed_idx = level_order.index(self.level)
+            if score >= 0.7:
+                # If passed and at current level, promote
+                if passed_idx == current_idx and current_idx < len(level_order) - 1:
+                    applicant.current_level = level_order[current_idx + 1]
+                # If passed last level, mark as completed
+                if passed_idx == len(level_order) - 1:
+                    applicant.is_completed = True
+            else:
+                # If failed, mark as completed
+                applicant.is_completed = True
+            applicant.save(update_fields=["current_level", "is_completed"])
+        except ValueError:
+            pass  # Level not found, do nothing
+
     class Meta:
         ordering = ['-created_at']
         verbose_name = "Test Result"

@@ -9,8 +9,8 @@ def import_questions_from_excel(file_path):
     level = os.path.splitext(os.path.basename(file_path))[0][-2:]
 
     sheet_parser_map = {
-        # "grammar": parse_grammar_sheet,
-        # "vocabulary": parse_vocabulary_sheet,
+        "grammar": parse_grammar_sheet,
+        "vocabulary": parse_vocabulary_sheet,
         "reading": parse_reading_sheet,
     }
 
@@ -154,7 +154,8 @@ def parse_reading_sheet(sheet, level):
                 q = Question.objects.create(
                     type=QuestionType.READING,
                     level=level,
-                    prompt=f"{instruction}\n\n{paragraph}\n\n{question_text}"
+                    prompt=f"{instruction}\n\n{question_text}",
+                    paragraph = paragraph
                 )
                 # Read 5 options (a,b,c,d,e) from column 2/3
                 option_labels = ['a', 'b', 'c', 'd', 'e']

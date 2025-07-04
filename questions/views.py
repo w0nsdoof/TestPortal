@@ -12,7 +12,8 @@ from users.serializers import TestResultSerializer
     description="Returns a list of all questions. Optionally filter by type using the 'type' query parameter.",
     parameters=[
         OpenApiParameter(name='type', description='Type of question to filter by', required=False, type=str)
-    ]
+    ],
+    responses={200: QuestionSerializer(many=True)},
 )
 @api_view(['GET'])
 def questions_list(request):
@@ -28,16 +29,33 @@ def questions_list(request):
     description="Returns a personalized set of questions for a user based on their IIN and level. Requires 'iin' and 'level' query parameters.",
     parameters=[
         OpenApiParameter(name='iin', description='Individual Identification Number', required=True, type=str),
-        OpenApiParameter(name='level', description='Level of the test', required=True, type=str)
-    ]
+    ],
+    responses={200: QuestionSerializer(many=True)},
 )
 @api_view(['GET'])
 def personalized_questions(request):
     iin = request.GET.get('iin')
-    level = request.GET.get('level')
-    if not iin or not level:
-        return Response({'error': 'iin and level are required'}, status=400)
+    try:
+        applicant = Applicant.objects.get(iin=iin)
+    except Applicant.DoesNotExist:
+        return Response({'error': 'Applicant not found'}, status=404)
+    if applicant.is_completed == True:
+        return Response({'error': 'Test already completed for this applicant.'}, status=403)
+    
+    
+    level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+    try:
+        current_idx = level_order.index(applicant.current_level)
+        # Move to next level if possible, else stay at last
+        next_idx = min(current_idx + 1, len(level_order) - 1)
+        level = level_order[next_idx]
+    except ValueError:
+        # fallback if current_level is not in level_order
+        level = applicant.current_level
 
+    if not iin:
+        return Response({'error': 'iin are required'}, status=400)
+    
     # Получаем вопросы по типам и уровню
     vocab_qs = list(Question.objects.filter(type='Vocabulary', level=level))
     gram_qs = list(Question.objects.filter(type='Grammar', level=level))

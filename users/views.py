@@ -36,7 +36,7 @@ def applicant_register(request):
 @extend_schema(
     summary="Retrieve test results by IIN",
     description="Returns a list of test results for the applicant with the given IIN. Requires 'iin' as a query parameter.",
-    responses={200: list[TestResultSerializer]},
+    responses={200: TestResultSerializer(many=True)},
 )
 @api_view(['GET'])
 def test_results_by_iin(request):

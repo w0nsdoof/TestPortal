@@ -20,7 +20,7 @@ class Applicant(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.full_name
+        return self.iin 
     
     class Meta:
         verbose_name = "Applicant"

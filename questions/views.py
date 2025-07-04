@@ -70,7 +70,7 @@ def personalized_questions(request):
     gram_sample = rnd.sample(gram_qs, min(10, len(gram_qs)))
     read_sample = rnd.sample(read_qs, min(5, len(read_qs)))
 
-    questions = vocab_sample + gram_sample + read_sample
+    questions = gram_sample + read_sample + vocab_sample
 
     serializer = QuestionSerializer(questions, many=True)
     return Response(serializer.data)
@@ -90,7 +90,7 @@ def submit_answers(request):
     iin = data['iin']
     level = data['level']
     answers = data['answers']
-    if not iin or not level or not isinstance(answers, list):
+    if not iin or not level or not isinstance(answers, list):   
         return Response({'error': 'iin, level, and answers are required'}, status=400)
 
     # Find applicant

@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-+0o5*#+=rmi%+a2qg%d%-3uew!-(6#v44+!^wph@2bz#wpja@@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[FRONTEND_DOMAIN]']
 
 
 # Application definition
@@ -30,9 +30,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'questions',
     'users',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -122,3 +124,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# CORS settings
+CORS_ALLOW_ALL_ORIGINS = True  # For development; restrict in production
+# Or, to restrict:
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000',  # Example React frontend
+#     'https://your-frontend-domain.com',
+# ]

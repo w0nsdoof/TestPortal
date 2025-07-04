@@ -1,5 +1,35 @@
 # API Endpoints Documentation
 
+# Frontend-Backend Connection Setup
+
+To enable your frontend to connect to this backend, ensure the following settings are configured in `config/settings.py`:
+
+1. **CORS (Cross-Origin Resource Sharing):**
+
+   - Install the CORS headers package:
+     ```bash
+     pip install django-cors-headers
+     ```
+   - Add `'corsheaders'` to `INSTALLED_APPS`.
+   - Add `'corsheaders.middleware.CorsMiddleware'` to the top of the `MIDDLEWARE` list.
+   - For development, you can allow all origins:
+     ```python
+     CORS_ALLOW_ALL_ORIGINS = True
+     ```
+   - For production, restrict to your frontend domain:
+     ```python
+     CORS_ALLOWED_ORIGINS = [
+         'http://localhost:3000',  # Example React frontend
+         'https://your-frontend-domain.com',
+     ]
+     ```
+
+2. **ALLOWED_HOSTS:**
+   - Add your frontend domain to the `ALLOWED_HOSTS` list:
+     ```python
+     ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[FRONTEND_DOMAIN]']
+     ```
+
 ## Questions App
 
 ### 1. List Questions

@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import TestResultCreateView, ApplicantRegisterView
+from views import applicant_register, test_results_by_iin
 
 urlpatterns = [
-    path('test-results/', TestResultCreateView.as_view(), name='testresult-create'),
-    path('register/', ApplicantRegisterView.as_view(), name='applicant-register'),
-] 
+    path('register/', applicant_register, name='applicant-register'),
+    path('results/', test_results_by_iin, name='test-results-by-iin'),
+]

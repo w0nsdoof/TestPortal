@@ -1,13 +1,11 @@
-from django.shortcuts import render
+import hashlib, random
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Question
-from .serializers import QuestionSerializer
-import hashlib
-import random
 from drf_spectacular.utils import extend_schema, OpenApiParameter
-
-# Create your views here.
+from .models import Question, Option
+from .serializers import QuestionSerializer, SubmitAnswersSerializer
+from users.models import TestResult, Applicant
+from users.serializers import TestResultSerializer
 
 @extend_schema(
     summary="List questions",
@@ -58,3 +56,50 @@ def personalized_questions(request):
 
     serializer = QuestionSerializer(questions, many=True)
     return Response(serializer.data)
+
+@extend_schema(
+    summary="Submit answers and get score",
+    description="Accepts user's answers, checks correctness, and returns the score.",
+    request=SubmitAnswersSerializer,
+    responses={200: TestResultSerializer},
+)
+@api_view(['POST'])
+def submit_answers(request):
+    serializer = SubmitAnswersSerializer(data=request.data)
+    if not serializer.is_valid():
+        return Response(serializer.errors, status=400)
+    data = serializer.validated_data
+    iin = data['iin']
+    level = data['level']
+    answers = data['answers']
+    if not iin or not level or not isinstance(answers, list):
+        return Response({'error': 'iin, level, and answers are required'}, status=400)
+
+    # Find applicant
+    try:
+        applicant = Applicant.objects.get(iin=iin)
+    except Applicant.DoesNotExist:
+        return Response({'error': 'Applicant not found'}, status=404)
+
+    correct_count = 0
+    total = len(answers)
+    for ans in answers:
+        qid = ans.get('question_id')
+        selected_option = ans.get('selected_option')
+        try:
+            option = Option.objects.get(question_id=qid, id=selected_option)
+            is_correct = option.is_correct
+        except Option.DoesNotExist:
+            is_correct = False
+        if is_correct:
+            correct_count += 1
+
+    # Create TestResult
+    test_result = TestResult.objects.create(
+        applicant=applicant,
+        level=level,
+        correct_answers=correct_count,
+        total_questions=total
+    )
+    result_serializer = TestResultSerializer(test_result)
+    return Response(result_serializer.data)

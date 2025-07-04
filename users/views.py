@@ -1,58 +1,53 @@
-from django.shortcuts import render
-from rest_framework import generics
-from .serializers import TestResultSerializer
-from .models import TestResult, Applicant
 from rest_framework import status
 from rest_framework.response import Response
-from rest_framework.views import APIView
 from rest_framework.permissions import AllowAny
-from rest_framework.exceptions import ValidationError
 from drf_spectacular.utils import extend_schema
+from .serializers import ApplicantSerializer, TestResultSerializer
+from .models import Applicant
 
-# Create your views here.
+from rest_framework.decorators import api_view
+from rest_framework.permissions import AllowAny
+
+
 
 @extend_schema(
-    summary="Create test result",
-    description="Creates a new test result for an applicant.",
-    request=TestResultSerializer
+    summary="Register applicant",
+    description="Registers a new applicant or updates the name if the applicant already exists. Requires 'iin', 'first_name', and 'last_name' in the request body.",
+    request=ApplicantSerializer,
+    responses={201: ApplicantSerializer, 200: ApplicantSerializer},
 )
-class TestResultCreateView(generics.CreateAPIView):
-    queryset = TestResult.objects.all()
-    serializer_class = TestResultSerializer
+@api_view(['POST'])
+def applicant_register(request):
+    serializer = ApplicantSerializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+    iin = serializer.validated_data['iin']
+    first_name = serializer.validated_data['first_name']
+    last_name = serializer.validated_data['last_name']
+    applicant, created = Applicant.objects.get_or_create(iin=iin, defaults={
+        'first_name': first_name,
+        'last_name': last_name
+    })
 
-class ApplicantRegisterView(APIView):
-    permission_classes = [AllowAny]
+    response_serializer = ApplicantSerializer(applicant)
+    return Response(response_serializer.data, status=status.HTTP_201_CREATED if created else status.HTTP_200_OK)
 
-    @extend_schema(
-        summary="Register applicant",
-        description="Registers a new applicant or updates the full name if the applicant already exists. Requires 'iin' and 'full_name' in the request body.",
-        request={
-            'application/json': {
-                'type': 'object',
-                'properties': {
-                    'iin': {'type': 'string', 'description': 'Individual Identification Number'},
-                    'full_name': {'type': 'string', 'description': 'Full name of the applicant'}
-                },
-                'required': ['iin', 'full_name']
-            }
-        }
-    )
-    def post(self, request):
-        iin = request.data.get('iin')
-        full_name = request.data.get('full_name')
-        if not iin or not full_name:
-            raise ValidationError('iin and full_name are required')
-        applicant, created = Applicant.objects.get_or_create(iin=iin, defaults={'full_name': full_name})
-        # Если аппликант уже есть, обновим ФИО, если оно изменилось
-        if not created and applicant.full_name != full_name:
-            applicant.full_name = full_name
-            applicant.save(update_fields=["full_name"])
-        return Response(self._applicant_data(applicant), status=status.HTTP_201_CREATED if created else status.HTTP_200_OK)
 
-    def _applicant_data(self, applicant):
-        return {
-            'iin': applicant.iin,
-            'full_name': applicant.full_name,
-            'current_level': applicant.current_level,
-            'is_completed': applicant.is_completed
-        }
+
+@extend_schema(
+    summary="Retrieve test results by IIN",
+    description="Returns a list of test results for the applicant with the given IIN. Requires 'iin' as a query parameter.",
+    responses={200: list[TestResultSerializer]},
+)
+@api_view(['GET'])
+def test_results_by_iin(request):
+    iin = request.GET.get('iin')
+    if not iin:
+        return Response({'error': 'iin query parameter is required'}, status=status.HTTP_400_BAD_REQUEST)
+    try:
+        applicant = Applicant.objects.get(iin=iin)
+    except Applicant.DoesNotExist:
+        return Response({'error': 'Applicant not found'}, status=status.HTTP_404_NOT_FOUND)
+    test_results = applicant.test_results.all()
+    serializer = TestResultSerializer(test_results, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+

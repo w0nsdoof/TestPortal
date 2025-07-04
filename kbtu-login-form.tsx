@@ -14,15 +14,41 @@ export default function Component() {
   const [iin, setIin] = useState("")
   const [surname, setSurname] = useState("")
   const [firstname, setFirstname] = useState("")
+  const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
 
   const handleIinChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value.replace(/\D/g, "").slice(0, 12)
     setIin(value)
   }
 
-  const handleProceed = () => {
-    // Navigate to welcome screen
-    window.location.href = "/welcome"
+  const handleProceed = async () => {
+    setError(null)
+    setLoading(true)
+    const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
+    try {
+      const response = await fetch(`${host}/users/register/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          iin,
+          first_name: firstname,
+          last_name: surname,
+        }),
+      })
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}))
+        throw new Error(data?.detail || "Registration failed")
+      }
+      // Navigate to welcome screen
+      window.location.href = "/welcome"
+    } catch (err: any) {
+      setError(err.message || "Could not connect to backend")
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -92,10 +118,14 @@ export default function Component() {
           <Button variant="outline" className="flex-1 h-12 text-base border-gray-400 hover:bg-gray-50 bg-transparent">
             {t.acceptTerms}
           </Button>
-          <Button className="flex-1 h-12 text-base bg-blue-600 hover:bg-blue-700" onClick={handleProceed}>
-            {t.proceed}
+          <Button className="flex-1 h-12 text-base bg-blue-600 hover:bg-blue-700" onClick={handleProceed} disabled={loading}>
+            {loading ? "Loading..." : t.proceed}
           </Button>
         </div>
+
+        {error && (
+          <div className="text-red-500 text-center pt-2">{error}</div>
+        )}
 
         {/* Footer */}
         <div className="text-center pt-4">

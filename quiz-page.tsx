@@ -32,6 +32,14 @@ export default function QuizPage() {
       }
       try {
         const response = await fetch(`${host}/questions/personalized/?iin=${iin}`)
+        if (response.status === 403) {
+          const data = await response.json()
+          if (data && data.error && data.error.includes("Test already completed")) {
+            localStorage.setItem("kbtu-already-completed", "1")
+            window.location.href = "/already-completed"
+            return
+          }
+        }
         if (!response.ok) {
           throw new Error("Failed to fetch questions")
         }

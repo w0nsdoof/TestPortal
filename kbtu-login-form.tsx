@@ -43,6 +43,7 @@ export default function Component() {
         throw new Error(data?.detail || "Registration failed")
       }
       // Navigate to welcome screen
+      localStorage.setItem("kbtu-iin", iin)
       window.location.href = "/welcome"
     } catch (err: any) {
       setError(err.message || "Could not connect to backend")

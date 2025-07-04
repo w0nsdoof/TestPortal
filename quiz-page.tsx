@@ -19,80 +19,56 @@ export default function QuizPage() {
   const [loading, setLoading] = useState(true)
   const [showResults, setShowResults] = useState(false)
 
-  // Mock data - replace with actual API call
-  const mockQuestions: QuizQuestion[] = [
-    {
-      id: 1,
-      type: "mcq",
-      question: "What is the capital of Kazakhstan?",
-      options: [
-        { id: "a", text: "Almaty", label: "A" },
-        { id: "b", text: "Nur-Sultan", label: "B" },
-        { id: "c", text: "Shymkent", label: "C" },
-        { id: "d", text: "Aktobe", label: "D" },
-        { id: "e", text: "Karaganda", label: "E" },
-      ],
-    },
-    {
-      id: 2,
-      type: "block_selection",
-      question: "Select the programming language you prefer:",
-      options: [
-        { id: 1, text: "JavaScript" },
-        { id: 2, text: "Python" },
-        { id: 3, text: "Java" },
-        { id: 4, text: "C++" },
-        { id: 5, text: "TypeScript" },
-        { id: 6, text: "Go" },
-        { id: 7, text: "Rust" },
-        { id: 8, text: "PHP" },
-        { id: 9, text: "Ruby" },
-        { id: 10, text: "Swift" },
-      ],
-    },
-    {
-      id: 3,
-      type: "reading_mcq",
-      question: "Based on the passage above, what is the main theme?",
-      readingText:
-        "Artificial Intelligence has revolutionized many aspects of modern life. From healthcare to transportation, AI systems are becoming increasingly sophisticated and capable. Machine learning algorithms can now process vast amounts of data to identify patterns that would be impossible for humans to detect. This technological advancement has opened new possibilities for solving complex problems across various industries.\n\nHowever, with great power comes great responsibility. The ethical implications of AI development must be carefully considered to ensure that these technologies benefit humanity as a whole.",
-      options: [
-        { id: "a", text: "AI is dangerous", label: "A" },
-        { id: "b", text: "AI revolutionizes life but needs ethical consideration", label: "B" },
-        { id: "c", text: "AI only works in healthcare", label: "C" },
-        { id: "d", text: "Humans are better than AI", label: "D" },
-        { id: "e", text: "AI is too complex to understand", label: "E" },
-      ],
-    },
-  ]
-
   useEffect(() => {
-    // Simulate API call
     const fetchQuestions = async () => {
       setLoading(true)
-      // Replace with actual API call
-      // const response = await fetch('/api/quiz/questions')
-      // const questions = await response.json()
-
-      setTimeout(() => {
+      const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
+      const iin = localStorage.getItem("kbtu-iin")
+      if (!iin) {
+        setLoading(false)
+        alert("IIN not found. Please log in again.")
+        window.location.href = "/"
+        return
+      }
+      try {
+        const response = await fetch(`${host}/questions/personalized/?iin=${iin}`)
+        if (!response.ok) {
+          throw new Error("Failed to fetch questions")
+        }
+        const data = await response.json()
+        // Map backend questions to frontend format
+        const questions = Array.isArray(data) ? data.map((q: any) => ({
+          id: q.id,
+          type: q.type, // Keep as Grammar, Reading, Vocabulary
+          question: q.prompt,
+          readingText: q.paragraph || undefined,
+          options: q.options.map((opt: any) => ({
+            id: opt.id,
+            text: opt.text,
+            label: opt.label
+          }))
+        })) : []
         setQuizState((prev) => ({
           ...prev,
-          questions: mockQuestions,
-          totalQuestions: mockQuestions.length,
+          questions,
+          totalQuestions: questions.length,
         }))
         setLoading(false)
-      }, 1000)
+      } catch (err) {
+        setLoading(false)
+        alert("Failed to load questions. Please try again later.")
+      }
     }
-
     fetchQuestions()
   }, [])
 
   const handleAnswerSelect = (answerId: string | number) => {
+    const currentQuestionId = quizState.questions[quizState.currentQuestion]?.id
     setQuizState((prev) => ({
       ...prev,
       answers: {
         ...prev.answers,
-        [prev.currentQuestion]: answerId,
+        [currentQuestionId]: answerId,
       },
     }))
   }
@@ -115,7 +91,7 @@ export default function QuizPage() {
   }
 
   const currentQuestion = quizState.questions[quizState.currentQuestion]
-  const selectedAnswer = quizState.answers[quizState.currentQuestion]
+  const selectedAnswer = currentQuestion ? quizState.answers[currentQuestion.id] : undefined
   const progress = ((quizState.currentQuestion + 1) / quizState.totalQuestions) * 100
 
   if (loading) {

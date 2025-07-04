@@ -89,13 +89,34 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
       {/* Question Text */}
       <div className="bg-gray-300 p-6 rounded">
         <h2 className="text-lg font-medium text-center">{question.question || "Question Selection"}</h2>
+        {question.readingText && (
+          <Card className="p-6 bg-gray-50 mt-4">
+            <div className="prose max-w-none">
+              <p className="text-sm leading-relaxed whitespace-pre-line">{question.readingText}</p>
+            </div>
+          </Card>
+        )}
       </div>
 
       {/* Answer Options */}
       <div>
-        {question.type === "mcq" && renderMCQOptions()}
-        {question.type === "block_selection" && renderBlockSelection()}
-        {question.type === "reading_mcq" && renderReadingMCQ()}
+        {question.options && question.options.length > 0 && (
+          <div className="grid grid-cols-2 gap-4">
+            {question.options.map((option, index) => (
+              <Button
+                key={option.id}
+                variant={selectedAnswer === option.id ? "default" : "outline"}
+                className={`h-16 text-left justify-start ${
+                  selectedAnswer === option.id ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+                onClick={() => onAnswerSelect(option.id)}
+              >
+                {option.label && <span className="font-bold mr-2">{option.label}</span>}
+                {option.text}
+              </Button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

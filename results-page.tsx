@@ -74,37 +74,42 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
     const fetchResults = async () => {
       setLoading(true)
       setError(null)
-
       try {
-        // Replace with actual API call
-        // const response = await fetch('/api/quiz/results', {
-        //   method: 'POST',
-        //   headers: { 'Content-Type': 'application/json' },
-        //   body: JSON.stringify({ answers })
-        // })
-        // const data = await response.json()
-
-        // Mock API response simulation
-        setTimeout(() => {
-          // Simulate different results based on mock scoring
-          const mockScore = Math.floor(Math.random() * 25) + 1
-          let level: keyof typeof mockResults = "A1"
-
-          if (mockScore >= 23) level = "C1"
-          else if (mockScore >= 20) level = "B2"
-          else if (mockScore >= 17) level = "B1"
-          else if (mockScore >= 14) level = "A2"
-          else level = "A1"
-
-          setResult(mockResults[level])
-          setLoading(false)
-        }, 1500)
-      } catch (err) {
-        setError("Failed to fetch results. Please try again.")
+        const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
+        const iin = localStorage.getItem("kbtu-iin")
+        if (!iin || !answers) throw new Error("Missing IIN or answers")
+        // Find the level from the first answered question (if available)
+        let level = "A1"
+        const allQuestions = JSON.parse(localStorage.getItem("kbtu-questions") || "[]")
+        const firstAnsweredId = Object.keys(answers)[0]
+        const firstQuestion = allQuestions.find((q: any) => q.id == firstAnsweredId)
+        if (firstQuestion && firstQuestion.level) level = firstQuestion.level
+        // Prepare answers array
+        const answersArr = Object.entries(answers).map(([question_id, selected_option]) => ({
+          question_id: Number(question_id),
+          selected_option
+        }))
+        const response = await fetch(`${host}/questions/submit/`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ iin, level, answers: answersArr })
+        })
+        if (!response.ok) throw new Error("Failed to submit answers")
+        const data = await response.json()
+        setResult({
+          level: data.level,
+          score: data.correct_answers,
+          totalQuestions: data.total_questions,
+          congratulationMessage: `Congratulations! You have achieved ${data.level} level proficiency.`,
+          resultDescription: `You answered ${data.correct_answers} out of ${data.total_questions} questions correctly.`,
+          levelDescription: `Level: ${data.level}`
+        })
+        setLoading(false)
+      } catch (err: any) {
+        setError(err.message || "Failed to fetch results. Please try again.")
         setLoading(false)
       }
     }
-
     fetchResults()
   }, [answers])
 

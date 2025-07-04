@@ -20,13 +20,13 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
             <Button
               key={option.id}
               variant={selectedAnswer === option.id ? "default" : "outline"}
-              className={`h-16 text-left justify-start ${
+              className={`h-16 text-left justify-start whitespace-normal break-words overflow-hidden ${
                 selectedAnswer === option.id ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
               onClick={() => onAnswerSelect(option.id)}
             >
               <span className="font-bold mr-2">{labels[index]}</span>
-              {option.text}
+              <span className="block w-full">{option.text}</span>
             </Button>
           ))}
         </div>
@@ -34,7 +34,7 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
           <div className="flex justify-center">
             <Button
               variant={selectedAnswer === question.options[4].id ? "default" : "outline"}
-              className={`h-16 w-64 text-left justify-start ${
+              className={`h-16 w-64 text-left justify-start whitespace-normal break-words overflow-hidden ${
                 selectedAnswer === question.options[4].id
                   ? "bg-blue-600 text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -42,7 +42,7 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
               onClick={() => onAnswerSelect(question.options[4].id)}
             >
               <span className="font-bold mr-2">E</span>
-              {question.options[4].text}
+              <span className="block w-full">{question.options[4].text}</span>
             </Button>
           </div>
         )}
@@ -57,7 +57,7 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
           <Button
             key={option.id}
             variant={selectedAnswer === option.id ? "default" : "outline"}
-            className={`h-20 text-left justify-start p-4 ${
+            className={`h-20 text-left justify-start p-4 whitespace-normal break-words overflow-hidden ${
               selectedAnswer === option.id ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
             }`}
             onClick={() => onAnswerSelect(option.id)}
@@ -106,13 +106,13 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
               <Button
                 key={option.id}
                 variant={selectedAnswer === option.id ? "default" : "outline"}
-                className={`h-16 text-left justify-start ${
+                className={`h-16 text-left justify-start whitespace-normal break-words overflow-hidden ${
                   selectedAnswer === option.id ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
                 onClick={() => onAnswerSelect(option.id)}
               >
                 {option.label && <span className="font-bold mr-2">{option.label}</span>}
-                {option.text}
+                <span className="block w-full">{option.text}</span>
               </Button>
             ))}
           </div>

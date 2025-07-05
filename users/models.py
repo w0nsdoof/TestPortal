@@ -69,3 +69,4 @@ class TestResult(models.Model):
         ordering = ['-created_at']
         verbose_name = "Test Result"
         verbose_name_plural = "Test Results"
+        unique_together = ['applicant', 'level']

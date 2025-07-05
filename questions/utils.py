@@ -49,54 +49,63 @@ def parse_grammar_sheet(sheet, level):
                 option_list = re.split(r"[–\-•,]", instruction.split(":")[-1])
                 option_list = [opt.strip().lower() for opt in option_list if opt.strip()]
 
-                # Create question
                 q = Question.objects.create(
                     type=QuestionType.GRAMMAR,
                     level=level,
                     prompt=question_text
                 )
 
-                # Create options
+                # Check for bold options
+                use_bold = False
+                bold_indices = set()
+                for idx, opt in enumerate(option_list):
+                    opt_cell = sheet.cell(row=question_row + 2, column=3)  # No per-option cell for this type
+                    # For this type, we can't check bold per option, so fallback to answer logic
                 for idx, opt in enumerate(option_list):
                     Option.objects.create(
                         question=q,
-                        label=chr(65 + idx),  # A, B, C...
+                        label=chr(65 + idx),
                         text=opt,
                         is_correct=(opt == answer)
                     )
-
-                row += 4  # Skip to next block
+                row += 4
 
             # ===== Case 2: MCQ with labeled answers below
             elif instruction.lower().startswith("choose the appropriate answer"):
                 options = []
+                option_cells = []
                 correct_index = None
-
+                bold_indices = set()
                 for i, label in enumerate(['A', 'B', 'C', 'D']):
-                    option_text = sheet.cell(row=row + 2 + i, column=3).value
+                    opt_cell = sheet.cell(row=row + 2 + i, column=3)
+                    option_text = opt_cell.value
                     if not option_text:
                         continue
                     option_text = option_text.strip()
                     options.append((label, option_text))
-
+                    option_cells.append(opt_cell)
+                    if opt_cell.font and opt_cell.font.bold:
+                        bold_indices.add(i)
                     if option_text.lower().startswith("it seems"):  # Example heuristic
                         correct_index = i
-
+                use_bold = len(bold_indices) > 0
                 q = Question.objects.create(
                     type=QuestionType.GRAMMAR,
                     level=level,
                     prompt=question_text
                 )
-
                 for i, (label, opt_text) in enumerate(options):
+                    if use_bold:
+                        is_correct = i in bold_indices
+                    else:
+                        is_correct = (i == correct_index)
                     Option.objects.create(
                         question=q,
                         label=label,
                         text=opt_text,
-                        is_correct=(i == correct_index)
+                        is_correct=is_correct
                     )
-
-                row += 6  # Skip to next question
+                row += 6
             else:
                 row += 1
         else:
@@ -105,16 +114,12 @@ def parse_grammar_sheet(sheet, level):
 def parse_reading_sheet(sheet, level):
     row = 1
     while row <= sheet.max_row:
-        # Look for a question number in column 2
         number_cell = sheet.cell(row=row, column=2).value
         if number_cell and re.match(r"^\d+\.", str(number_cell).strip()):
-            # Find instruction in column 3
             instruction = sheet.cell(row=row, column=3).value
             instruction = str(instruction).strip() if instruction else ""
-            # Look for reading instruction
             if re.search(r"read the (paragraph|article)", instruction, re.IGNORECASE):
                 row += 1
-                # Collect paragraph lines until a block marker is found
                 paragraph_lines = []
                 while row <= sheet.max_row:
                     para_text = sheet.cell(row=row, column=3).value
@@ -122,26 +127,21 @@ def parse_reading_sheet(sheet, level):
                         row += 1
                         continue
                     para_text_str = str(para_text).strip()
-                    # Stop at block marker
                     if re.match(r"^(Complete the sentence:|Question:|Answer the questions\.)", para_text_str, re.IGNORECASE):
                         break
                     if para_text_str:
                         paragraph_lines.append(para_text_str)
                     row += 1
                 paragraph = "\n".join(paragraph_lines)
-
-                # Now at the block marker row
                 question_text = ""
                 if row <= sheet.max_row:
                     block_marker = sheet.cell(row=row, column=3).value
                     block_marker_str = str(block_marker).strip() if block_marker else ""
-                    # If the question is on the same line as the marker
                     m = re.match(r"^(Complete the sentence:|Question:|Answer the question\.)(.*)", block_marker_str, re.IGNORECASE)
                     if m and m.group(2).strip():
                         question_text = m.group(2).strip()
                         row += 1
                     else:
-                        # Otherwise, look for the next non-empty line as the question
                         row += 1
                         while row <= sheet.max_row:
                             next_text = sheet.cell(row=row, column=3).value
@@ -150,30 +150,40 @@ def parse_reading_sheet(sheet, level):
                                 row += 1
                                 break
                             row += 1
-                # Create the question in the DB
                 q = Question.objects.create(
                     type=QuestionType.READING,
                     level=level,
                     prompt=f"{instruction}\n\n{question_text}",
-                    paragraph = paragraph
+                    paragraph=paragraph
                 )
-                # Read 5 options (a,b,c,d,e) from column 2/3
                 option_labels = ['a', 'b', 'c', 'd', 'e']
-                for label in option_labels:
+                option_cells = []
+                bold_indices = set()
+                options = []
+                start_row = row
+                for idx, label in enumerate(option_labels):
                     if row > sheet.max_row:
                         break
                     opt_label = sheet.cell(row=row, column=2).value
-                    opt_text = sheet.cell(row=row, column=3).value
+                    opt_cell = sheet.cell(row=row, column=3)
+                    opt_text = opt_cell.value
                     if (opt_label is None or str(opt_label).strip().lower() != label) or not opt_text:
                         break
                     opt_text = str(opt_text).strip()
+                    options.append((label, opt_text))
+                    option_cells.append(opt_cell)
+                    if opt_cell.font and opt_cell.font.bold:
+                        bold_indices.add(idx)
+                    row += 1
+                use_bold = len(bold_indices) > 0
+                for idx, (label, opt_text) in enumerate(options):
+                    is_correct = idx in bold_indices if use_bold else False
                     Option.objects.create(
                         question=q,
                         label=label.upper(),
                         text=opt_text,
-                        is_correct=False  # Correct answer logic can be added if needed
+                        is_correct=is_correct
                     )
-                    row += 1
             else:
                 row += 1
         else:
@@ -186,44 +196,88 @@ def parse_vocabulary_sheet(sheet, level):
         text_cell = sheet.cell(row=row, column=3).value
 
         if is_numbered(number_cell) and isinstance(text_cell, str):
-            # Инструкция и опции
             instruction = text_cell.strip()
-            # Извлекаем опции из инструкции (после двоеточия)
+            # === Type 1: Complete... (options in instruction)
             if ":" in instruction:
                 options_part = instruction.split(":")[-1]
                 option_list = [opt.strip().lower() for opt in re.split(r"[\\/]", options_part) if opt.strip()]
-            else:
-                option_list = []
-
-            # Текст вопроса — следующая строка
-            question_row = row + 1
-            question_text = sheet.cell(row=question_row, column=3).value
-            if not question_text:
-                row += 1
-                continue
-            question_text = question_text.strip()
-
-            # Ответ — через одну строку после вопроса (row + 3)
-            answer_row = row + 3
-            answer = (sheet.cell(row=answer_row, column=3).value or "").strip().lower()
-
-            # Создаём вопрос
-            q = Question.objects.create(
-                type=QuestionType.VOCABULARY,
-                level=level,
-                prompt=question_text
-            )
-
-            # Создаём опции
-            for idx, opt in enumerate(option_list):
-                Option.objects.create(
-                    question=q,
-                    label=chr(65 + idx),  # A, B, C, ...
-                    text=opt,
-                    is_correct=(opt == answer)
+                question_row = row + 1
+                question_text = sheet.cell(row=question_row, column=3).value
+                if not question_text:
+                    row += 1
+                    continue
+                question_text = question_text.strip()
+                answer_row = row + 3
+                answer = (sheet.cell(row=answer_row, column=3).value or "").strip().lower()
+                q = Question.objects.create(
+                    type=QuestionType.VOCABULARY,
+                    level=level,
+                    prompt=question_text
                 )
-
-            row += 4  # Переходим к следующему блоку
+                for idx, opt in enumerate(option_list):
+                    Option.objects.create(
+                        question=q,
+                        label=chr(65 + idx),  # A, B, C, ...
+                        text=opt,
+                        is_correct=(opt == answer)
+                    )
+                row += 4
+            # === Type 2: Choose... (options below, correct is bold)
+            elif instruction.lower().startswith("choose"):
+                question_row = row + 1
+                question_text = sheet.cell(row=question_row, column=3).value
+                if not question_text:
+                    row += 1
+                    continue
+                question_text = question_text.strip()
+                # Read options (a, b, c, d, ...)
+                options = []
+                correct_indices = set()
+                option_labels = ['a', 'b', 'c', 'd', 'e']
+                opt_row = question_row + 1
+                while opt_row <= sheet.max_row:
+                    opt_label = sheet.cell(row=opt_row, column=2).value
+                    opt_cell = sheet.cell(row=opt_row, column=3)
+                    opt_text = opt_cell.value
+                    if opt_label is None or str(opt_label).strip().lower() not in option_labels or not opt_text:
+                        break
+                    label = str(opt_label).strip().lower()
+                    text = str(opt_text).strip()
+                    is_bold = opt_cell.font and opt_cell.font.bold
+                    options.append((label, text, is_bold))
+                    if is_bold:
+                        correct_indices.add(len(options) - 1)
+                    opt_row += 1
+                # If any option is bold, use bold for correctness; else, use answer row
+                use_bold = any(is_bold for _, _, is_bold in options)
+                answer = None
+                answer_row = opt_row
+                if not use_bold:
+                    while answer_row <= sheet.max_row:
+                        ans_val = sheet.cell(row=answer_row, column=3).value
+                        if ans_val and str(ans_val).strip():
+                            answer = str(ans_val).strip().lower()
+                            break
+                        answer_row += 1
+                q = Question.objects.create(
+                    type=QuestionType.VOCABULARY,
+                    level=level,
+                    prompt=question_text
+                )
+                for idx, (label, opt_text, is_bold) in enumerate(options):
+                    if use_bold:
+                        is_correct = is_bold
+                    else:
+                        is_correct = (answer == label) or (answer == opt_text.lower())
+                    Option.objects.create(
+                        question=q,
+                        label=label.upper(),
+                        text=opt_text,
+                        is_correct=is_correct
+                    )
+                row = answer_row + 1 if not use_bold else opt_row
+            else:
+                row += 1
         else:
             row += 1
 

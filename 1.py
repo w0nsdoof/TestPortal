@@ -36,3 +36,6 @@ if __name__ == "__main__":
     wb = openpyxl.load_workbook("KELET-B2.xlsx", data_only=True)
     sheet = wb["UPPER-READING"]
     print(sheet.cell(row=1, column=1).value)
+    
+    
+{'213142123412','12412412412'}

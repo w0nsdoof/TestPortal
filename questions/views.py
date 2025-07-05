@@ -99,6 +99,11 @@ def submit_answers(request):
     except Applicant.DoesNotExist:
         return Response({'error': 'Applicant not found'}, status=404)
 
+    # Check if a TestResult already exists for this applicant and level
+    existing_result = TestResult.objects.filter(applicant=applicant, level=level).first()
+    if existing_result:
+        return Response({'error': 'Test result already exists for this applicant and level'}, status=409)
+
     correct_count = 0
     total = len(answers)
     for ans in answers:

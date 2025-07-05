@@ -35,7 +35,6 @@ export default function QuizPage() {
         if (response.status === 403) {
           const data = await response.json()
           if (data && data.error && data.error.includes("Test already completed")) {
-            localStorage.setItem("kbtu-already-completed", "1")
             window.location.href = "/already-completed"
             return
           }

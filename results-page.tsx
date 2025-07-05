@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import type { QuizResult } from "./types/results"
@@ -14,6 +14,7 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
   const [result, setResult] = useState<QuizResult | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const hasSubmitted = useRef(false)
   const { t, language } = useLanguage()
 
   // Mock data - replace with actual API call
@@ -71,7 +72,11 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
   }
 
   useEffect(() => {
+    // Prevent multiple API calls
+    if (hasSubmitted.current || !answers) return
+    
     const fetchResults = async () => {
+      hasSubmitted.current = true
       setLoading(true)
       setError(null)
       try {
@@ -89,7 +94,7 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
           question_id: Number(question_id),
           selected_option
         }))
-        const response = await fetch(`${host}/questions/submit/`, {
+        const response = await fetch(`${host}/users/submit-answers/`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ iin, level, answers: answersArr })

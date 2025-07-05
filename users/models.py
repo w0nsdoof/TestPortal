@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import RegexValidator
 
 class EnglishLevel(models.TextChoices):
     A0 = "A0", "Beginner"
@@ -8,11 +9,37 @@ class EnglishLevel(models.TextChoices):
     B2 = "B2", "Upper-Intermediate"
     C1 = "C1", "Advanced"
 
+# Validators
+name_validator = RegexValidator(
+    regex=r'^[a-zA-Zа-яА-ЯёЁ\s\-]+$',
+    message='Name can only contain letters, spaces, and hyphens.',
+    code='invalid_name'
+)
+
+iin_validator = RegexValidator(
+    regex=r'^\d{12}$',
+    message='IIN must be exactly 12 digits.',
+    code='invalid_iin'
+)
 
 class Applicant(models.Model):
-    iin = models.CharField(max_length=12, unique=True, primary_key=True)
-    first_name = models.CharField(max_length=50)
-    last_name = models.CharField(max_length=50)
+    iin = models.CharField(
+        max_length=12, 
+        unique=True, 
+        primary_key=True,
+        validators=[iin_validator],
+        help_text="Enter exactly 12 digits (e.g., 001001001001)"
+    )
+    first_name = models.CharField(
+        max_length=50,
+        validators=[name_validator],
+        help_text="Enter only letters, spaces, and hyphens"
+    )
+    last_name = models.CharField(
+        max_length=50,
+        validators=[name_validator],
+        help_text="Enter only letters, spaces, and hyphens"
+    )
     current_level = models.CharField(max_length=2, choices=EnglishLevel.choices, default=EnglishLevel.A0)
     is_completed = models.BooleanField(default=False)
     
@@ -20,7 +47,7 @@ class Applicant(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.iin 
+        return f"{self.iin} : {self.is_completed}"
     
     class Meta:
         verbose_name = "Applicant"

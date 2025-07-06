@@ -217,11 +217,11 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
             <h2 className="text-center font-bold text-xl text-blue-800 mb-4">{t.congratulationsTitle}</h2>
             <p className="text-center font-medium text-lg text-blue-700">
               {language === "EN" &&
-                "Congratulations on successfully completing KELET! Your score is XXXX. We are pleased to welcome you as a future student of KBTU and wish you a successful start to your academic journey!"}
+                "Congratulations on successfully completing KELET! We are pleased to welcome you as a future student of KBTU and wish you a successful start to your academic journey!"}
               {language === "RU" &&
-                "Поздравляем с успешным прохождением KELET! Ваш результат ХХХХ. Мы рады видеть вас среди будущих студентов KBTU и желаем вам успешного старта в учебе!"}
+                "Поздравляем с успешным прохождением KELET! Мы рады видеть вас среди будущих студентов KBTU и желаем вам успешного старта в учебе!"}
               {language === "KZ" &&
-                "KELET-ті сәтті аяқтауыңызбен құттықтаймыз! Сіздің нәтижеңіз - XXXX. Сізді ҚБТУ-дың болашақ студенттерінің қатарында көруге қуаныштымыз және оқуларыңызға сәттілік тілейміз!"}
+                "KELET-ті сәтті аяқтауыңызбен құттықтаймыз! Сізді ҚБТУ-дың болашақ студенттерінің қатарында көруге қуаныштымыз және оқуларыңызға сәттілік тілейміз!"}
             </p>
             <p className="text-center text-sm text-blue-600 mt-2">
               {language === "EN" && "Admissions Office, KBTU"}

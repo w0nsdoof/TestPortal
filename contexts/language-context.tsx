@@ -39,6 +39,15 @@ interface Translations {
   score: string
   accuracy: string
   finalProceed: string
+
+  // Already completed page
+  testAlreadyCompleted: string
+  alreadyCompletedMessage: string
+  previousResults: string
+  noPreviousResults: string
+  loginAsAnotherUser: string
+  date: string
+  applicantIIN: string
 }
 
 const translations: Record<Language, Translations> = {
@@ -79,6 +88,15 @@ const translations: Record<Language, Translations> = {
     score: "Score",
     accuracy: "Accuracy",
     finalProceed: "Proceed",
+
+    // Already completed page
+    testAlreadyCompleted: "Test Already Completed",
+    alreadyCompletedMessage: "You have already completed the test. Would you like to login as another user?",
+    previousResults: "Previous Results",
+    noPreviousResults: "No previous results found",
+    loginAsAnotherUser: "Login as Another User",
+    date: "Date",
+    applicantIIN: "Applicant IIN",
   },
 
   RU: {
@@ -118,6 +136,15 @@ const translations: Record<Language, Translations> = {
     score: "Результат",
     accuracy: "Точность",
     finalProceed: "Продолжить",
+
+    // Already completed page
+    testAlreadyCompleted: "Тест уже завершен",
+    alreadyCompletedMessage: "Вы уже прошли тест. Хотите войти как другой пользователь?",
+    previousResults: "Предыдущие результаты",
+    noPreviousResults: "Предыдущих результатов не найдено",
+    loginAsAnotherUser: "Войти как другой пользователь",
+    date: "Дата",
+    applicantIIN: "Номер заявки",
   },
 
   KZ: {
@@ -157,6 +184,15 @@ const translations: Record<Language, Translations> = {
     score: "Нәтиже",
     accuracy: "Дәлдік",
     finalProceed: "Жалғастыру",
+
+    // Already completed page
+    testAlreadyCompleted: "Тест бұрын аяқталған",
+    alreadyCompletedMessage: "Сіз бұл тестті бұрын аяқтадыңыз. Міне, сіздің алдыңғы нәтижелеріңіз:",
+    previousResults: "Алдыңғы нәтижелер",
+    noPreviousResults: "Алдыңғы нәтижелер табылмады",
+    loginAsAnotherUser: "Басқа пайдаланушы ретінде кіру",
+    date: "Күні",
+    applicantIIN: "Өтініш берушінің ЖСН",
   },
 }
 

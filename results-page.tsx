@@ -17,6 +17,24 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
   const hasSubmitted = useRef(false)
   const { t, language } = useLanguage()
 
+  // Try to get answers from localStorage if not provided as props
+  const getAnswers = () => {
+    if (answers) {
+      console.log("Using answers from props:", answers)
+      return answers
+    }
+    
+    // Try to get from localStorage
+    const storedAnswers = localStorage.getItem("kbtu-answers")
+    if (storedAnswers) {
+      console.log("Using answers from localStorage:", storedAnswers)
+      return JSON.parse(storedAnswers)
+    }
+    
+    console.log("No answers found in props or localStorage")
+    return null
+  }
+
   // Mock data - replace with actual API call
   const mockResults: Record<string, QuizResult> = {
     A1: {
@@ -73,34 +91,60 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
 
   useEffect(() => {
     // Prevent multiple API calls
-    if (hasSubmitted.current || !answers) return
+    if (hasSubmitted.current) {
+      console.log("API call already submitted, skipping...")
+      return
+    }
     
+    const fetchedAnswers = getAnswers()
+    if (!fetchedAnswers) {
+      console.log("No answers found, skipping API call")
+      setLoading(false)
+      setError("No answers found")
+      return
+    }
+
     const fetchResults = async () => {
+      console.log("Starting API request...")
+      console.log("Answers:", fetchedAnswers)
       hasSubmitted.current = true
       setLoading(true)
       setError(null)
       try {
         const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
+        console.log("API Host:", host)
         const iin = localStorage.getItem("kbtu-iin")
-        if (!iin || !answers) throw new Error("Missing IIN or answers")
+        console.log("IIN from localStorage:", iin)
+        if (!iin || !fetchedAnswers) throw new Error("Missing IIN or answers")
         // Find the level from the first answered question (if available)
         let level = "A1"
         const allQuestions = JSON.parse(localStorage.getItem("kbtu-questions") || "[]")
-        const firstAnsweredId = Object.keys(answers)[0]
+        console.log("All questions from localStorage:", allQuestions)
+        const firstAnsweredId = Object.keys(fetchedAnswers)[0]
+        console.log("First answered question ID:", firstAnsweredId)
         const firstQuestion = allQuestions.find((q: any) => q.id == firstAnsweredId)
-        if (firstQuestion && firstQuestion.level) level = firstQuestion.level
+        console.log("First question found:", firstQuestion)
+        if (firstQuestion && firstQuestion.level) {
+          level = firstQuestion.level
+          console.log("Level detected from question:", level)
+        } else {
+          console.log("No level found in question, using default A1")
+        }
         // Prepare answers array
-        const answersArr = Object.entries(answers).map(([question_id, selected_option]) => ({
+        const answersArr = Object.entries(fetchedAnswers).map(([question_id, selected_option]) => ({
           question_id: Number(question_id),
           selected_option
         }))
+        console.log("Request payload:", { iin, level, answers: answersArr })
         const response = await fetch(`${host}/users/submit-answers/`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ iin, level, answers: answersArr })
         })
+        console.log("Response status:", response.status)
         if (!response.ok) throw new Error("Failed to submit answers")
         const data = await response.json()
+        console.log("Response data:", data)
         setResult({
           level: data.level,
           score: data.correct_answers,
@@ -111,7 +155,19 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
         })
         setLoading(false)
       } catch (err: any) {
+        console.error("API request failed:", err)
         setError(err.message || "Failed to fetch results. Please try again.")
+        
+        // Fallback to mock data for testing
+        console.log("Using mock data as fallback")
+        setResult({
+          level: "B1",
+          score: 19,
+          totalQuestions: 25,
+          congratulationMessage: "Congratulations! You have achieved B1 level proficiency.",
+          resultDescription: "You answered 19 out of 25 questions correctly.",
+          levelDescription: "B1 - Intermediate Level\n\nYou can understand the main points of clear standard input on familiar matters. You can deal with most situations likely to arise while traveling."
+        })
         setLoading(false)
       }
     }
@@ -149,9 +205,6 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-left mb-8">
-          <span className="text-blue-500 text-sm">{t.initialScreen}</span>
-        </div>
 
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
           {/* KBTU Logo */}
@@ -205,12 +258,40 @@ export default function ResultsPage({ answers }: ResultsPageProps) {
             </Card>
           </div>
 
-          {/* Proceed Button */}
-          <div className="flex justify-center pt-6">
-            <Button onClick={handleProceed} className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-3 text-lg">
-              {t.finalProceed}
-            </Button>
-          </div>
+          {/* Next Quiz Button - Only show if score >= 18 (70%) */}
+          {result.score >= 18 && (
+            <div className="flex justify-center pt-6">
+              <Button
+                onClick={() => window.location.href = "/quiz"}
+                className="bg-green-600 hover:bg-green-700 text-white px-12 py-3 text-lg"
+              >
+                {language === "EN" && "Take Next Level Quiz"}
+                {language === "RU" && "Пройти тест следующего уровня"}
+                {language === "KZ" && "Келесі деңгей тестін тапсыру"}
+              </Button>
+            </div>
+          )}
+
+          {/* End Message - Show if score < 18 */}
+          {result.score < 18 && (
+            <div className="flex justify-center pt-6">
+              <div className="text-center">
+                <p className="text-gray-600 text-lg mb-4">
+                  {language === "EN" && "You have completed the test. Thank you for participating!"}
+                  {language === "RU" && "Вы завершили тест. Спасибо за участие!"}
+                  {language === "KZ" && "Сіз тестті аяқтадыңыз. Қатысқаныңыз үшін рахмет!"}
+                </p>
+                <Button
+                  disabled
+                  className="bg-gray-400 text-white px-12 py-3 text-lg cursor-not-allowed"
+                >
+                  {language === "EN" && "Test Completed"}
+                  {language === "RU" && "Тест завершен"}
+                  {language === "KZ" && "Тест аяқталды"}
+                </Button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -49,12 +49,18 @@ export default function QuizPage() {
           type: q.type, // Keep as Grammar, Reading, Vocabulary
           question: q.prompt,
           readingText: q.paragraph || undefined,
+          level: q.level, // Store the level from the backend
           options: q.options.map((opt: any) => ({
             id: opt.id,
             text: opt.text,
             label: opt.label
           }))
         })) : []
+        
+        // Store questions in localStorage for results page
+        localStorage.setItem("kbtu-questions", JSON.stringify(questions))
+        console.log("Stored questions in localStorage:", questions)
+        
         setQuizState((prev) => ({
           ...prev,
           questions,
@@ -87,6 +93,9 @@ export default function QuizPage() {
         currentQuestion: prev.currentQuestion + 1,
       }))
     } else {
+      // Store answers in localStorage before showing results
+      console.log("Quiz completed, storing answers:", quizState.answers)
+      localStorage.setItem("kbtu-answers", JSON.stringify(quizState.answers))
       // Show results page
       setShowResults(true)
     }
@@ -115,9 +124,6 @@ export default function QuizPage() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-left mb-8">
-          <span className="text-blue-500 text-sm">{t.initialScreen}</span>
-        </div>
 
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
           {/* KBTU Logo */}

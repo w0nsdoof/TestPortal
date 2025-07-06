@@ -130,7 +130,7 @@ export default function Component() {
 
         {/* Footer */}
         <div className="text-center pt-4">
-          <p className="text-gray-500 text-sm">{t.initialScreen}</p>
+  
         </div>
       </div>
     </div>

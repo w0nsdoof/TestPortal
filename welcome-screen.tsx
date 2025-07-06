@@ -26,9 +26,6 @@ export default function WelcomeScreen() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-left mb-8">
-          <span className="text-blue-500 text-sm">{t.initialScreen}</span>
-        </div>
 
         <div className="bg-white border-2 border-blue-400 rounded-lg p-12">
           <div className="flex flex-col items-center space-y-8 max-w-2xl mx-auto">

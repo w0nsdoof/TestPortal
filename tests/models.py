@@ -1,6 +1,48 @@
 from django.db import models
 from users.models import Applicant, EnglishLevel
 
+class TestSession(models.Model):
+    STAGE_CHOICES = [
+        ("Grammar", "Grammar"),
+        ("Vocabulary", "Vocabulary"),
+        ("Reading", "Reading"),
+    ]
+    applicant = models.ForeignKey(Applicant, on_delete=models.CASCADE, related_name='test_sessions')
+    started_at = models.DateTimeField(null=True, blank=True)
+    finished_at = models.DateTimeField(null=True, blank=True)
+    # Время по этапам
+    grammar_started_at = models.DateTimeField(null=True, blank=True)
+    grammar_finished_at = models.DateTimeField(null=True, blank=True)
+    vocabulary_started_at = models.DateTimeField(null=True, blank=True)
+    vocabulary_finished_at = models.DateTimeField(null=True, blank=True)
+    reading_started_at = models.DateTimeField(null=True, blank=True)
+    reading_finished_at = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return f"Session for {self.applicant.iin} ({self.started_at} - {self.finished_at})"
+
+    class Meta:
+        ordering = ['-started_at']
+        verbose_name = "Test Session"
+        verbose_name_plural = "Test Sessions"
+
+class UserAnswer(models.Model):
+    """Модель для хранения ответов пользователя на конкретные вопросы"""
+    applicant = models.ForeignKey(Applicant, on_delete=models.CASCADE, related_name='user_answers')
+    test_session = models.ForeignKey(TestSession, on_delete=models.CASCADE, related_name='user_answers', null=True, blank=True)
+    question = models.ForeignKey('questions.Question', on_delete=models.CASCADE, related_name='user_answers')
+    selected_option = models.ForeignKey('questions.Option', on_delete=models.CASCADE, related_name='user_selections', null=True, blank=True)
+    is_correct = models.BooleanField()
+    answered_at = models.DateTimeField(auto_now_add=True)
+    
+    def __str__(self):
+        return f"{self.applicant.iin} - {self.question.type} - {'Correct' if self.is_correct else 'Incorrect'}"
+    
+    class Meta:
+        ordering = ['-answered_at']
+        verbose_name = "User Answer"
+        verbose_name_plural = "User Answers"
+
 class TestResult(models.Model):
     applicant = models.ForeignKey(Applicant, on_delete=models.CASCADE, related_name="test_results")
     level = models.CharField(max_length=2, choices=EnglishLevel.choices)

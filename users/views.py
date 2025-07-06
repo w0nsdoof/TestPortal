@@ -5,6 +5,8 @@ from rest_framework import status
 
 from .serializers import ApplicantSerializer, TestResultSerializer
 from .models import Applicant, TestResult
+from questions.serializers import SubmitAnswersSerializer
+from questions.models import Option
 
 @extend_schema(
     summary="Register applicant",
@@ -37,8 +39,6 @@ def applicant_register(request):
     response_serializer = ApplicantSerializer(applicant)
     return Response(response_serializer.data, status=status.HTTP_201_CREATED if created else status.HTTP_200_OK)
 
-
-
 @extend_schema(
     summary="Retrieve test results by IIN",
     description="Returns a list of test results for the applicant with the given IIN. Requires 'iin' as a query parameter.",
@@ -66,7 +66,6 @@ def test_results_by_iin(request):
     request={"application/json": {"type": "array", "items": {"type": "string"}}},
     responses={200: TestResultSerializer(many=True)},
 )
-
 @api_view(['POST'])
 def test_results_by_iin_batch(request):
     iin_list = request.data
@@ -84,3 +83,55 @@ def test_results_by_iin_batch(request):
     
     serializer = TestResultSerializer(test_results, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
+
+@extend_schema(
+    summary="Submit answers and get score",
+    description="Accepts user's answers, checks correctness, and returns the score.",
+    request=SubmitAnswersSerializer,
+    responses={200: TestResultSerializer},
+)
+@api_view(['POST'])
+def submit_answers(request):
+    serializer = SubmitAnswersSerializer(data=request.data)
+    if not serializer.is_valid():
+        return Response(serializer.errors, status=400)
+    data = serializer.validated_data
+    iin = data['iin']
+    level = data['level']
+    answers = data['answers']
+    if not iin or not level or not isinstance(answers, list):   
+        return Response({'error': 'iin, level, and answers are required'}, status=400)
+
+    # Find applicant
+    try:
+        applicant = Applicant.objects.get(iin=iin)
+    except Applicant.DoesNotExist:
+        return Response({'error': 'Applicant not found'}, status=404)
+
+    # Check if a TestResult already exists for this applicant and level
+    existing_result = TestResult.objects.filter(applicant=applicant, level=level).first()
+    if existing_result:
+        return Response({'error': 'Test result already exists for this applicant and level'}, status=409)
+
+    correct_count = 0
+    total = len(answers)
+    for ans in answers:
+        qid = ans.get('question_id')
+        selected_option = ans.get('selected_option')
+        try:
+            option = Option.objects.get(question_id=qid, id=selected_option)
+            is_correct = option.is_correct
+        except Option.DoesNotExist:
+            is_correct = False
+        if is_correct:
+            correct_count += 1
+
+    # Create TestResult
+    test_result = TestResult.objects.create(
+        applicant=applicant,
+        level=level,
+        correct_answers=correct_count,
+        total_questions=total
+    )
+    result_serializer = TestResultSerializer(test_result)
+    return Response(result_serializer.data)

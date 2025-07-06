@@ -78,16 +78,18 @@ class TestResult(models.Model):
         try:
             current_idx = level_order.index(applicant.current_level)
             passed_idx = level_order.index(self.level)
+            
             if score >= 0.7:
-                # If passed and at current level, promote
-                if passed_idx == current_idx and current_idx < len(level_order) - 1:
+                # If passed the test level and it's the next level, promote
+                if passed_idx == current_idx + 1 and current_idx < len(level_order) - 1:
                     applicant.current_level = level_order[current_idx + 1]
-                # If passed last level, mark as completed
-                if passed_idx == len(level_order) - 1:
+                # If passed the last level, mark as completed
+                elif passed_idx == len(level_order) - 1:
                     applicant.is_completed = True
             else:
                 # If failed, mark as completed
                 applicant.is_completed = True
+                
             applicant.save(update_fields=["current_level", "is_completed"])
         except ValueError:
             pass  # Level not found, do nothing

@@ -1,10 +1,5 @@
 from rest_framework import serializers
-from .models import TestResult, Applicant, EnglishLevel
-
-class TestResultSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = TestResult
-        fields = "__all__"
+from .models import Applicant, EnglishLevel
 
 class ApplicantSerializer(serializers.ModelSerializer):
     class Meta:

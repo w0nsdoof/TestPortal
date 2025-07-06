@@ -13,13 +13,4 @@ class QuestionSerializer(serializers.ModelSerializer):
         model = Question
         fields = ['id', 'prompt', 'paragraph', 'type', 'level', 'options']
         
-        from rest_framework import serializers
 
-class AnswerSerializer(serializers.Serializer):
-    question_id = serializers.IntegerField()
-    selected_option = serializers.IntegerField()
-
-class SubmitAnswersSerializer(serializers.Serializer):
-    iin = serializers.CharField()
-    level = serializers.CharField()
-    answers = AnswerSerializer(many=True)

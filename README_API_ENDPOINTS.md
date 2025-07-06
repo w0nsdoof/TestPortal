@@ -41,9 +41,28 @@ To enable your frontend to connect to this backend, ensure the following setting
   - `type` (optional, string): Type of question to filter by
 - **Response:** 200 OK, list of questions
 
-### 2. Get Personalized Questions
+## Users App
 
-- **Endpoint:** `/questions/personalized/`
+### 1. Register Applicant
+
+- **Endpoint:** `/users/register/`
+- **Method:** POST
+- **Description:** Registers a new applicant or updates the name if the applicant already exists.
+- **Request Body:**
+  ```json
+  {
+    "iin": "001001001001",
+    "first_name": "John",
+    "last_name": "Doe"
+  }
+  ```
+- **Response:** 201 Created or 200 OK, applicant data
+
+## Tests App
+
+### 1. Get Personalized Questions
+
+- **Endpoint:** `/tests/personalized/`
 - **Method:** GET
 - **Description:** Returns a personalized set of questions for a user based on their IIN and level. Requires `iin` as a query parameter.
 - **Query Parameters:**
@@ -54,38 +73,36 @@ To enable your frontend to connect to this backend, ensure the following setting
   - 403: Test already completed for this applicant
   - 400: Missing required parameters
 
-### 3. Submit Answers
+### 2. Submit Answers
 
-- **Endpoint:** `/questions/submit/`
+- **Endpoint:** `/tests/submit-answers/`
 - **Method:** POST
 - **Description:** Accepts user's answers, checks correctness, and returns the score.
 - **Request Body:**
-  - `iin` (string, required)
-  - `level` (string, required)
-  - `answers` (list, required): List of objects with `question_id` and `selected_option`
-- **Response:** 200 OK, test result object
+  ```json
+  {
+    "iin": "001001001001",
+    "level": "A1",
+    "answers": [
+      {
+        "question_id": 1,
+        "selected_option": 3
+      },
+      {
+        "question_id": 2,
+        "selected_option": 1
+      }
+    ]
+  }
+  ```
+- **Response:** 200 OK, test result data
 - **Errors:**
-  - 400: Invalid or missing data
+  - 400: Invalid data or missing required fields
   - 404: Applicant not found
 
----
+### 3. Get Test Results by IIN
 
-## Users App
-
-### 1. Register Applicant
-
-- **Endpoint:** `/users/register/`
-- **Method:** POST
-- **Description:** Registers a new applicant or updates the name if the applicant already exists.
-- **Request Body:**
-  - `iin` (string, required)
-  - `first_name` (string, required)
-  - `last_name` (string, required)
-- **Response:** 201 Created or 200 OK, applicant object
-
-### 2. Retrieve Test Results by IIN
-
-- **Endpoint:** `/users/results/`
+- **Endpoint:** `/tests/results/`
 - **Method:** GET
 - **Description:** Returns a list of test results for the applicant with the given IIN.
 - **Query Parameters:**
@@ -94,6 +111,19 @@ To enable your frontend to connect to this backend, ensure the following setting
 - **Errors:**
   - 400: Missing IIN parameter
   - 404: Applicant not found
+
+### 4. Get Test Results by IIN Batch
+
+- **Endpoint:** `/tests/results/batch/`
+- **Method:** POST
+- **Description:** Returns test results for multiple applicants by their IINs.
+- **Request Body:**
+  ```json
+  ["001001001001", "002002002002", "003003003003"]
+  ```
+- **Response:** 200 OK, list of test results
+- **Errors:**
+  - 400: Invalid request body or empty IIN list
 
 ---
 

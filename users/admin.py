@@ -1,5 +1,4 @@
 from django.contrib import admin
-from .models import Applicant, TestResult
+from .models import Applicant
 
 admin.site.register(Applicant)
-admin.site.register(TestResult)

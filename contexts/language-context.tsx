@@ -28,6 +28,23 @@ interface Translations {
   questionSelection: string
   submit: string
   loadingQuestions: string
+  
+  // Multi-stage quiz
+  grammarStage: string
+  vocabularyStage: string
+  readingStage: string
+  remainingTime: string
+  overallProgress: string
+  stageProgress: string
+  finishStage: string
+  timeUp: string
+  stageCompleted: string
+  stageInProgress: string
+  stageNotStarted: string
+  testProgress: string
+  stagesCompleted: string
+  allStagesCompleted: string
+  viewResults: string
 
   // Results page
   congratulationsTitle: string
@@ -78,6 +95,23 @@ const translations: Record<Language, Translations> = {
     submit: "Submit",
     loadingQuestions: "Loading questions...",
 
+    // Multi-stage quiz
+    grammarStage: "Grammar Stage",
+    vocabularyStage: "Vocabulary Stage", 
+    readingStage: "Reading Stage",
+    remainingTime: "Remaining Time",
+    overallProgress: "Overall Progress",
+    stageProgress: "Stage Progress",
+    finishStage: "Finish Stage",
+    timeUp: "Time's up!",
+    stageCompleted: "Completed",
+    stageInProgress: "In Progress",
+    stageNotStarted: "Not Started",
+    testProgress: "Test Progress",
+    stagesCompleted: "stages completed",
+    allStagesCompleted: "All stages completed! You can view your results.",
+    viewResults: "View Results",
+
     // Results page
     congratulationsTitle: "Congratulations",
     resultDescription: "Result Description",
@@ -126,6 +160,23 @@ const translations: Record<Language, Translations> = {
     submit: "Отправить",
     loadingQuestions: "Загрузка вопросов...",
 
+    // Multi-stage quiz
+    grammarStage: "Этап грамматики",
+    vocabularyStage: "Этап лексики",
+    readingStage: "Этап чтения",
+    remainingTime: "Оставшееся время",
+    overallProgress: "Общий прогресс",
+    stageProgress: "Прогресс этапа",
+    finishStage: "Завершить этап",
+    timeUp: "Время истекло!",
+    stageCompleted: "Завершено",
+    stageInProgress: "В процессе",
+    stageNotStarted: "Не начат",
+    testProgress: "Прогресс теста",
+    stagesCompleted: "этапов завершено",
+    allStagesCompleted: "Все этапы завершены! Вы можете просмотреть результаты.",
+    viewResults: "Посмотреть результаты",
+
     // Results page
     congratulationsTitle: "Поздравление",
     resultDescription: "Описание результата",
@@ -173,6 +224,23 @@ const translations: Record<Language, Translations> = {
     questionSelection: "Сұрақ таңдау",
     submit: "Жіберу",
     loadingQuestions: "Сұрақтар жүктелуде...",
+
+    // Multi-stage quiz
+    grammarStage: "Грамматика кезеңі",
+    vocabularyStage: "Сөздік кезеңі",
+    readingStage: "Оқу кезеңі",
+    remainingTime: "Қалған уақыт",
+    overallProgress: "Жалпы прогресс",
+    stageProgress: "Кезең прогрессі",
+    finishStage: "Кезеңді аяқтау",
+    timeUp: "Уақыт бітті!",
+    stageCompleted: "Аяқталды",
+    stageInProgress: "Жүріп жатыр",
+    stageNotStarted: "Басталмаған",
+    testProgress: "Тест прогрессі",
+    stagesCompleted: "кезеңдер аяқталды",
+    allStagesCompleted: "Барлық кезеңдер аяқталды! Нәтижелеріңізді көре аласыз.",
+    viewResults: "Нәтижелерді көру",
 
     // Results page
     congratulationsTitle: "Құттықтаймыз",

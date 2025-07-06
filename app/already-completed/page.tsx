@@ -34,7 +34,7 @@ export default function AlreadyCompletedPage() {
       }
       try {
         const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
-        const response = await fetch(`${host}/users/results/?iin=${iin}`)
+        const response = await fetch(`${host}/tests/results/?iin=${iin}`)
         if (!response.ok) throw new Error("Failed to fetch previous results.")
         const data = await response.json()
         setResults(Array.isArray(data) ? data : [])

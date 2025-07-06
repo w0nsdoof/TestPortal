@@ -20,7 +20,6 @@ export default function WelcomeScreen() {
   const handlePopupProceed = () => {
     setShowPopup(false)
     // Handle next step after popup
-    console.log("Proceeding from popup...")
   }
 
   return (

@@ -1,5 +1,5 @@
-import QuizPage from "../../quiz-page"
+import MultiStageQuiz from "../../multi-stage-quiz"
 
 export default function Quiz() {
-  return <QuizPage />
+  return <MultiStageQuiz />
 }

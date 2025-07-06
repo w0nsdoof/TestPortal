@@ -59,7 +59,6 @@ export default function QuizPage() {
         
         // Store questions in localStorage for results page
         localStorage.setItem("kbtu-questions", JSON.stringify(questions))
-        console.log("Stored questions in localStorage:", questions)
         
         setQuizState((prev) => ({
           ...prev,
@@ -94,7 +93,6 @@ export default function QuizPage() {
       }))
     } else {
       // Store answers in localStorage before showing results
-      console.log("Quiz completed, storing answers:", quizState.answers)
       localStorage.setItem("kbtu-answers", JSON.stringify(quizState.answers))
       // Show results page
       setShowResults(true)

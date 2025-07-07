@@ -20,6 +20,7 @@ interface StageInfo {
   timeLimit: number // in minutes
   remainingTime: number // in seconds
   startedAt?: Date
+  level?: string
 }
 
 interface SessionStatus {
@@ -42,7 +43,8 @@ export default function MultiStageQuiz() {
       currentQuestion: 0,
       answers: {},
       timeLimit: 20,
-      remainingTime: 20 * 60
+      remainingTime: 20 * 60,
+      level: undefined
     },
     {
       type: "Vocabulary", 
@@ -51,7 +53,8 @@ export default function MultiStageQuiz() {
       currentQuestion: 0,
       answers: {},
       timeLimit: 20,
-      remainingTime: 20 * 60
+      remainingTime: 20 * 60,
+      level: undefined
     },
     {
       type: "Reading",
@@ -60,7 +63,8 @@ export default function MultiStageQuiz() {
       currentQuestion: 0,
       answers: {},
       timeLimit: 15,
-      remainingTime: 15 * 60
+      remainingTime: 15 * 60,
+      level: undefined
     }
   ])
   const [currentStageIndex, setCurrentStageIndex] = useState(0)
@@ -159,7 +163,8 @@ export default function MultiStageQuiz() {
               questions,
               status: "in_progress",
               startedAt: new Date(),
-              remainingTime: data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stage.timeLimit * 60
+              remainingTime: data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stage.timeLimit * 60,
+              level: data.level
             }
           : stage
       ))
@@ -231,6 +236,7 @@ export default function MultiStageQuiz() {
     const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
     const iin = localStorage.getItem("kbtu-iin")
     const isLastStage = stageIndex === stages.length - 1
+    const level = stage.level
 
     try {
       if (isLastStage) {
@@ -242,7 +248,7 @@ export default function MultiStageQuiz() {
       }
 
       // Finish the stage (for last stage, this comes after submit)
-      const finishResponse = await fetch(`${host}/tests/finish-stage/?iin=${iin}&stage_type=${stage.type}`, {
+      const finishResponse = await fetch(`${host}/tests/finish-stage/?iin=${iin}&stage_type=${stage.type}&level=${level}`, {
         method: "POST"
       })
 
@@ -285,14 +291,8 @@ export default function MultiStageQuiz() {
   const submitAllAnswers = async (allAnswers: Record<number, string | number>) => {
     const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
     const iin = localStorage.getItem("kbtu-iin")
-    // Find the level from the first answered question (if available)
-    let level = "A1"
-    const allQuestions = JSON.parse(localStorage.getItem("kbtu-questions") || "[]")
-    const firstAnsweredId = Object.keys(allAnswers)[0]
-    const firstQuestion = allQuestions.find((q: any) => q.id == firstAnsweredId)
-    if (firstQuestion && firstQuestion.level) {
-      level = firstQuestion.level
-    }
+    // Берём level из текущего этапа
+    const level = stages[currentStageIndex].level
     // Prepare answers array
     const answersArr = Object.entries(allAnswers).map(([question_id, selected_option]) => ({
       question_id: Number(question_id),

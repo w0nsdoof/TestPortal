@@ -63,7 +63,7 @@ class TestResult(models.Model):
         super().save(*args, **kwargs)
 
         # Now update the applicant's level and is_completed
-        level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+        level_order = ['A1', 'A2', 'B1', 'B2', 'C1']
         score = self.correct_answers / self.total_questions if self.total_questions else 0
 
         applicant = self.applicant

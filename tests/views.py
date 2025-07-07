@@ -31,7 +31,7 @@ def personalized_questions(request):
         return Response({'error': 'Test already completed for this applicant.'}, status=403)
     
     
-    level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+    level_order = ['A1', 'A2', 'B1', 'B2', 'C1']
     try:
         current_idx = level_order.index(applicant.current_level)
         # Move to next level if possible, else stay at last
@@ -91,7 +91,7 @@ def get_questions_by_stage(request):
     if applicant.is_completed == True:
         return Response({'error': 'Test already completed for this applicant.'}, status=403)
     
-    level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+    level_order = ['A1', 'A2', 'B1', 'B2', 'C1']
     try:
         current_idx = level_order.index(applicant.current_level)
         next_idx = min(current_idx + 1, len(level_order) - 1)

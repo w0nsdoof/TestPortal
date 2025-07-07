@@ -159,13 +159,13 @@ export default function MultiStageQuiz() {
               questions,
               status: "in_progress",
               startedAt: new Date(),
-              remainingTime: data.remaining_time_minutes * 60 || stage.timeLimit * 60
+              remainingTime: data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stage.timeLimit * 60
             }
           : stage
       ))
 
       // Start timer for this stage
-      startStageTimer(stageIndex, data.remaining_time_minutes * 60 || stages[stageIndex].timeLimit * 60)
+      startStageTimer(stageIndex, data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stages[stageIndex].timeLimit * 60)
     } catch (err) {
       console.error(`Failed to load ${stageType} questions:`, err)
       alert(`Failed to load ${stageType} questions. Please try again.`)
@@ -314,8 +314,8 @@ export default function MultiStageQuiz() {
 
   const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60)
-    const remainingSeconds = seconds % 60
-    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`
+    const remainingSeconds = Math.floor(seconds % 60)
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`
   }
 
   // Show results page after all stages completion

@@ -91,9 +91,19 @@ def get_questions_by_stage(request):
     if applicant.is_completed == True:
         return Response({'error': 'Test already completed for this applicant.'}, status=403)
     
-    # Get or create test session
+    level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
+    try:
+        current_idx = level_order.index(applicant.current_level)
+        next_idx = min(current_idx + 1, len(level_order) - 1)
+        level = level_order[next_idx]
+    except ValueError:
+        level = applicant.current_level
+    
+    # Get or create test session for this level
     test_session, created = TestSession.objects.get_or_create(
         applicant=applicant,
+        level=level,
+        finished_at__isnull=True,
         defaults={'started_at': timezone.now()}
     )
     
@@ -112,14 +122,6 @@ def get_questions_by_stage(request):
     elif stage_type == 'Reading' and not test_session.reading_started_at:
         test_session.reading_started_at = timezone.now()
         test_session.save(update_fields=['reading_started_at'])
-    
-    level_order = ['A0', 'A1', 'B1', 'B2', 'C1']
-    try:
-        current_idx = level_order.index(applicant.current_level)
-        next_idx = min(current_idx + 1, len(level_order) - 1)
-        level = level_order[next_idx]
-    except ValueError:
-        level = applicant.current_level
     
     # Get questions for the specific stage
     questions = list(Question.objects.filter(type=stage_type, level=level))
@@ -146,7 +148,8 @@ def get_questions_by_stage(request):
     response_data = {
         'questions': serializer.data,
         'remaining_time_minutes': remaining_time,
-        'stage_type': stage_type
+        'stage_type': stage_type,
+        'level': level
     }
     return Response(response_data)
 
@@ -174,9 +177,9 @@ def submit_answers(request):
     except Applicant.DoesNotExist:
         return Response({'error': 'Applicant not found'}, status=404)
 
-    # Find active test session
+    # Find active test session for this level
     try:
-        test_session = TestSession.objects.get(applicant=applicant, finished_at__isnull=True)
+        test_session = TestSession.objects.get(applicant=applicant, level=level, finished_at__isnull=True)
     except TestSession.DoesNotExist:
         return Response({'error': 'No active test session found'}, status=404)
 
@@ -294,6 +297,7 @@ def test_results_by_iin_batch(request):
     parameters=[
         OpenApiParameter(name='iin', description='Individual Identification Number', required=True, type=str),
         OpenApiParameter(name='stage_type', description='Stage type (Grammar, Vocabulary, Reading)', required=True, type=str),
+        OpenApiParameter(name='level', description='Test level', required=True, type=str),
     ],
     responses={200: {"message": "Stage finished successfully"}},
 )
@@ -301,9 +305,10 @@ def test_results_by_iin_batch(request):
 def finish_stage(request):
     iin = request.GET.get('iin')
     stage_type = request.GET.get('stage_type')
+    level = request.GET.get('level')
     
-    if not iin or not stage_type:
-        return Response({'error': 'iin and stage_type are required'}, status=400)
+    if not iin or not stage_type or not level:
+        return Response({'error': 'iin, stage_type, and level are required'}, status=400)
     
     if stage_type not in ['Grammar', 'Vocabulary', 'Reading']:
         return Response({'error': 'stage_type must be Grammar, Vocabulary, or Reading'}, status=400)
@@ -314,7 +319,7 @@ def finish_stage(request):
         return Response({'error': 'Applicant not found'}, status=404)
     
     try:
-        test_session = TestSession.objects.get(applicant=applicant, finished_at__isnull=True)
+        test_session = TestSession.objects.get(applicant=applicant, level=level, finished_at__isnull=True)
     except TestSession.DoesNotExist:
         return Response({'error': 'No active test session found'}, status=404)
     

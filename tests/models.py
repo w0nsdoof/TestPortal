@@ -8,6 +8,7 @@ class TestSession(models.Model):
         ("Reading", "Reading"),
     ]
     applicant = models.ForeignKey(Applicant, on_delete=models.CASCADE, related_name='test_sessions')
+    level = models.CharField(max_length=2, choices=EnglishLevel.choices)
     started_at = models.DateTimeField(null=True, blank=True)
     finished_at = models.DateTimeField(null=True, blank=True)
     # Время по этапам
@@ -19,12 +20,13 @@ class TestSession(models.Model):
     reading_finished_at = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
-        return f"Session for {self.applicant.iin} ({self.started_at} - {self.finished_at})"
+        return f"Session for {self.applicant.iin} [{self.level}] ({self.started_at} - {self.finished_at})"
 
     class Meta:
         ordering = ['-started_at']
         verbose_name = "Test Session"
         verbose_name_plural = "Test Sessions"
+        unique_together = ['applicant', 'level', 'started_at']
 
 class UserAnswer(models.Model):
     """Модель для хранения ответов пользователя на конкретные вопросы"""

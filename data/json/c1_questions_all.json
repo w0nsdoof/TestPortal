@@ -1,0 +1,3875 @@
+[
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "... Richard, it seems he finally made his decision",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Had spoken to",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Having spoken to",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Alex dreads ________ to retire.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "to have",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "All my life ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "-I loved going to the movies",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "I have loved to go to the movies",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Your birthday´s next month, isn´t it?",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Your birthday will be next month, won´t it?",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      {
+        "label": "A.",
+        "text": "The doctor said it was nothing to worry about",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "The doctor said its nothing. Don´t worry",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      {
+        "label": "A.",
+        "text": "I can´t imagine why he said that",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "I might imagine why he said that",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      {
+        "label": "A.",
+        "text": "The painting sold for three thousand euros",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "The painting was sold for three thousand euros",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Having … his driving test several times, Paul finally passed at the fourth ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_  taken",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "made",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "He Jin said she, … interested in going to a museum.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hadn’t been",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "isn’t",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "He´s had his car...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "when he passed his driving test",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "since he passed his driving test",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I ...... that we arrive on time. I don't want to miss the beginning",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hope",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "await",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I appreciate ________ able to study in peace and quiet.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "being",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I asked my sister if ...... a bottle of perfume for me at the airport.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "she had buy",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "she would bought",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I don´t think Tokyo...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "is as dangerous like London",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "is so dangerous as London",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I had never seen it before, and ...... I knew exactly what to do.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "still",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "yet",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I have never been ... in all my life!",
+    "options": [
+      {
+        "label": "A.",
+        "text": "such embarrassed",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "so embarrassed",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I prefer to buy CDs … download music from my computer.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "in contrast to",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "as opposed to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I was relieved ________ out that I had passed the exam.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "finding",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "to find",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I’d lived in Australia, so I was used to … on the left side of the road.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "driving",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "drive",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "If ...... you were coming, I would have baked a cake!",
+    "options": [
+      {
+        "label": "A.",
+        "text": "I would know",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "I would have known",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "If you lost your key, try ________ a pin or something sharp to open the door.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "using",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "use",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "It ...... ages since the last time I saw you",
+    "options": [
+      {
+        "label": "A.",
+        "text": "has been",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "was be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Maintaining an accurate balance sheet is essential, … business you’re in.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "however",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "wherever",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Not for many months, … find a solution to the problem.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "we did",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "did we",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "She tried to make me ________ that she was my mother.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "to believe",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "believing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "She was late for work today because she ...... to go to the doctor's.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "must",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "had",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Speed cameras … shown to reduce accidents.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "were being",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The flight to London was ...... expensive than I thought.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "more less",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "much less",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The horses struggled ________ the carriage out of the mud.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "-pulling",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "to pull",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "_x000C_The manager let Jane ________ early as she had a doctor's appointment.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "to go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The number of turtles on the island … by 70% over the last decade.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "has declined",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "has been declining",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "There you are! …",
+    "options": [
+      {
+        "label": "A.",
+        "text": "I have waited for ages",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "I have been waiting for ages",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Vivian can't help ________ about her children.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "worrying",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "worry",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "You ...... exhausted after your exam yesterday.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "should be",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "must be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "You don't happen to know where Malcom might be, … you?",
+    "options": [
+      {
+        "label": "A.",
+        "text": "mightn’t",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "don’t",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: Everything you need for ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "head",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: He bought the cottage ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "eye",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: He had always said yes. ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hand",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "foot",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: I don’t know off-_______...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "heart",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "hand",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: I don’t think he’s ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "feet",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: It was happening right ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "nose",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "foot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: It’s a terrible car and ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "teeth",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: It’s impossible to ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "head",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: Mum had her ________ on ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "heart",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: Now it looks like I’m ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hand",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "foot",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: The lecturer had such a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "eye",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: The little girl was ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "eyes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: We ought to _______ home...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hand",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "head",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: We were the first ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "neck",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: Why do you always have ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "hand",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "nose",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the correct option to complete this sentence: You have to _______ it ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "back",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "hand",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoulders",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Heart",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoulders",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Heart",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoulders",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Heart",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Eyelid",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Toe",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the collocations with an appropriate part of the body from the list ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoulders",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Heart",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoes",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Pocket",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shoes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the idiom in the following sentences with an item of clothing from ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Socks",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Belt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "He doesn't want a _________ -collar job. He’d rather work outside than be ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Blue",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "White",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_I didn’t believe I’d won the prize until I saw it in black and ______.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "White",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I didn’t realise hockey was such a violent game. I’m _______ and blue all over.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Mauve",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Black",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I parked and quickly ran into the bank. I didn't realise I'd left my car on a...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Yellow",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "White",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I wish I had _________ fingers like you. I only have to look at a plant and ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Yellow",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Green",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "If you don't know the company's number, look it up in the ________ Pages.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Blue",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Yellow",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Now that the chairman has given us the _______ light, we can go ahead and buy...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "finish",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "person",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "book",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "road",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "nap",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dessert",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "disease",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dress",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "comedy",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "fruit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "streets",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "parents",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "recipe",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "scream",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "shampoo",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "bus journey",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "collision",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "decision",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Only one of the nouns bellow goes with this adjective. Choose the correct ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "cars",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "knowledge",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "She went as _________ as a sheet when I mentioned his name. I had touched a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "White",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Blue",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_The bank refused to lend me any more money as my account was in the _________.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Black",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Red",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "We hadn’t seen her in years and then the other day she came to visit us out ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Blue",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "We live in the ________ belt just outside London. It's ideal as we live in ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Green",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Black",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "We only see each other once in a ________ moon, which is a shame really.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Blue",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "White",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "You can shout and argue until you're _______ in the face, but I'm not going ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Blue",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "You can’t deny that you did it. You were caught ______- handed.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Black",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "You should have seen the _________ look she gave him when he criticised her ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Black",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Blue",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "You wouldn’t believe how much _______ tape is involved in getting a work ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Red",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Green",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "You're a coward. You're ________ . You were afraid to do it.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Yellow",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Green",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_        un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: LOYAL",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: RIPE",
+    "options": [
+      {
+        "label": "A.",
+        "text": "un-",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "dis-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Baby chimps ________ their mothers whereas human babies have to be carried.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "cling",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "cling to",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If I had allowed for extra...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "made a lot of money",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "spent a lot of money",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: You'll have to give the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "bought it from",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "sold it to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: A lot of famous musicians ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "great new songs",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "support from their fans",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: A newspaper relies on the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "its customers",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "its reporters",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: After checking his work, ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "made many mistakes",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "finished the work",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: After I've washed my ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "in the drawer",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "in the cupboard",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Choose the right option to complete the sentence: After talking to his ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "failing his exam",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "passing his exam",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: After we'd boarded the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "seats",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "passengers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: After we'd eaten our meal, ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "the waitress",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "the bill",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Before buying the phone, I ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "if I could break it",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "if it worked properly",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Before deciding to get a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "the price you'll pay",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "your other pets",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Before you buy the car, ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "some money",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a colour",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Clair and Ben named their ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Clair",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Do you know what became of ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_        since yesterday",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Hiroko asked Makiko out ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "wanted her to go away",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "didn't believe what she'd said",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: I bumped into my old friend...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "his house for dinner",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "see him play basketball",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: I knew that money was ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "always suspected him",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: I wanted to read up on ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a book of fashion photography",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a popular fashion magazine",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If Maria keeps coming to ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "getting a promotion",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "getting a raise",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If politicians are involved...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "investigating corruption",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "fighting against corruption",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If you give away a lot of ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a generous person",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "a strange person",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Choose the right option to complete the sentence: If you meet a salesman, ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "selling something",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "buying something",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If you need to find ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "chat it up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "look it up",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: If you've used up all your ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "get a new phone",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "make fewer calls",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: In a democracy, the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Great Leader",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Isabel has grown up since ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "six hours ago",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "six days ago",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: It would be wrong to sit in...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a staff meeting",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a college exam",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Jamal opted for overtime ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "needed to make more money",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "wanted more time with his kids",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: John and his father sound ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_        walk into a room",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Lots of people want to be ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "fail",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Mark loves to show off. ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "impress people",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "avoid people",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Michael wants to be a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "his favourite players",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "the gym every day",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: My son has ruled out a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "he hates the sight of blood",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "he thinks he'd be good at it",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Our cable TV company is ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "questionnaire",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "TV guide",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Paul has worked out a way ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "solve the problem",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "create the problem",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Sandra realised she'd left ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "moved it to the front",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "went back to get it",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Choose the right option to complete the sentence: Sarah was kicked out of the...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "needed to go to the toilet",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "finished early",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Smoking cigarettes can lead...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "excellent health",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "lung cancer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: The accident investigator ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "heard about the fire",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "seen the fire",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: The best person to deal ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a dealer",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a doctor",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: The judge read the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "wanted everyone to hear it",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "didn't want anyone to hear it",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: The Olympic Games always ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "an Opening Ceremony",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a Closing Ceremony",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: The taxation department is ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "tax forms",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "tax returns",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: There was a sale on ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_        got there early",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: These books belong to the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "keep them forever",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "own them for a while",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: Vivian told me to watch out...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "something interesting on TV",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a bull running straight at me",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: When Tom saw his friends ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "fought alongside them",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "ran away to get help",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the right option to complete the sentence: You should follow up a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "before you meet them",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "after you meet them",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I wish George and his father would settle their ________ and start talking to...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "disagreements",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "arguments",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Our car started making a strange noise, so we had to ________ to the side of...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "drop sb off",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "pull over",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "The police are ________ an investigation into the robbery.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "carrying out",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "working out",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "This area of town is beginning to look very ________ and impoverished.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "put-down",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "run-down",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap :She always keeps ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: After our quarrel we ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Drop in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: He is such an arrogant...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: He tried really hard ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: I am going home anyway...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Come across",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: Mum ________ at the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Come across",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: The book I read didn't...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: The mayor offered his ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: They happened to be in...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: We decided to ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: We waited for over an ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: When I retire I'll ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Come across",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: When I was a child I ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Believe in",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: When we looked through...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Come across",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Which phrasal verb should be used to complete the gap: When we went to high ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Catch up",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "A full scholarship to Harvard and you’re worried about leaving your job? Get ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Turn",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Brush",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "At first, her father was against her studying abroad, but later on he had a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Thought",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Feeling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Both the favourite and then the second favourite pulled out. Naturally, we ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "in with",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "up for",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Chris was ........................ between buying a new house and going on a ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Pulled",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Torn",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Given the appalling weather conditions on top of the mountain, I’d say the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Narrow",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Harry was offered a scholarship to study in Spain and he ................ the...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Grasped",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Grabbed",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "He admitted taking a bribe and he doesn’t think he’s ................ his ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Pulled",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Wiped",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I have to admit I’m in two ................... about whether to tell her or not.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Minds",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Choices",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I suppose that there is a ................ chance that he could win, but I ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Thin",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Slim",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I was in a ........................ as to what to do. If I told the truth, he...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Doubt",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Quandary",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I wish you would stop sitting on the ........................ and decide ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Fence",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Crossroads",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "I’m ______ two minds whether to go or not.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "over",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "between",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "If someone offered me a posting in South Africa, I’d ................ at the ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Bound",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "_x000C_         Jump",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "If you need a decent suit, go to Munns Stores. You’ll be .......................",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Overcome",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Ruined",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "It took the selection panel only twenty minutes to ........................ ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Reach",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Arrive",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "It was ................ by chance that we managed to find her.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Sheerly",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Purely",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "It was a difficult decision, but in the end we ................. for a state ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Chose",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Preferred",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "No way will you beat him. You don’t ................ a chance. He’s a hundred...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Hold",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Run",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Of all the entries received, his was ........................ out for special...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Isolated",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Brought",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Royson had deliberately disobeyed her orders. She had no alternative ...........",
+    "options": [
+      {
+        "label": "A.",
+        "text": "_x000C_         but to",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "They were the best economic analysts in the United States – a team hand-........",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Selected",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Picked",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Two hundred and fifty people applied for the job. Of these, only twenty ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shortcut",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Short-changed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "We knew the concert was sold out, but we still went to the stadium .............",
+    "options": [
+      {
+        "label": "A.",
+        "text": "With",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "________, I believe that a goal is more likely to make us happy than people ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "As a result",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Certainly",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: Kids do it when they can’t keep still.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Nudge",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Duck",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: Some people do it when they pray.",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Nudge",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Duck",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Choose the word matching this definition: To gently push sb with your elbow ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Nudge",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "Duck",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: To move into a position where your ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: When you shake because you are ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Shudder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: When you shake because you are ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Shiver",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Duck",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: When you shake momentarily because ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: You do it to avoid something that ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Nudge",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "_x000C_         Duck",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: You do it when you lower your body ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Nudge",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: You do it when you make a small sudden movement because something has hurt you (an",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Shudder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: You do it with your eyebrows when ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Shudder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Choose the word matching this definition: You do it with your head when you ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "Curl up",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "Shudder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "_x000C_Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a sauce",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a cake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a sauce",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a cake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a sauce",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a cake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": true
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a sauce",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a cake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a turkey",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "eggs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Fill in the gap that follows the verb with a food item from the list below: ...",
+    "options": [
+      {
+        "label": "A.",
+        "text": "a sauce",
+        "is_correct": false
+      },
+      {
+        "label": "B.",
+        "text": "a cake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the sentences using an appropriate body word: I think it’s time we got a new television. This one is on its last .................. .",
+    "options": [
+      {
+        "label": "6.",
+        "text": "Complete the idiom in this sentence with an appropriate word related to cooking and food:It is difficult to make ends meet when you",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the sentences using an appropriate body word: They’re so lucky! I’d give my right .................. for a house like theirs.",
+    "options": [
+      {
+        "label": "20.",
+        "text": "Complete the sentences using an appropriate body word: He fell head over .................. in love the minute she walked into the room.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the sentences using an appropriate body word: Business has been awful. We’ve been losing money head over .................. .",
+    "options": [
+      {
+        "label": "22.",
+        "text": "_x000C_Complete the sentences using an appropriate body word: Do you see how much better you feel now that you have got it off your",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the sentences using an appropriate body word: “There’s no way we can afford it,” she said. “It’ll cost an .................. and a leg",
+    "options": [
+      {
+        "label": "24.",
+        "text": "Complete the sentences using an appropriate body word: She had set her .................. on studying at Oxford but they turned her down.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: We’re receiving food, but it is only arriving in dribs and ​_________.",
+    "options": [
+      {
+        "label": "2.",
+        "text": "Complete the expression with the missing word: We’re talking about my family here, my own flesh and _____. Of course I trust them.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: That is an out-and-_____ lie; you’ve made it all up!",
+    "options": [
+      {
+        "label": "4.",
+        "text": "Complete the expression with the missing word: Having your private life splashed across the front pages of newspapers and glossy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: We took a couple of days off and went to the country for a bit of peace and ______.",
+    "options": [
+      {
+        "label": "6.",
+        "text": "Complete the expression with the missing word: His daughter is his pride and _____.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: She’s far too prim and _______ to have written anything as scandalous as that.",
+    "options": [
+      {
+        "label": "8.",
+        "text": "Complete the expression with the missing word: After a lot of pushing and _______, I finally made it to the counter where everything",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: It was touch and _____ whether they would allow us to leave the country.",
+    "options": [
+      {
+        "label": "12.",
+        "text": "Complete the expression with the missing word: If we leave bright and ​_______ tomorrow morning, we should get there by midday.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: What do you mean I cheated? I won fair and ________, and you know it.",
+    "options": [
+      {
+        "label": "18.",
+        "text": "Complete the expression with the missing word: By and ______, most people would prefer to have a badly paid job that they liked",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: Good jobs are few and ______ between in days of high unemployment.",
+    "options": [
+      {
+        "label": "20.",
+        "text": "Complete the expression with the missing word: A shorter lunch break is new company policy, so we’ll just have to grin and ______ it.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: We have yet to discuss all the ins and ______ of his proposal.",
+    "options": [
+      {
+        "label": "22.",
+        "text": "Complete the expression with the missing word: I was only 10 minutes late. Why are you making such a song and _____ about it?",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "C1",
+    "prompt": "Complete the expression with the missing word: Everything had been packed away in boxes except for a few odds and _____.",
+    "options": [
+      {
+        "label": "24.",
+        "text": "Complete the expression with the missing word: He set out to prove once and for ____ that Deakin’s alibi was nothing but a tissue of",
+        "is_correct": false
+      }
+    ]
+  }
+]

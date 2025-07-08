@@ -1,0 +1,2239 @@
+[
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "_____ raining?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is it",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Does",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "It",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "_____ to Milan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Have you been",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Have you be",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Have you",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "You be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "_____ to see that film that is on at the cinema next week?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do you go",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Is you going",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Are you going",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "Will you go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "__________it was very cold, she wasn't wearing a coat.",
+    "options": [
+      {
+        "label": "A",
+        "text": "So",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Although",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Because",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "But",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "______John this morning?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Did you see",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "You saw",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Did you seen",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "You did see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "_____she's very nice, she doesn't have many friends.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Although",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Because",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "But",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "So",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "A thermometer is a tool ____measuring the temperature.",
+    "options": [
+      {
+        "label": "A",
+        "text": "to",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "for",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "of",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "at",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "A: Do you like shopping?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, I am",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Yes, I do",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "No, I do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Bob will meet __________ at the airport.",
+    "options": [
+      {
+        "label": "A",
+        "text": "us",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "we",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "our",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "ours",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Can I _____  your sweater, please? It’s cold and I have only a T-shirt.",
+    "options": [
+      {
+        "label": "A",
+        "text": "borrow",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "get",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "give",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "lend",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Can you _____ me all right over there because you are rather a long way away?",
+    "options": [
+      {
+        "label": "A",
+        "text": "listening",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "hearing",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "listen",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "hear",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Can you drive _______",
+    "options": [
+      {
+        "label": "A",
+        "text": "more slowly",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "slowy",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "most slowly",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "slowerly",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Do you ______ clean the house every day or every week?",
+    "options": [
+      {
+        "label": "A",
+        "text": "must",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "have to",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "must to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Do you sell stamps? Yes, we do. How _____ do you want?",
+    "options": [
+      {
+        "label": "A",
+        "text": "many",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "much",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "little",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "lot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "He isn't as_____ you.",
+    "options": [
+      {
+        "label": "A",
+        "text": "smarter as",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "smart as",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "smarter than",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "smartest",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "How many bedrooms _____ in your flat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "is there",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "are there",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "there is",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "it was",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "How many brothers and sisters____?",
+    "options": [
+      {
+        "label": "A",
+        "text": "have you got",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "have you",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "you have",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "got you",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I _____ her every day and she never says hello to me.",
+    "options": [
+      {
+        "label": "A",
+        "text": "see",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "am seeing",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "will see",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "saw",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I _____ to remember your name but I'm afraid I can't remember it.",
+    "options": [
+      {
+        "label": "A",
+        "text": "try",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "am trying",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "trying",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "will trying",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I don’t want _____ juice, thanks.",
+    "options": [
+      {
+        "label": "A",
+        "text": "any",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "many",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "few",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "something",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I have never ______ her before.",
+    "options": [
+      {
+        "label": "A",
+        "text": "saw",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "seeing",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "seen",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I like this apartment but the __________ is too expensive for me.",
+    "options": [
+      {
+        "label": "A",
+        "text": "rent",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "money",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "number",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "finance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I may ______ able to come to your party if I have the time.",
+    "options": [
+      {
+        "label": "A",
+        "text": "be",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "being",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "being to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "been",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I need my computer _ send an important email",
+    "options": [
+      {
+        "label": "A",
+        "text": "of",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "about",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "to",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "for",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I only want ______ little sugar in my tea, please.",
+    "options": [
+      {
+        "label": "A",
+        "text": "a",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "such",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I want to go to the cinema to see a film about _____ and the French.",
+    "options": [
+      {
+        "label": "A",
+        "text": "France",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "a France",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "the France",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "an France",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I woke up    ___________ there was a noise.",
+    "options": [
+      {
+        "label": "A",
+        "text": "so",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "because",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "although",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "but",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I'm looking at the photograph _____ you sent me with your letter.",
+    "options": [
+      {
+        "label": "A",
+        "text": "which",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "whom",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "whose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "I’m going to a concert tonight. __________ you like to come?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Would",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Do",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "It is ____ book that I have ever read.",
+    "options": [
+      {
+        "label": "A",
+        "text": "funniest",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "a funniest",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "the funniest",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "the most funniest",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "My current job is _________more stressful than my last job.",
+    "options": [
+      {
+        "label": "A",
+        "text": "much",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "many",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "very",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "lot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "My sister’s studying the law ____ university.",
+    "options": [
+      {
+        "label": "A",
+        "text": "at",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "for",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "inside",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "of",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Now will you please .______ me and pay attention to what I'm saying because it's very important.",
+    "options": [
+      {
+        "label": "A",
+        "text": "hear",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "listen to",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "hearing",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "listening to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Paula _____ loves working with children.",
+    "options": [
+      {
+        "label": "A",
+        "text": "really",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "more",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "very",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "much",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Picasso and Monet ____ famous painters.",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "were",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "She's going to university _____ her studies.",
+    "options": [
+      {
+        "label": "A",
+        "text": "for continuing",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "to continue",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "to continuing",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "continue",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "The brothers will _______ school both together at the end of this year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "end",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "ending",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "finish",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "finishes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "The bus didn’t stop in Lyon. It only _____ in Paris.",
+    "options": [
+      {
+        "label": "A",
+        "text": "didn't stop",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "stopped",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "stop",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "stopping",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "The grass, _____ I cut every week, seems to grow very quickly.",
+    "options": [
+      {
+        "label": "A",
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "who's",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "which",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "that",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "There was nothing on TV,__________I went to bed.",
+    "options": [
+      {
+        "label": "A",
+        "text": "so",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "but",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "because",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "although",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "This is going to be______ show you have ever seen",
+    "options": [
+      {
+        "label": "A",
+        "text": "the biggest",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "the bigest",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "the bigger",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "bigger",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "We couldn't find a taxi, _________ we walked home",
+    "options": [
+      {
+        "label": "A",
+        "text": "so",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "but",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "because",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "although",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "What is ________ option in the menu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "healthier",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "the healthiest",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "most healthy",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "health",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "What time ____ call you tomorrow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "should I",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "I should",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "do I should",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "should do I",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "What’s _____ river in the world?",
+    "options": [
+      {
+        "label": "A",
+        "text": "the longest",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "longer",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "long",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "more long",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "When will you _____ come and see us in our new house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "be able to",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "must",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "being able",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "When_____ a decision?",
+    "options": [
+      {
+        "label": "A",
+        "text": "will she make",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "she will make",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "make she",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "she making",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Where _____ for dinner last night?",
+    "options": [
+      {
+        "label": "A",
+        "text": "did you went",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "did you go",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "you went",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "you are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Which of these is a noun?",
+    "options": [
+      {
+        "label": "A",
+        "text": "thing",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "think",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "that",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "there",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Which of these is an adjective? It is _____",
+    "options": [
+      {
+        "label": "A",
+        "text": "hard",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "hardly",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "harden",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "hardship",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "A2",
+    "prompt": "Who___ to the party?",
+    "options": [
+      {
+        "label": "A",
+        "text": "did Sandra invite",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sandra did invite",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "inviting Sandra",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sandra don't invite",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Can I _____ your sweater, please? It’s cold and I have only a T-shirt.",
+    "options": [
+      {
+        "label": "A",
+        "text": "get",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "give",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "lend",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "borrow",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "on",
+    "options": [
+      {
+        "label": "B",
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "off",
+        "is_correct": false
+      },
+      {
+        "label": "3.",
+        "text": "David __________ me he wanted to get a burger.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Did you _____ sightseeing in Madrid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "make",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "take",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Do you drink _____ of tea with sugar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "much",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "a lot",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "huge",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Emma has been late today. She ______ the bus.",
+    "options": [
+      {
+        "label": "A",
+        "text": "missed",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "lost",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "losed",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "skipped",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "win",
+    "options": [
+      {
+        "label": "B",
+        "text": "earn",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "make",
+        "is_correct": false
+      },
+      {
+        "label": "8.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "For the whole of next week we are planning to sell our new dictionaries at a special _______",
+    "options": [
+      {
+        "label": "A",
+        "text": "price",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "prize",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "prise",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "praise",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "He ______ his exam because he didn’t study.",
+    "options": [
+      {
+        "label": "A",
+        "text": "failed",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "passed",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "missed",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "fell",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "does",
+    "options": [
+      {
+        "label": "B",
+        "text": "gets",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "makes",
+        "is_correct": false
+      },
+      {
+        "label": "12.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I always get ______ early in the summer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "up",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "over",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "thr0ugh",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "on",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I am very _____ in old cars.",
+    "options": [
+      {
+        "label": "A",
+        "text": "keen",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "interesting",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "interested",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "fond",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I don’t eat much fruit. I’m not that ______ on it.",
+    "options": [
+      {
+        "label": "A",
+        "text": "crazy",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "keen",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "fond",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "excited",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I don’t like preparing food, but I like ______ in restaurants.",
+    "options": [
+      {
+        "label": "A",
+        "text": "cooking",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "eating",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "using",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I mostly ______ my friends via email.",
+    "options": [
+      {
+        "label": "A",
+        "text": "get on well with",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have in common",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "see each other",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "keep in touch",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I often read short articles ______ pets in my favourite magazine.",
+    "options": [
+      {
+        "label": "A",
+        "text": "for",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "about",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "after",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I only ______ one mistake in last night's test.",
+    "options": [
+      {
+        "label": "A",
+        "text": "made",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "done",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "make",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I'm sure you're quite ______ but many people disagree with you.",
+    "options": [
+      {
+        "label": "A",
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "right",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "all right",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "serious",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "bit",
+    "options": [
+      {
+        "label": "B",
+        "text": "quite",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "very",
+        "is_correct": true
+      },
+      {
+        "label": "22.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "after",
+    "options": [
+      {
+        "label": "B",
+        "text": "for",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "forward",
+        "is_correct": true
+      },
+      {
+        "label": "24.",
+        "text": "Kate’s really __________. She always gives me presents.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Last summer we went _______ holiday to Greece.",
+    "options": [
+      {
+        "label": "A",
+        "text": "on",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "off",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "by",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "niece",
+    "options": [
+      {
+        "label": "B",
+        "text": "grandson",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "nephew",
+        "is_correct": true
+      },
+      {
+        "label": "27.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "in",
+    "options": [
+      {
+        "label": "B",
+        "text": "between",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "on",
+        "is_correct": true
+      },
+      {
+        "label": "29.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Next we'll have the _____news.",
+    "options": [
+      {
+        "label": "A",
+        "text": "latest",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "newest",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "later",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "newer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Next year I'd like to _____a course in England.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "do",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "get",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "make",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "in",
+    "options": [
+      {
+        "label": "B",
+        "text": "on",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "label": "33.",
+        "text": "Choose the correct answer: A, B, C or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "through",
+    "options": [
+      {
+        "label": "B",
+        "text": "under",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "across",
+        "is_correct": false
+      },
+      {
+        "label": "35.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Thank you very much indeed, that's very kind ______ you.",
+    "options": [
+      {
+        "label": "A",
+        "text": "from",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "for",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "of",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "it",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "That ______ interesting.",
+    "options": [
+      {
+        "label": "A",
+        "text": "rings",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "listens",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "hears",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "sounds",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "clean",
+    "options": [
+      {
+        "label": "B",
+        "text": "safe",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "empty",
+        "is_correct": true
+      },
+      {
+        "label": "39.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "behind",
+    "options": [
+      {
+        "label": "B",
+        "text": "in front of",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "in the middle",
+        "is_correct": false
+      },
+      {
+        "label": "41.",
+        "text": "There’s a table ________ my desk and the window.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "in",
+    "options": [
+      {
+        "label": "B",
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "to",
+        "is_correct": false
+      },
+      {
+        "label": "43.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "take",
+    "options": [
+      {
+        "label": "B",
+        "text": "try",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "wear",
+        "is_correct": false
+      },
+      {
+        "label": "45.",
+        "text": "We __________ a really good time at the festival.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "because",
+    "options": [
+      {
+        "label": "B",
+        "text": "so",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "although",
+        "is_correct": false
+      },
+      {
+        "label": "47.",
+        "text": "Choose the correct answer: A, B, C, or D.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "What exercise do you like doing ______ of all?",
+    "options": [
+      {
+        "label": "A",
+        "text": "next",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "best",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "after",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "before",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "behind",
+    "options": [
+      {
+        "label": "B",
+        "text": "on the right",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "under",
+        "is_correct": false
+      }
+    ]
+  }
+]

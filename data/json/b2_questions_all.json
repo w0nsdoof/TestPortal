@@ -1,0 +1,1597 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "There seems",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "It seems",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "a",
+        "text": "In no way was he",
+        "is_correct": false
+      },
+      {
+        "label": "b",
+        "text": "No way he was",
+        "is_correct": false
+      },
+      {
+        "label": "c",
+        "text": "In any way he was",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "a",
+        "text": "Not wanting",
+        "is_correct": true
+      },
+      {
+        "label": "b",
+        "text": "As not wanting",
+        "is_correct": false
+      },
+      {
+        "label": "c",
+        "text": "She didn't want",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "a",
+        "text": "trains",
+        "is_correct": false
+      },
+      {
+        "label": "b",
+        "text": "were training",
+        "is_correct": false
+      },
+      {
+        "label": "c",
+        "text": "had been training",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer",
+    "options": [
+      {
+        "label": "a",
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "label": "b",
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "label": "c",
+        "text": "went",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose grammatically correct sentence:",
+    "options": [
+      {
+        "label": "a",
+        "text": "We won’t know how to do after we get the results",
+        "is_correct": false
+      },
+      {
+        "label": "b",
+        "text": "When we get the results we won’t know what to do",
+        "is_correct": false
+      },
+      {
+        "label": "c",
+        "text": "We won’t know what to do until we get the results.",
+        "is_correct": true
+      },
+      {
+        "label": "d",
+        "text": "We wouldn’t know how to do until we get the results.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer for Type 1 Conditional:",
+    "options": [
+      {
+        "label": "a",
+        "text": "If you wouldn’t tell me, I’ll scream!",
+        "is_correct": false
+      },
+      {
+        "label": "b",
+        "text": "If you don’t tell me, I’ll scream!",
+        "is_correct": true
+      },
+      {
+        "label": "c",
+        "text": "If you didn’t tell me, I’ll scream!",
+        "is_correct": false
+      },
+      {
+        "label": "d",
+        "text": "If you won’t tell me, I’d scream!",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer for Type 1 Conditional:",
+    "options": [
+      {
+        "label": "A",
+        "text": "I’ll only tell you, if you can keep a secret.",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "If you can keep a secret, I would tell you.",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "You can’t keep a secret, if I didn’t tell you.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "You wouldn’t keep a secret if I didn’t tell you.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer for Type 2 Conditional:",
+    "options": [
+      {
+        "label": "A",
+        "text": "I didn’t do that if I were you.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "I wouldn’t do that if I were you.",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "I wouldn’t do that if I was you.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "I won’t do that if I was you.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer to complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "doesn’t cost so much as",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "doesn’t cost much as",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "don’t cost so much as",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer to complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "He had repaired his car",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "He had his car repaired",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "He repairs his car",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer to complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "I haven’t been",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "I haven’t gone",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "I didn’t been",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option for Future Tense:",
+    "options": [
+      {
+        "label": "A",
+        "text": "This time tomorrow, I am in Tokyo.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "This time tomorrow, I am being in Tokyo.",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "This time tomorrow, I would be at Tokyo.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "This time tomorrow, I will be in Tokyo.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option to complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "don’t go there.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "not to go there.",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "that he doesn’t go there.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option with the Past Tense:",
+    "options": [
+      {
+        "label": "A",
+        "text": "You didn’t use to smoke, did you?",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "You usen’t to smoke, did you?",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "You aren’t used to smoke, did you?",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "You weren’t used to smoke, are you?",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option:",
+    "options": [
+      {
+        "label": "A",
+        "text": "He told he wasn’t feeling well",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "He said he doesn’t feeling well",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "He said he wasn’t feeling well.",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "He said he didn’t feeling well.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option:",
+    "options": [
+      {
+        "label": "A",
+        "text": "He’s probably lost her number",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "He’s lost her number, probably",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Probably, he lost her number.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "He probably lost her number.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option:",
+    "options": [
+      {
+        "label": "A",
+        "text": "What are you think we would be doing in five years?",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "What do you think you’re doing in five years’ time?",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "What do you think we do in five years’ time?",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "What do you think we’ll be doing in five years’ time?",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct option:",
+    "options": [
+      {
+        "label": "A",
+        "text": "I usually to live in Paris, but now I live in Madrid.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "I used to live in Paris, but now I live in Madrid.",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "I am used to live in Paris, but now I live in Madrid.",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "I was used to live in Paris, but I now living in Madrid.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct type of Conditional to complete the sentence: I wish…",
+    "options": [
+      {
+        "label": "A",
+        "text": "you haven’t said that.",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "you didn’t said that.",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "you hadn’t said that.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "better",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "good",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "best",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "so I forgive",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "for me to forgive",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "that I forgave",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer",
+    "options": [
+      {
+        "label": "A",
+        "text": "travel",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "was travelled",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "was travelling",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "the accident happened",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "did the accident happen",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "happened the accident",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Otherwise",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "On the contrary",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Furthermore",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "used to",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "use",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "would",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "that",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "whom",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "locked",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "had locked",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "locks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Complete the sentence:",
+    "options": [
+      {
+        "label": "A",
+        "text": "he has been to",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "has he been to",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "has he been",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "wouldn't have been",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "hadn't been",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "wouldn't be",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "should",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "must",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "had written",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has written",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "had been writing",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "on the verge",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "about",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "due to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer",
+    "options": [
+      {
+        "label": "A",
+        "text": "preference",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "prefer",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "preferable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the most appropriate answer",
+    "options": [
+      {
+        "label": "A",
+        "text": "herself",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "her",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "her own",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "on account of",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "due",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "because",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "does it mean",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "means",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "it means",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Choose the correct answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "when",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "that",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Complete the question.",
+    "options": [
+      {
+        "label": "A",
+        "text": "had he stolen the bag",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "stolen the bag",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "had stolen the bag",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "prompt": "Complete the question.",
+    "options": [
+      {
+        "label": "A",
+        "text": "he has been writing to",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has he been writing to",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "has been writing to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "DESPITE",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "ALTHOUGH",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "NEVERTHELESS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "balance sheet",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "challenge",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "questionnaire",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose an antonym to the bold word:",
+    "options": [
+      {
+        "label": "A",
+        "text": "authority",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "guaranty",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "insecurity",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the odd word:",
+    "options": [
+      {
+        "label": "A",
+        "text": "eye-catching",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "attractive",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "ugly",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "noticeable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "GLANCED",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "GLIMPSED",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "WATCHED",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "scopes",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "aspects",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "attracts",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CONTROL",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "ORDER",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "CARE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "FICTION",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "DESCRIPTION",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "INVENTION",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the correct answer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "TRIPS",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "JOURNEYS",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "VOYAGES",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "DYE",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "COLOUR",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "PAINT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "APPLICATION",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "DEMAND",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "REQUEST",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose an antonym to the bold word:",
+    "options": [
+      {
+        "label": "A",
+        "text": "strated",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "established",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "stopped",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "BE",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "TAKE",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "HAVE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "up",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "down",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "COOK",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "BOIL",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "BAKE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the correct answer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "TREND",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "FASHION",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "GROWTH",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "UNEMPLOYED",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "REDUNDANT",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "RETIRED",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "PROGRESS",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "INCREASE",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "DEVELOPMENT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CONNECT",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "COMPUTE",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "COMMUTE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "rubbish",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "merchandise",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "demand",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the correct answer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "WAGE",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "MONEY",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "PAYMENT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "GAINING",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "CUTTING",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "TAKING",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "RUNWAY",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "HIGHWAY",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "TERMINAL",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "consistency",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "durability",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "perfection",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "lose",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "prefer",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "satisfy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Which of the following words is a synonym to the bold word:",
+    "options": [
+      {
+        "label": "A",
+        "text": "customers",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "tailors",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "rivals",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A CLOTH",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "A DUSTER",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "A TOWEL",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "PRESCRIPTION",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "BILL",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "RECEIPT",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "WIN",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "BENEFIT",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "GAIN",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Choose the appropriate answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "_x000C_      REQUIREMENTS",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "PROSPECTS",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "EXPECTATIONS",
+        "is_correct": true
+      }
+    ]
+  }
+]

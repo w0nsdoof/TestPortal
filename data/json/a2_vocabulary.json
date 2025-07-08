@@ -1,0 +1,541 @@
+[
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Can I _____ your sweater, please? It’s cold and I have only a T-shirt.",
+    "options": [
+      {"label": "A", "text": "get", "is_correct": false},
+      {"label": "B", "text": "give", "is_correct": false},
+      {"label": "C", "text": "lend", "is_correct": false},
+      {"label": "D", "text": "borrow", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Can you turn __________ the TV? I want to watch the news.",
+    "options": [
+      {"label": "A", "text": "on", "is_correct": true},
+      {"label": "B", "text": "in", "is_correct": false},
+      {"label": "C", "text": "off", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "David __________ me he wanted to get a burger.",
+    "options": [
+      {"label": "A", "text": "told", "is_correct": true},
+      {"label": "B", "text": "said", "is_correct": false},
+      {"label": "C", "text": "replied", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Did you _____ sightseeing in Madrid?",
+    "options": [
+      {"label": "A", "text": "do", "is_correct": false},
+      {"label": "B", "text": "make", "is_correct": false},
+      {"label": "C", "text": "go", "is_correct": true},
+      {"label": "D", "text": "take", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Do you drink _____ of tea with sugar?",
+    "options": [
+      {"label": "A", "text": "much", "is_correct": false},
+      {"label": "B", "text": "a lot", "is_correct": true},
+      {"label": "C", "text": "huge", "is_correct": false},
+      {"label": "D", "text": "many", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Emma has been late today. She ______ the bus.",
+    "options": [
+      {"label": "A", "text": "missed", "is_correct": true},
+      {"label": "B", "text": "lost", "is_correct": false},
+      {"label": "C", "text": "losed", "is_correct": false},
+      {"label": "D", "text": "skipped", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Enter our competition now! You could __________ a great prize.",
+    "options": [
+      {"label": "A", "text": "win", "is_correct": true},
+      {"label": "B", "text": "earn", "is_correct": false},
+      {"label": "C", "text": "make", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Excuse me I _____ if you can help me.",
+    "options": [
+      {"label": "A", "text": "expect", "is_correct": false},
+      {"label": "B", "text": "hope", "is_correct": false},
+      {"label": "C", "text": "believe", "is_correct": false},
+      {"label": "D", "text": "wonder", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "For the whole of next week we are planning to sell our new dictionaries at a special _______",
+    "options": [
+      {"label": "A", "text": "price", "is_correct": true},
+      {"label": "B", "text": "prize", "is_correct": false},
+      {"label": "C", "text": "prise", "is_correct": false},
+      {"label": "D", "text": "praise", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "He ______ his exam because he didn’t study.",
+    "options": [
+      {"label": "A", "text": "failed", "is_correct": true},
+      {"label": "B", "text": "passed", "is_correct": false},
+      {"label": "C", "text": "missed", "is_correct": false},
+      {"label": "D", "text": "fell", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "He __________ on really well with his sister.",
+    "options": [
+      {"label": "A", "text": "does", "is_correct": false},
+      {"label": "B", "text": "gets", "is_correct": true},
+      {"label": "C", "text": "makes", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "He is looking _______ a present to buy his girlfriend.",
+    "options": [
+      {"label": "A", "text": "for", "is_correct": true},
+      {"label": "B", "text": "at", "is_correct": false},
+      {"label": "C", "text": "in", "is_correct": false},
+      {"label": "D", "text": "on", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I always get ______ early in the summer.",
+    "options": [
+      {"label": "A", "text": "up", "is_correct": true},
+      {"label": "B", "text": "over", "is_correct": false},
+      {"label": "C", "text": "thr0ugh", "is_correct": false},
+      {"label": "D", "text": "on", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I am very _____ in old cars.",
+    "options": [
+      {"label": "A", "text": "keen", "is_correct": false},
+      {"label": "B", "text": "interesting", "is_correct": false},
+      {"label": "C", "text": "interested", "is_correct": true},
+      {"label": "D", "text": "fond", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I don’t eat much fruit. I’m not that ______ on it.",
+    "options": [
+      {"label": "A", "text": "crazy", "is_correct": false},
+      {"label": "B", "text": "keen", "is_correct": false},
+      {"label": "C", "text": "fond", "is_correct": true},
+      {"label": "D", "text": "excited", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I don’t like preparing food, but I like ______ in restaurants.",
+    "options": [
+      {"label": "A", "text": "cooking", "is_correct": false},
+      {"label": "B", "text": "eating", "is_correct": true},
+      {"label": "C", "text": "going", "is_correct": false},
+      {"label": "D", "text": "using", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I mostly ______ my friends via email.",
+    "options": [
+      {"label": "A", "text": "get on well with", "is_correct": false},
+      {"label": "B", "text": "have in common", "is_correct": false},
+      {"label": "C", "text": "see each other", "is_correct": false},
+      {"label": "D", "text": "keep in touch", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I often read short articles ______ pets in my favourite magazine.",
+    "options": [
+      {"label": "A", "text": "for", "is_correct": false},
+      {"label": "B", "text": "at", "is_correct": false},
+      {"label": "C", "text": "about", "is_correct": true},
+      {"label": "D", "text": "after", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I only ______ one mistake in last night's test.",
+    "options": [
+      {"label": "A", "text": "made", "is_correct": true},
+      {"label": "B", "text": "done", "is_correct": false},
+      {"label": "C", "text": "did", "is_correct": false},
+      {"label": "D", "text": "make", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I'm sure you're quite ______ but many people disagree with you.",
+    "options": [
+      {"label": "A", "text": "write", "is_correct": false},
+      {"label": "B", "text": "right", "is_correct": true},
+      {"label": "C", "text": "all right", "is_correct": false},
+      {"label": "D", "text": "serious", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "I’m not __________ good at languages. I find them difficult.",
+    "options": [
+      {"label": "A", "text": "bit", "is_correct": false},
+      {"label": "B", "text": "quite", "is_correct": false},
+      {"label": "C", "text": "very", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "If you have a question please feel ______ to ask.",
+    "options": [
+      {"label": "A", "text": "good", "is_correct": false},
+      {"label": "B", "text": "well", "is_correct": false},
+      {"label": "C", "text": "nice", "is_correct": false},
+      {"label": "D", "text": "free", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Is he looking __________ to the party?",
+    "options": [
+      {"label": "A", "text": "after", "is_correct": false},
+      {"label": "B", "text": "for", "is_correct": false},
+      {"label": "C", "text": "forward", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Kate’s really __________. She always gives me presents.",
+    "options": [
+      {"label": "A", "text": "mean", "is_correct": false},
+      {"label": "B", "text": "lazy", "is_correct": false},
+      {"label": "C", "text": "generous", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Last summer we went _______ holiday to Greece.",
+    "options": [
+      {"label": "A", "text": "on", "is_correct": true},
+      {"label": "B", "text": "off", "is_correct": false},
+      {"label": "C", "text": "in", "is_correct": false},
+      {"label": "D", "text": "by", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "My brother is my aunt’s __________.",
+    "options": [
+      {"label": "A", "text": "niece", "is_correct": false},
+      {"label": "B", "text": "grandson", "is_correct": false},
+      {"label": "C", "text": "nephew", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "My sister is very _____. She isn’t good at listening.",
+    "options": [
+      {"label": "A", "text": "shy", "is_correct": false},
+      {"label": "B", "text": "patient", "is_correct": false},
+      {"label": "C", "text": "talkative", "is_correct": true},
+      {"label": "D", "text": "messy", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "My son has posters _________ the walls of his bedroom.",
+    "options": [
+      {"label": "A", "text": "in", "is_correct": false},
+      {"label": "B", "text": "between", "is_correct": false},
+      {"label": "C", "text": "on", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Next time you drink tea with sugar, don't forget to ______ the spoon.",
+    "options": [
+      {"label": "A", "text": "reject", "is_correct": false},
+      {"label": "B", "text": "replace", "is_correct": false},
+      {"label": "C", "text": "repeat", "is_correct": false},
+      {"label": "D", "text": "remove", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Next we'll have the _____news.",
+    "options": [
+      {"label": "A", "text": "latest", "is_correct": true},
+      {"label": "B", "text": "newest", "is_correct": false},
+      {"label": "C", "text": "later", "is_correct": false},
+      {"label": "D", "text": "newer", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Next year I'd like to _____a course in England.",
+    "options": [
+      {"label": "A", "text": "have", "is_correct": false},
+      {"label": "B", "text": "do", "is_correct": true},
+      {"label": "C", "text": "get", "is_correct": false},
+      {"label": "D", "text": "make", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Our new school year starts __________ 5th September.",
+    "options": [
+      {"label": "A", "text": "in", "is_correct": false},
+      {"label": "B", "text": "on", "is_correct": true},
+      {"label": "C", "text": "at", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Please be _______ when you cross this road.",
+    "options": [
+      {"label": "A", "text": "careless", "is_correct": false},
+      {"label": "B", "text": "carefree", "is_correct": false},
+      {"label": "C", "text": "caring", "is_correct": false},
+      {"label": "D", "text": "careful", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Put your lights on. We’re going to drive __________ a tunnel!",
+    "options": [
+      {"label": "A", "text": "through", "is_correct": true},
+      {"label": "B", "text": "under", "is_correct": false},
+      {"label": "C", "text": "across", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "She looks _____ a famous film star.",
+    "options": [
+      {"label": "A", "text": "as", "is_correct": false},
+      {"label": "B", "text": "like", "is_correct": true},
+      {"label": "C", "text": "similar", "is_correct": false},
+      {"label": "D", "text": "same", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Thank you very much indeed, that's very kind ______ you.",
+    "options": [
+      {"label": "A", "text": "from", "is_correct": false},
+      {"label": "B", "text": "for", "is_correct": false},
+      {"label": "C", "text": "of", "is_correct": true},
+      {"label": "D", "text": "it", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "That ______ interesting.",
+    "options": [
+      {"label": "A", "text": "rings", "is_correct": false},
+      {"label": "B", "text": "listens", "is_correct": false},
+      {"label": "C", "text": "hears", "is_correct": false},
+      {"label": "D", "text": "sounds", "is_correct": true}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "The opposite of crowded is __________.",
+    "options": [
+      {"label": "A", "text": "clean", "is_correct": false},
+      {"label": "B", "text": "safe", "is_correct": false},
+      {"label": "C", "text": "empty", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "The teacher asked her students to do their ______.",
+    "options": [
+      {"label": "A", "text": "housework", "is_correct": false},
+      {"label": "B", "text": "homework", "is_correct": true},
+      {"label": "C", "text": "home duty", "is_correct": false},
+      {"label": "D", "text": "house job", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "There’s a big tree ________ of our house.",
+    "options": [
+      {"label": "A", "text": "behind", "is_correct": false},
+      {"label": "B", "text": "in front of", "is_correct": true},
+      {"label": "C", "text": "in the middle", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "There’s a table ________ my desk and the window.",
+    "options": [
+      {"label": "A", "text": "on", "is_correct": false},
+      {"label": "B", "text": "in front", "is_correct": false},
+      {"label": "C", "text": "between", "is_correct": true},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "This is a photo of my family. That’s me _______ the middle.",
+    "options": [
+      {"label": "A", "text": "in", "is_correct": true},
+      {"label": "B", "text": "on", "is_correct": false},
+      {"label": "C", "text": "to", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "This street is ______ at night - you can't hear any traffic.",
+    "options": [
+      {"label": "A", "text": "safe", "is_correct": false},
+      {"label": "B", "text": "quiet", "is_correct": true},
+      {"label": "C", "text": "clean", "is_correct": false},
+      {"label": "D", "text": "noisy", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Those jeans look nice. Would you like to __________ them on?",
+    "options": [
+      {"label": "A", "text": "take", "is_correct": false},
+      {"label": "B", "text": "try", "is_correct": true},
+      {"label": "C", "text": "wear", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "We __________ a really good time at the festival.",
+    "options": [
+      {"label": "A", "text": "spent", "is_correct": false},
+      {"label": "B", "text": "had", "is_correct": true},
+      {"label": "C", "text": "did", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "We haven’t got much money __________ we aren’t going to buy the flat.",
+    "options": [
+      {"label": "A", "text": "because", "is_correct": false},
+      {"label": "B", "text": "so", "is_correct": true},
+      {"label": "C", "text": "although", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "We were ______ during the film. It wasn’t interesting at all.",
+    "options": [
+      {"label": "A", "text": "shocked", "is_correct": false},
+      {"label": "B", "text": "bored", "is_correct": true},
+      {"label": "C", "text": "annoyed", "is_correct": false},
+      {"label": "D", "text": "depressed", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "What exercise do you like doing ______ of all?",
+    "options": [
+      {"label": "A", "text": "next", "is_correct": false},
+      {"label": "B", "text": "best", "is_correct": true},
+      {"label": "C", "text": "after", "is_correct": false},
+      {"label": "D", "text": "before", "is_correct": false}
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "A2",
+    "prompt": "Who’s the man standing _______ you in this photo?",
+    "options": [
+      {"label": "A", "text": "behind", "is_correct": true},
+      {"label": "B", "text": "on the right", "is_correct": false},
+      {"label": "C", "text": "under", "is_correct": false},
+      {"label": "D", "text": "", "is_correct": false}
+    ]
+  }
+] 

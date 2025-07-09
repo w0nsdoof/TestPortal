@@ -1,0 +1,959 @@
+[
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "_____ general, he was a peaceful, loving man.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "an answer __________ the question",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "His is only one voice_______ many, but it will be heard.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": true },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "I think architects are ____ a great extent inspired by their clients.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "It’s a machine ___ making ice-cream",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "Our boss put _____a memo regarding the new rule.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": true },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "The balloon drifted___ the stairs.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "The outcome is no longer   ___ doubt",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be ashamed __________ having failed",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": true },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be capable __________ getting to the top",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be excellent __________ something",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": true },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be experienced __________ writing emails",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be famous __________ breath-taking sights",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be fond __________ romantic films",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": true },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be interested __________ pursuing a career",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be keen __________ going to the cinema",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be respected __________ being an honest politician.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be responsible __________ employing new workers",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be similar __________ mine",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be sorry __________ having done something wrong",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to concentrate __________ something important",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to congratulate him __________ his success",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to cooperate __________ the competitor",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to deal __________ the problem later.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to praise her __________ doing such a good job",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to provide her __________ everything she needs",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to supply the customers __________ the right products",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We also stayed in Japan _______ a while during our trip to China.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We finished the job, but only _______ great difficulty.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We were really surprised _____ what they wrote",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": true },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Choose the appropriate answer",
+      "paragraph": "_____ amazing that we can all be here today.",
+      "options": [
+        { "label": "A", "text": "There is", "is_correct": false },
+        { "label": "B", "text": "There seems", "is_correct": false },
+        { "label": "C", "text": "It seems", "is_correct": true },
+        { "label": "D", "text": "It turns", "is_correct": false }
+      ]
+    },
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ amazing that we can all be here today.",
+        "options": [
+          { "label": "A", "text": "There is", "is_correct": false },
+          { "label": "B", "text": "There seems", "is_correct": false },
+          { "label": "C", "text": "It seems", "is_correct": true },
+          { "label": "D", "text": "It turns", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ forced to do anything. He acted of his own free will.",
+        "options": [
+          { "label": "A", "text": "In no way was he", "is_correct": true },
+          { "label": "B", "text": "No way he was", "is_correct": false },
+          { "label": "C", "text": "In any way he was", "is_correct": false },
+          { "label": "D", "text": "In any way", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ to offend anyone, she said both cakes were equally good.",
+        "options": [
+          { "label": "A", "text": "Not wanting", "is_correct": true },
+          { "label": "B", "text": "As not wanting", "is_correct": false },
+          { "label": "C", "text": "She didn't want", "is_correct": false },
+          { "label": "D", "text": "Because not wanting", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "She was really excited about the race. She _______________ (train) for weeks, and she knew she was ready.",
+        "options": [
+          { "label": "A", "text": "trains", "is_correct": false },
+          { "label": "B", "text": "were training", "is_correct": false },
+          { "label": "C", "text": "had been training", "is_correct": true },
+          { "label": "D", "text": "were trained", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "After breakfast, Tim _______________ (go) down to the garden to get some fresh air.",
+        "options": [
+          { "label": "A", "text": "go", "is_correct": false },
+          { "label": "B", "text": "going", "is_correct": false },
+          { "label": "C", "text": "went", "is_correct": true },
+          { "label": "D", "text": "had gone", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose grammatically correct sentence",
+        "paragraph": "We won’t know what to do until we get the results.",
+        "options": [
+          { "label": "A", "text": "We won’t know how to do after we get the results", "is_correct": false },
+          { "label": "B", "text": "When we get the results we won’t know what to do", "is_correct": false },
+          { "label": "C", "text": "We won’t know what to do until we get the results.", "is_correct": true },
+          { "label": "D", "text": "We wouldn’t know how to do until we get the results.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 1 Conditional",
+        "paragraph": "If you don’t tell me, I’ll scream!",
+        "options": [
+          { "label": "A", "text": "If you wouldn’t tell me, I’ll scream!", "is_correct": false },
+          { "label": "B", "text": "If you don’t tell me, I’ll scream!", "is_correct": true },
+          { "label": "C", "text": "If you didn’t tell me, I’ll scream!", "is_correct": false },
+          { "label": "D", "text": "If you won’t tell me, I’d scream!", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 1 Conditional",
+        "paragraph": "If you can keep a secret, I will tell you.",
+        "options": [
+          { "label": "A", "text": "I’ll only tell you, if you can keep a secret.", "is_correct": true },
+          { "label": "B", "text": "If you can keep a secret, I would tell you.", "is_correct": false },
+          { "label": "C", "text": "You can’t keep a secret, if I didn’t tell you.", "is_correct": false },
+          { "label": "D", "text": "You wouldn’t keep a secret if I didn’t tell you.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 2 Conditional",
+        "paragraph": "I wouldn’t do that if I were you.",
+        "options": [
+          { "label": "A", "text": "I didn’t do that if I were you.", "is_correct": false },
+          { "label": "B", "text": "I wouldn’t do that if I were you.", "is_correct": true },
+          { "label": "C", "text": "I wouldn’t do that if I was you.", "is_correct": false },
+          { "label": "D", "text": "I won’t do that if I was you.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer to complete the sentence",
+        "paragraph": "A motorbike _________________ a car.",
+        "options": [
+          { "label": "A", "text": "doesn’t cost so much as", "is_correct": false },
+          { "label": "B", "text": "doesn’t cost much as", "is_correct": false },
+          { "label": "C", "text": "don’t cost so much as", "is_correct": false },
+          { "label": "D", "text": "doesn’t cost as much as", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer to complete the sentence",
+        "paragraph": "_____________________ after the accident.",
+        "options": [
+          { "label": "A", "text": "He had repaired his car", "is_correct": false },
+          { "label": "B", "text": "He had his car repaired", "is_correct": true },
+          { "label": "C", "text": "He repairs his car", "is_correct": false },
+          { "label": "D", "text": "His car were repaired", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option for Future Tense",
+        "paragraph": "This time tomorrow, I will be in Tokyo.",
+        "options": [
+          { "label": "A", "text": "This time tomorrow, I am in Tokyo.", "is_correct": false },
+          { "label": "B", "text": "This time tomorrow, I am being in Tokyo.", "is_correct": false },
+          { "label": "C", "text": "This time tomorrow, I would be at Tokyo.", "is_correct": false },
+          { "label": "D", "text": "This time tomorrow, I will be in Tokyo.", "is_correct": true }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option to complete the sentence",
+        "paragraph": "I told him …",
+        "options": [
+          { "label": "A", "text": "don’t go there.", "is_correct": false },
+          { "label": "B", "text": "not to go there.", "is_correct": true },
+          { "label": "C", "text": "that he doesn’t go there.", "is_correct": false },
+          { "label": "D", "text": "he wouldn’t go there", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option with the Past Tense",
+        "paragraph": "You didn’t use to smoke, did you?",
+        "options": [
+          { "label": "A", "text": "You didn’t use to smoke, did you?", "is_correct": true },
+          { "label": "B", "text": "You usen’t to smoke, did you?", "is_correct": false },
+          { "label": "C", "text": "You aren’t used to smoke, did you?", "is_correct": false },
+          { "label": "D", "text": "You weren’t used to smoke, are you?", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "He said he wasn’t feeling well.",
+        "options": [
+          { "label": "A", "text": "He told he wasn’t feeling well", "is_correct": false },
+          { "label": "B", "text": "He said he doesn’t feeling well", "is_correct": false },
+          { "label": "C", "text": "He said he wasn’t feeling well.", "is_correct": true },
+          { "label": "D", "text": "He said he didn’t feeling well.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "He’s probably lost her number.",
+        "options": [
+          { "label": "A", "text": "He’s probably lost her number", "is_correct": true },
+          { "label": "B", "text": "He’s lost her number, probably", "is_correct": false },
+          { "label": "C", "text": "Probably, he lost her number.", "is_correct": false },
+          { "label": "D", "text": "He probably lost her number.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "What do you think we’ll be doing in five years’ time?",
+        "options": [
+          { "label": "A", "text": "What are you think we would be doing in five years?", "is_correct": false },
+          { "label": "B", "text": "What do you think you’re doing in five years’ time?", "is_correct": false },
+          { "label": "C", "text": "What do you think we do in five years’ time?", "is_correct": false },
+          { "label": "D", "text": "What do you think we’ll be doing in five years’ time?", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "I used to live in Paris, but now I live in Madrid.",
+        "options": [
+          { "label": "A", "text": "I usually to live in Paris, but now I live in Madrid.", "is_correct": false },
+          { "label": "B", "text": "I used to live in Paris, but now I live in Madrid.", "is_correct": true },
+          { "label": "C", "text": "I am used to live in Paris, but now I live in Madrid.", "is_correct": false },
+          { "label": "D", "text": "I was used to live in Paris, but I now living in Madrid.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct type of Conditional to complete the sentence: I wish…",
+        "paragraph": "I wish…",
+        "options": [
+          { "label": "A", "text": "you haven’t said that.", "is_correct": false },
+          { "label": "B", "text": "you didn’t said that.", "is_correct": false },
+          { "label": "C", "text": "you hadn’t said that.", "is_correct": true },
+          { "label": "D", "text": "you weren’t saying that.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Congratulations on your latest test results. You did much ____ than you did the previous time.",
+        "options": [
+          { "label": "A", "text": "better", "is_correct": true },
+          { "label": "B", "text": "good", "is_correct": false },
+          { "label": "C", "text": "best", "is_correct": false }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "His apology wasn't enough _____ him.",
+        "options": [
+          { "label": "A", "text": "so I forgive", "is_correct": false },
+          { "label": "B", "text": "for me to forgive", "is_correct": true },
+          { "label": "C", "text": "that I forgave", "is_correct": false },
+          { "label": "D", "text": "for me forgiving", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "I _______________ (travel) in Italy when I first met her.",
+        "options": [
+          { "label": "A", "text": "travel", "is_correct": false },
+          { "label": "B", "text": "was travelled", "is_correct": false },
+          { "label": "C", "text": "was travelling", "is_correct": true },
+          { "label": "D", "text": "had travelled", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the sentence",
+        "paragraph": "I don’t know why ______.",
+        "options": [
+          { "label": "A", "text": "the accident happened", "is_correct": true },
+          { "label": "B", "text": "did the accident happen", "is_correct": false },
+          { "label": "C", "text": "happened the accident", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I recommend getting there with plenty of time. _____, we might not get good seats.",
+        "options": [
+          { "label": "A", "text": "Otherwise", "is_correct": true },
+          { "label": "B", "text": "On the contrary", "is_correct": false },
+          { "label": "C", "text": "Furthermore", "is_correct": false },
+          { "label": "D", "text": "On the other hand", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I think people nowadays are a lot more technically-minded than they _______ be.",
+        "options": [
+          { "label": "A", "text": "used to", "is_correct": true },
+          { "label": "B", "text": "use", "is_correct": false },
+          { "label": "C", "text": "would", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I told her I admire everything _____ she's been doing.",
+        "options": [
+          { "label": "A", "text": "that", "is_correct": true },
+          { "label": "B", "text": "what", "is_correct": false },
+          { "label": "C", "text": "whom", "is_correct": false },
+          { "label": "D", "text": "who", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I tried to open the door but someone _______________ (lock) it from the inside.",
+        "options": [
+          { "label": "A", "text": "locked", "is_correct": false },
+          { "label": "B", "text": "had locked", "is_correct": true },
+          { "label": "C", "text": "locks", "is_correct": false },
+          { "label": "D", "text": "lock", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the sentence",
+        "paragraph": "I’m wondering what country ______.",
+        "options": [
+          { "label": "A", "text": "he has been to", "is_correct": true },
+          { "label": "B", "text": "has he been to", "is_correct": false },
+          { "label": "C", "text": "has he been", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "If we had planned this better, we ______ in so much trouble now.",
+        "options": [
+          { "label": "A", "text": "wouldn't have been", "is_correct": false },
+          { "label": "B", "text": "hadn't been", "is_correct": false },
+          { "label": "C", "text": "wouldn't be", "is_correct": true },
+          { "label": "D", "text": "weren't", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "If you like modern art, you ______ really visit the new exhibition at the museum.",
+        "options": [
+          { "label": "A", "text": "should", "is_correct": true },
+          { "label": "B", "text": "must", "is_correct": false },
+          { "label": "C", "text": "can", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Last year, when I last met her, she told me she _____ a letter every day for the last two months.",
+        "options": [
+          { "label": "A", "text": "had written", "is_correct": false },
+          { "label": "B", "text": "has written", "is_correct": false },
+          { "label": "C", "text": "had been writing", "is_correct": true },
+          { "label": "D", "text": "wrote", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Massachusetts is _____ of becoming the first state to put a tax on carbon",
+        "options": [
+          { "label": "A", "text": "on the verge", "is_correct": true },
+          { "label": "B", "text": "about", "is_correct": false },
+          { "label": "C", "text": "due to", "is_correct": false },
+          { "label": "D", "text": "bound", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "Please, list the quality of the product in order of __________.",
+        "options": [
+          { "label": "A", "text": "preference", "is_correct": true },
+          { "label": "B", "text": "prefer", "is_correct": false },
+          { "label": "C", "text": "preferable", "is_correct": false },
+          { "label": "D", "text": "preferentiality", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the most appropriate answer",
+        "paragraph": "She was working on her computer with her baby next to _____.",
+        "options": [
+          { "label": "A", "text": "herself", "is_correct": false },
+          { "label": "B", "text": "her", "is_correct": true },
+          { "label": "C", "text": "her own", "is_correct": false },
+          { "label": "D", "text": "hers", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "They didn't reach an agreement ______ their differences.",
+        "options": [
+          { "label": "A", "text": "on account of", "is_correct": true },
+          { "label": "B", "text": "due", "is_correct": false },
+          { "label": "C", "text": "because", "is_correct": false },
+          { "label": "D", "text": "owing", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "This word means something. What____?",
+        "options": [
+          { "label": "A", "text": "does it mean", "is_correct": true },
+          { "label": "B", "text": "means", "is_correct": false },
+          { "label": "C", "text": "it means", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "We had such a great week _____ we went walking in the mountains.",
+        "options": [
+          { "label": "A", "text": "when", "is_correct": false },
+          { "label": "B", "text": "where", "is_correct": false },
+          { "label": "C", "text": "that", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the question",
+        "paragraph": "When we arrived, somebody had stolen the bag. Who ______?",
+        "options": [
+          { "label": "A", "text": "had he stolen the bag", "is_correct": false },
+          { "label": "B", "text": "stolen the bag", "is_correct": false },
+          { "label": "C", "text": "had stolen the bag", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the question",
+        "paragraph": "Who ______?",
+        "options": [
+          { "label": "A", "text": "he has been writing to", "is_correct": false },
+          { "label": "B", "text": "has he been writing to", "is_correct": true },
+          { "label": "C", "text": "has been writing to", "is_correct": false }
+        ]
+      }
+    ]      
+  ] 

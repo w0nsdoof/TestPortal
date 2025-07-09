@@ -1,0 +1,2042 @@
+[
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "_____ general, he was a peaceful, loving man.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "an answer __________ the question",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "His is only one voice_______ many, but it will be heard.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": true },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "I think architects are ____ a great extent inspired by their clients.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "It’s a machine ___ making ice-cream",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "Our boss put _____a memo regarding the new rule.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": true },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "The balloon drifted___ the stairs.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "The outcome is no longer   ___ doubt",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be ashamed __________ having failed",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": true },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be capable __________ getting to the top",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be excellent __________ something",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": true },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be experienced __________ writing emails",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be famous __________ breath-taking sights",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be fond __________ romantic films",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": true },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be interested __________ pursuing a career",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": true },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be keen __________ going to the cinema",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be respected __________ being an honest politician.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be responsible __________ employing new workers",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be similar __________ mine",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": true },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to be sorry __________ having done something wrong",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to concentrate __________ something important",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to congratulate him __________ his success",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": true },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to cooperate __________ the competitor",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to deal __________ the problem later.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to praise her __________ doing such a good job",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to provide her __________ everything she needs",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the phrase with the correct preposition",
+      "paragraph": "to supply the customers __________ the right products",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We also stayed in Japan _______ a while during our trip to China.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": true },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We finished the job, but only _______ great difficulty.",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": false },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": true },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct preposition",
+      "paragraph": "We were really surprised _____ what they wrote",
+      "options": [
+        { "label": "A", "text": "AT", "is_correct": true },
+        { "label": "B", "text": "FOR", "is_correct": false },
+        { "label": "C", "text": "IN", "is_correct": false },
+        { "label": "D", "text": "OF", "is_correct": false },
+        { "label": "E", "text": "ON", "is_correct": false },
+        { "label": "F", "text": "TO", "is_correct": false },
+        { "label": "G", "text": "WITH", "is_correct": false },
+        { "label": "H", "text": "AMONG", "is_correct": false },
+        { "label": "I", "text": "OUT", "is_correct": false },
+        { "label": "J", "text": "UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B2",
+      "prompt": "Choose the appropriate answer",
+      "paragraph": "_____ amazing that we can all be here today.",
+      "options": [
+        { "label": "A", "text": "There is", "is_correct": false },
+        { "label": "B", "text": "There seems", "is_correct": false },
+        { "label": "C", "text": "It seems", "is_correct": true },
+        { "label": "D", "text": "It turns", "is_correct": false }
+      ]
+    },
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ amazing that we can all be here today.",
+        "options": [
+          { "label": "A", "text": "There is", "is_correct": false },
+          { "label": "B", "text": "There seems", "is_correct": false },
+          { "label": "C", "text": "It seems", "is_correct": true },
+          { "label": "D", "text": "It turns", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ forced to do anything. He acted of his own free will.",
+        "options": [
+          { "label": "A", "text": "In no way was he", "is_correct": true },
+          { "label": "B", "text": "No way he was", "is_correct": false },
+          { "label": "C", "text": "In any way he was", "is_correct": false },
+          { "label": "D", "text": "In any way", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "_____ to offend anyone, she said both cakes were equally good.",
+        "options": [
+          { "label": "A", "text": "Not wanting", "is_correct": true },
+          { "label": "B", "text": "As not wanting", "is_correct": false },
+          { "label": "C", "text": "She didn't want", "is_correct": false },
+          { "label": "D", "text": "Because not wanting", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "She was really excited about the race. She _______________ (train) for weeks, and she knew she was ready.",
+        "options": [
+          { "label": "A", "text": "trains", "is_correct": false },
+          { "label": "B", "text": "were training", "is_correct": false },
+          { "label": "C", "text": "had been training", "is_correct": true },
+          { "label": "D", "text": "were trained", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "After breakfast, Tim _______________ (go) down to the garden to get some fresh air.",
+        "options": [
+          { "label": "A", "text": "go", "is_correct": false },
+          { "label": "B", "text": "going", "is_correct": false },
+          { "label": "C", "text": "went", "is_correct": true },
+          { "label": "D", "text": "had gone", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose grammatically correct sentence",
+        "paragraph": "We won’t know what to do until we get the results.",
+        "options": [
+          { "label": "A", "text": "We won’t know how to do after we get the results", "is_correct": false },
+          { "label": "B", "text": "When we get the results we won’t know what to do", "is_correct": false },
+          { "label": "C", "text": "We won’t know what to do until we get the results.", "is_correct": true },
+          { "label": "D", "text": "We wouldn’t know how to do until we get the results.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 1 Conditional",
+        "paragraph": "If you don’t tell me, I’ll scream!",
+        "options": [
+          { "label": "A", "text": "If you wouldn’t tell me, I’ll scream!", "is_correct": false },
+          { "label": "B", "text": "If you don’t tell me, I’ll scream!", "is_correct": true },
+          { "label": "C", "text": "If you didn’t tell me, I’ll scream!", "is_correct": false },
+          { "label": "D", "text": "If you won’t tell me, I’d scream!", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 1 Conditional",
+        "paragraph": "If you can keep a secret, I will tell you.",
+        "options": [
+          { "label": "A", "text": "I’ll only tell you, if you can keep a secret.", "is_correct": true },
+          { "label": "B", "text": "If you can keep a secret, I would tell you.", "is_correct": false },
+          { "label": "C", "text": "You can’t keep a secret, if I didn’t tell you.", "is_correct": false },
+          { "label": "D", "text": "You wouldn’t keep a secret if I didn’t tell you.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer for Type 2 Conditional",
+        "paragraph": "I wouldn’t do that if I were you.",
+        "options": [
+          { "label": "A", "text": "I didn’t do that if I were you.", "is_correct": false },
+          { "label": "B", "text": "I wouldn’t do that if I were you.", "is_correct": true },
+          { "label": "C", "text": "I wouldn’t do that if I was you.", "is_correct": false },
+          { "label": "D", "text": "I won’t do that if I was you.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer to complete the sentence",
+        "paragraph": "A motorbike _________________ a car.",
+        "options": [
+          { "label": "A", "text": "doesn’t cost so much as", "is_correct": false },
+          { "label": "B", "text": "doesn’t cost much as", "is_correct": false },
+          { "label": "C", "text": "don’t cost so much as", "is_correct": false },
+          { "label": "D", "text": "doesn’t cost as much as", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer to complete the sentence",
+        "paragraph": "_____________________ after the accident.",
+        "options": [
+          { "label": "A", "text": "He had repaired his car", "is_correct": false },
+          { "label": "B", "text": "He had his car repaired", "is_correct": true },
+          { "label": "C", "text": "He repairs his car", "is_correct": false },
+          { "label": "D", "text": "His car were repaired", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option for Future Tense",
+        "paragraph": "This time tomorrow, I will be in Tokyo.",
+        "options": [
+          { "label": "A", "text": "This time tomorrow, I am in Tokyo.", "is_correct": false },
+          { "label": "B", "text": "This time tomorrow, I am being in Tokyo.", "is_correct": false },
+          { "label": "C", "text": "This time tomorrow, I would be at Tokyo.", "is_correct": false },
+          { "label": "D", "text": "This time tomorrow, I will be in Tokyo.", "is_correct": true }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option to complete the sentence",
+        "paragraph": "I told him …",
+        "options": [
+          { "label": "A", "text": "don’t go there.", "is_correct": false },
+          { "label": "B", "text": "not to go there.", "is_correct": true },
+          { "label": "C", "text": "that he doesn’t go there.", "is_correct": false },
+          { "label": "D", "text": "he wouldn’t go there", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option with the Past Tense",
+        "paragraph": "You didn’t use to smoke, did you?",
+        "options": [
+          { "label": "A", "text": "You didn’t use to smoke, did you?", "is_correct": true },
+          { "label": "B", "text": "You usen’t to smoke, did you?", "is_correct": false },
+          { "label": "C", "text": "You aren’t used to smoke, did you?", "is_correct": false },
+          { "label": "D", "text": "You weren’t used to smoke, are you?", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "He said he wasn’t feeling well.",
+        "options": [
+          { "label": "A", "text": "He told he wasn’t feeling well", "is_correct": false },
+          { "label": "B", "text": "He said he doesn’t feeling well", "is_correct": false },
+          { "label": "C", "text": "He said he wasn’t feeling well.", "is_correct": true },
+          { "label": "D", "text": "He said he didn’t feeling well.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "He’s probably lost her number.",
+        "options": [
+          { "label": "A", "text": "He’s probably lost her number", "is_correct": true },
+          { "label": "B", "text": "He’s lost her number, probably", "is_correct": false },
+          { "label": "C", "text": "Probably, he lost her number.", "is_correct": false },
+          { "label": "D", "text": "He probably lost her number.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "What do you think we’ll be doing in five years’ time?",
+        "options": [
+          { "label": "A", "text": "What are you think we would be doing in five years?", "is_correct": false },
+          { "label": "B", "text": "What do you think you’re doing in five years’ time?", "is_correct": false },
+          { "label": "C", "text": "What do you think we do in five years’ time?", "is_correct": false },
+          { "label": "D", "text": "What do you think we’ll be doing in five years’ time?", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct option",
+        "paragraph": "I used to live in Paris, but now I live in Madrid.",
+        "options": [
+          { "label": "A", "text": "I usually to live in Paris, but now I live in Madrid.", "is_correct": false },
+          { "label": "B", "text": "I used to live in Paris, but now I live in Madrid.", "is_correct": true },
+          { "label": "C", "text": "I am used to live in Paris, but now I live in Madrid.", "is_correct": false },
+          { "label": "D", "text": "I was used to live in Paris, but I now living in Madrid.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct type of Conditional to complete the sentence: I wish…",
+        "paragraph": "I wish…",
+        "options": [
+          { "label": "A", "text": "you haven’t said that.", "is_correct": false },
+          { "label": "B", "text": "you didn’t said that.", "is_correct": false },
+          { "label": "C", "text": "you hadn’t said that.", "is_correct": true },
+          { "label": "D", "text": "you weren’t saying that.", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Congratulations on your latest test results. You did much ____ than you did the previous time.",
+        "options": [
+          { "label": "A", "text": "better", "is_correct": true },
+          { "label": "B", "text": "good", "is_correct": false },
+          { "label": "C", "text": "best", "is_correct": false }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "His apology wasn't enough _____ him.",
+        "options": [
+          { "label": "A", "text": "so I forgive", "is_correct": false },
+          { "label": "B", "text": "for me to forgive", "is_correct": true },
+          { "label": "C", "text": "that I forgave", "is_correct": false },
+          { "label": "D", "text": "for me forgiving", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "I _______________ (travel) in Italy when I first met her.",
+        "options": [
+          { "label": "A", "text": "travel", "is_correct": false },
+          { "label": "B", "text": "was travelled", "is_correct": false },
+          { "label": "C", "text": "was travelling", "is_correct": true },
+          { "label": "D", "text": "had travelled", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the sentence",
+        "paragraph": "I don’t know why ______.",
+        "options": [
+          { "label": "A", "text": "the accident happened", "is_correct": true },
+          { "label": "B", "text": "did the accident happen", "is_correct": false },
+          { "label": "C", "text": "happened the accident", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I recommend getting there with plenty of time. _____, we might not get good seats.",
+        "options": [
+          { "label": "A", "text": "Otherwise", "is_correct": true },
+          { "label": "B", "text": "On the contrary", "is_correct": false },
+          { "label": "C", "text": "Furthermore", "is_correct": false },
+          { "label": "D", "text": "On the other hand", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I think people nowadays are a lot more technically-minded than they _______ be.",
+        "options": [
+          { "label": "A", "text": "used to", "is_correct": true },
+          { "label": "B", "text": "use", "is_correct": false },
+          { "label": "C", "text": "would", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I told her I admire everything _____ she's been doing.",
+        "options": [
+          { "label": "A", "text": "that", "is_correct": true },
+          { "label": "B", "text": "what", "is_correct": false },
+          { "label": "C", "text": "whom", "is_correct": false },
+          { "label": "D", "text": "who", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "I tried to open the door but someone _______________ (lock) it from the inside.",
+        "options": [
+          { "label": "A", "text": "locked", "is_correct": false },
+          { "label": "B", "text": "had locked", "is_correct": true },
+          { "label": "C", "text": "locks", "is_correct": false },
+          { "label": "D", "text": "lock", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the sentence",
+        "paragraph": "I’m wondering what country ______.",
+        "options": [
+          { "label": "A", "text": "he has been to", "is_correct": true },
+          { "label": "B", "text": "has he been to", "is_correct": false },
+          { "label": "C", "text": "has he been", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "If we had planned this better, we ______ in so much trouble now.",
+        "options": [
+          { "label": "A", "text": "wouldn't have been", "is_correct": false },
+          { "label": "B", "text": "hadn't been", "is_correct": false },
+          { "label": "C", "text": "wouldn't be", "is_correct": true },
+          { "label": "D", "text": "weren't", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "If you like modern art, you ______ really visit the new exhibition at the museum.",
+        "options": [
+          { "label": "A", "text": "should", "is_correct": true },
+          { "label": "B", "text": "must", "is_correct": false },
+          { "label": "C", "text": "can", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Last year, when I last met her, she told me she _____ a letter every day for the last two months.",
+        "options": [
+          { "label": "A", "text": "had written", "is_correct": false },
+          { "label": "B", "text": "has written", "is_correct": false },
+          { "label": "C", "text": "had been writing", "is_correct": true },
+          { "label": "D", "text": "wrote", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "Massachusetts is _____ of becoming the first state to put a tax on carbon",
+        "options": [
+          { "label": "A", "text": "on the verge", "is_correct": true },
+          { "label": "B", "text": "about", "is_correct": false },
+          { "label": "C", "text": "due to", "is_correct": false },
+          { "label": "D", "text": "bound", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "Please, list the quality of the product in order of __________.",
+        "options": [
+          { "label": "A", "text": "preference", "is_correct": true },
+          { "label": "B", "text": "prefer", "is_correct": false },
+          { "label": "C", "text": "preferable", "is_correct": false },
+          { "label": "D", "text": "preferentiality", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the most appropriate answer",
+        "paragraph": "She was working on her computer with her baby next to _____.",
+        "options": [
+          { "label": "A", "text": "herself", "is_correct": false },
+          { "label": "B", "text": "her", "is_correct": true },
+          { "label": "C", "text": "her own", "is_correct": false },
+          { "label": "D", "text": "hers", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "They didn't reach an agreement ______ their differences.",
+        "options": [
+          { "label": "A", "text": "on account of", "is_correct": true },
+          { "label": "B", "text": "due", "is_correct": false },
+          { "label": "C", "text": "because", "is_correct": false },
+          { "label": "D", "text": "owing", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the appropriate answer",
+        "paragraph": "This word means something. What____?",
+        "options": [
+          { "label": "A", "text": "does it mean", "is_correct": true },
+          { "label": "B", "text": "means", "is_correct": false },
+          { "label": "C", "text": "it means", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Choose the correct answer",
+        "paragraph": "We had such a great week _____ we went walking in the mountains.",
+        "options": [
+          { "label": "A", "text": "when", "is_correct": false },
+          { "label": "B", "text": "where", "is_correct": false },
+          { "label": "C", "text": "that", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the question",
+        "paragraph": "When we arrived, somebody had stolen the bag. Who ______?",
+        "options": [
+          { "label": "A", "text": "had he stolen the bag", "is_correct": false },
+          { "label": "B", "text": "stolen the bag", "is_correct": false },
+          { "label": "C", "text": "had stolen the bag", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Grammar",
+        "level": "B2",
+        "prompt": "Complete the question",
+        "paragraph": "Who ______?",
+        "options": [
+          { "label": "A", "text": "he has been writing to", "is_correct": false },
+          { "label": "B", "text": "has he been writing to", "is_correct": true },
+          { "label": "C", "text": "has been writing to", "is_correct": false }
+        ]
+      }
+    ],
+    {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Of all the countries in the world it is those in Africa___.",
+        "paragraph": "Looking ahead from the present position where food production has kept ahead of population growth globally, but has fallen per capita in 55 (mainly African) countries, it would seem that these trends will continue. About 30 countries - most of them African - can expect serious problems unless they reduce population growth and give higher priority to agriculture and conservation. Though a warmer, wetter earth with high CO2 levels is likely to be capable of producing more food, the amounts will still be inadequate for many poorer countries. In many cases, the population projections are greater than the entire local land resources can support.",
+        "options": [
+          { "label": "A", "text": "which have taken the most drastic measures to prevent population growth", "is_correct": false },
+          { "label": "B", "text": "that are most threatened by food shortages", "is_correct": true },
+          { "label": "C", "text": "which are environmentally most at a disadvantage", "is_correct": false },
+          { "label": "D", "text": "that are most conscious of the need to preserve the environment", "is_correct": false },
+          { "label": "E", "text": "in which poverty has been greatly reduced through agricultural development", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The first stated goal of the UN was ___",
+        "paragraph": "In one very long sentence, the introduction to the UN Charter expresses the ideals and the common goals of all the peoples whose governments joined together to form the UN. We the peoples of the UN determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold suffering to mankind, and to reaffirm faith in fundamental rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, and for these ends, to practise tolerance and live together in peace with one another as good neighbours, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of economic and social advancement of all peoples, have resolved to combine our efforts to accomplish these aims.",
+        "options": [
+          { "label": "A", "text": "to supervise peace treaties", "is_correct": false },
+          { "label": "B", "text": "to establish 'The United Nations'", "is_correct": false },
+          { "label": "C", "text": "to assist the 'third world' countries", "is_correct": false },
+          { "label": "D", "text": "to prevent a third world war", "is_correct": true },
+          { "label": "E", "text": "to create a situation which supports justice and the fulfilment of international agreements", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Under its Charter, the UN guarantees ___________",
+        "paragraph": "In one very long sentence, the introduction to the UN Charter expresses the ideals and the common goals of all the peoples whose governments joined together to form the UN. We the peoples of the UN determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold suffering to mankind, and to reaffirm faith in fundamental rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, and for these ends, to practise tolerance and live together in peace with one another as good neighbours, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of economic and social advancement of all peoples, have resolved to combine our efforts to accomplish these aim.",
+        "options": [
+          { "label": "A", "text": "to support economic and social advancement", "is_correct": false },
+          { "label": "B", "text": "never to use arms", "is_correct": false },
+          { "label": "C", "text": "better standards of housing", "is_correct": false },
+          { "label": "D", "text": "better education", "is_correct": false },
+          { "label": "E", "text": "the human rights", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Succeeding (line 3) means ___",
+        "paragraph": "In one very long sentence, the introduction to the UN Charter expresses the ideals and the common goals of all the peoples whose governments joined together to form the UN. We the peoples of the UN determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold suffering to mankind, and to reaffirm faith in fundamental rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, and for these ends, to practise tolerance and live together in peace with one another as good neighbours, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of economic and social advancement of all peoples, have resolved to combine our efforts to accomplish these aims.",
+        "options": [
+          { "label": "A", "text": "struggling", "is_correct": false },
+          { "label": "B", "text": "concentration", "is_correct": false },
+          { "label": "C", "text": "shared", "is_correct": false },
+          { "label": "D", "text": "following", "is_correct": true },
+          { "label": "E", "text": "successful", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In medieval England .....",
+        "paragraph": "A society like that of medieval England would nowadays be classified and described as 'pre-industrial'. Its income came mostly from agriculture and by far the largest proportion of its people was engaged in growing food. The numbers occupied in trade and industry formed a comparatively small proportion of the total; and even those so occupied often combined their industrial and commercial occupations with some agricultural pursuits that does not, however, mean that industrial and commercial activities were altogether insignificant and played little part in shaping the economic geography of the country or in directing the way of its economic development.",
+        "options": [
+          { "label": "A", "text": "agriculture brought as high an income as industry", "is_correct": false },
+          { "label": "B", "text": "trade and industry were wholly unimportant", "is_correct": false },
+          { "label": "C", "text": "economic development depended on commerce", "is_correct": false },
+          { "label": "D", "text": "people made their living by working in factories", "is_correct": false },
+          { "label": "E", "text": "more people were engaged in agriculture than in industry", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In the passage, the author emphasizes the _______________.",
+        "paragraph": "A society like that of medieval England would nowadays be classified and described as 'pre-industrial'. Its income came mostly from agriculture and by far the largest proportion of its people was engaged in growing food. The numbers occupied in trade and industry formed a comparatively small proportion of the total; and even those so occupied often combined their industrial and commercial occupations with some agricultural pursuits that does not, however, mean that industrial and commercial activities were altogether insignificant and played little part in shaping the economic geography of the country or in directing the way of its economic development.",
+        "options": [
+          { "label": "A", "text": "increase in industrial activity in medieval England", "is_correct": true },
+          { "label": "B", "text": "relative significance of agriculture over industry", "is_correct": false },
+          { "label": "C", "text": "difficulty of growing food in the Middle Ages", "is_correct": false },
+          { "label": "D", "text": "role of industry in the development of agriculture", "is_correct": false },
+          { "label": "E", "text": "dependence of England on commerce for growth", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "One can say that economic life in medieval England",
+        "paragraph": "A society like that of medieval England would nowadays be classified and described as 'pre-industrial'. Its income came mostly from agriculture and by far the largest proportion of its people was engaged in growing food. The numbers occupied in trade and industry formed a comparatively small proportion of the total; and even those so occupied often combined their industrial and commercial occupations with some agricultural pursuits that does not, however, mean that industrial and commercial activities were altogether insignificant and played little part in shaping the economic geography of the country or in directing the way of its economic development.",
+        "options": [
+          { "label": "A", "text": "did not consist entirely of agriculture", "is_correct": true },
+          { "label": "B", "text": "played a significant part in the rise of the middle class", "is_correct": false },
+          { "label": "C", "text": "depended on agricultural activities only", "is_correct": false },
+          { "label": "D", "text": "changed the geography as well as the history of the country", "is_correct": false },
+          { "label": "E", "text": "was already more developed than in any other part of the world", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Good plot and movement ...",
+        "paragraph": "When we go to the theatre we expect to find some excitement on the stage. We also hope not to be bored by a lack of a good plot or movement. We want our play to be somewhat close to real life, with characters whom we can recognize as having a 'psychology' like our own. We want them to entertain us and convey ideas and information which we did not have before.",
+        "options": [
+          { "label": "A", "text": "must not be boring for the audience", "is_correct": false },
+          { "label": "B", "text": "are among the elements we expect to find in a good play", "is_correct": true },
+          { "label": "C", "text": "are the main elements which are not often found in a play", "is_correct": false },
+          { "label": "D", "text": "can easily be found in every play", "is_correct": false },
+          { "label": "E", "text": "do not contribute to the enjoyment of a play", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "To the author, .....",
+        "paragraph": "When we go to the theatre we expect to find some excitement on the stage. We also hope not to be bored by a lack of a good plot or movement. We want our play to be somewhat close to real life, with characters whom we can recognize as having a 'psychology' like our own. We want them to entertain us and convey ideas and information which we did not have before.",
+        "options": [
+          { "label": "A", "text": "we want to interpret the experiences of the players", "is_correct": false },
+          { "label": "B", "text": "everybody shouldn't expect to find himself in a play", "is_correct": false },
+          { "label": "C", "text": "nobody wants to see real life depicted in a play", "is_correct": false },
+          { "label": "D", "text": "characters in a play must relate to real people", "is_correct": true },
+          { "label": "E", "text": "we mustn't be emotionally affected by a play", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In the passage the writer thinks that a play...",
+        "paragraph": "When we go to the theatre we expect to find some excitement on the stage. We also hope not to be bored by a lack of a good plot or movement. We want our play to be somewhat close to real life, with characters whom we can recognize as having a 'psychology' like our own. We want them to entertain us and convey ideas and information which we did not have before.",
+        "options": [
+          { "label": "A", "text": "contains a number of unusual characters", "is_correct": false },
+          { "label": "B", "text": "should appeal to our senses only", "is_correct": false },
+          { "label": "C", "text": "must emphasize psychological rather than social reality", "is_correct": false },
+          { "label": "D", "text": "often has an undesirable effect on the audience", "is_correct": false },
+          { "label": "E", "text": "must offer us new ideas and experiences", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "One can understand from the passage that...",
+        "paragraph": "Researches show that more than three cups of coffee a day can cause unpleasant symptoms such as nervousness, irritability and insomnia. Thus, although many people build up a certain tolerance for the stimulant, experiments indicate that caffeine users take longer to fall asleep than non-users and they also wake up more often. The effects of caffeine are similar in persons of all ages, but certain groups are particularly sensitive to the drug, including the elderly children, pregnant women, and those suffering from heart disease, hypertension, and emotional illness.",
+        "options": [
+          { "label": "A", "text": "children are particularly sensitive to some drugs", "is_correct": false },
+          { "label": "B", "text": "the effects of caffeine are deadly for all age groups", "is_correct": false },
+          { "label": "C", "text": "coffee drinkers must sleep less", "is_correct": false },
+          { "label": "D", "text": "caffeine is the only cause of nervousness", "is_correct": false },
+          { "label": "E", "text": "most people can tolerate a moderate amount of coffee a day", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "It is argued in the passage that __________.",
+        "paragraph": "Looking ahead from the present position where food production has kept ahead of population growth globally, but has fallen per capita in 55 (mainly African) countries, it would seem that these trends will continue. About 30 countries - most of them African - can expect serious problems unless they reduce population growth and give higher priority to agriculture and conservation. Though a warmer, wetter earth with high CO2 levels is likely to be capable of producing more food, the amounts will still be inadequate for many poorer countries. In many cases, the population projections are greater than the entire local land resources can support.",
+        "options": [
+          { "label": "A", "text": "changes in world climate are increasing the problems of food production", "is_correct": true },
+          { "label": "B", "text": "agricultural development will presently put an end to global food shortages", "is_correct": false },
+          { "label": "C", "text": "with the exception of African countries, the global production of food is adequate and likely to continue so", "is_correct": false },
+          { "label": "D", "text": "the conservation of land resources is of minor importance", "is_correct": false },
+          { "label": "E", "text": "every effort must be made to prevent the CO2 level from rising", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The author stresses....",
+        "paragraph": "Researches show that more than three cups of coffee a day can cause unpleasant symptoms such as nervousness, irritability and insomnia. Thus, although many people build up a certain tolerance for the stimulant, experiments indicate that caffeine users take longer to fall asleep than non-users and they also wake up more often. The effects of caffeine are similar in persons of all ages, but certain groups are particularly sensitive to the drug, including the elderly children, pregnant women, and those suffering from heart disease, hypertension, and emotional illness.",
+        "options": [
+          { "label": "A", "text": "how useful coffee is in our everyday life", "is_correct": false },
+          { "label": "B", "text": "over a certain people should be particularly careful about their daily caffeine intake", "is_correct": true },
+          { "label": "C", "text": "the need for many people to watch their health in old age", "is_correct": false },
+          { "label": "D", "text": "how serious some bodily disorders are", "is_correct": false },
+          { "label": "E", "text": "the use of the experiments carried out to determine people's tolerance to various drugs", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The writer....",
+        "paragraph": "The criminal justice system has three differently organized parts: the police, the courts and corrections. Each has separate tasks. But, these parts are by no means independent of each other. The courts must deal with those whom the police arrest; the business of corrections is to reform those delivered to it by the courts. However, it is not certain whether convicts can actually be reformed at all this way.",
+        "options": [
+          { "label": "A", "text": "believes that convicts receive unfair treatment in courts", "is_correct": false },
+          { "label": "B", "text": "does not refer to the organization of the criminal justice system", "is_correct": false },
+          { "label": "C", "text": "emphasizes the responsibility of the police in the prevention of crime", "is_correct": false },
+          { "label": "D", "text": "argues for stronger measures in the criminal justice system", "is_correct": false },
+          { "label": "E", "text": "is doubtful whether the justice system can reform criminals", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The passage is mainly about ....",
+        "paragraph": "The criminal justice system has three differently organized parts: the police, the courts and corrections. Each has separate tasks. But, these parts are by no means independent of each other. The courts must deal with those whom the police arrest; the business of corrections is to reform those delivered to it by the courts. However, it is not certain whether convicts can actually be reformed at all this way.",
+        "options": [
+          { "label": "A", "text": "the co-operation between the police and the courts", "is_correct": false },
+          { "label": "B", "text": "the ways through which convicts are reformed", "is_correct": false },
+          { "label": "C", "text": "the institutional structure and functions of the criminal justice system", "is_correct": true },
+          { "label": "D", "text": "the institutions which are not related to the criminal justice system", "is_correct": false },
+          { "label": "E", "text": "the reforms needed in the criminal justice system", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "It is understood that the parts of the criminal justice system....",
+        "paragraph": "The criminal justice system has three differently organized parts: the police, the courts and corrections. Each has separate tasks. But, these parts are by no means independent of each other. The courts must deal with those whom the police arrest; the business of corrections is to reform those delivered to it by the courts. However, it is not certain whether convicts can actually be reformed at all this way.",
+        "options": [
+          { "label": "A", "text": "have individually specified but interrelated duties", "is_correct": true },
+          { "label": "B", "text": "lay down principles for the arrest of convicts", "is_correct": false },
+          { "label": "C", "text": "do not depend on one another at all", "is_correct": false },
+          { "label": "D", "text": "must sometimes exchange their roles", "is_correct": false },
+          { "label": "E", "text": "are organized to conduct trials", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Title _____________________",
+        "paragraph": "Before starting your job, talk with the hiring manager or human resources professional to make sure you understand what constitutes acceptable outfit for your new workplace. There’s nothing more embarrassing than showing up wearing something that doesn’t fly with your supervisors.",
+        "options": [
+          { "label": "A", "text": "Don’t lose confidence in yourself", "is_correct": false },
+          { "label": "B", "text": "Don’t try to change things", "is_correct": false },
+          { "label": "C", "text": "Don’t dress unprofessionally", "is_correct": true },
+          { "label": "D", "text": "Don’t be afraid to ask for help", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Title____",
+        "paragraph": "Many companies require new employees to go through a training process before starting a new position. While it may be tempting to skip these sessions or treat them lightly, don’t do it. Even if your training managers won’t be your direct supervisors, they are watching you.",
+        "options": [
+          { "label": "A", "text": "Don’t avoid the job orientation", "is_correct": true },
+          { "label": "B", "text": "Don’t be afraid to ask for help", "is_correct": false },
+          { "label": "C", "text": "Don’t lose confidence in yourself", "is_correct": false },
+          { "label": "D", "text": "Don’t take too long before you start work", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Title ____",
+        "paragraph": "No matter where you’re working, there are certain processes, tools, and forms that make up the standard operating procedures of your company. You may have been introduced to these through a very organized, systematic orientation, or you may feel like you’re expected to absorb them by osmosis. If you were formally informed, consider yourself fortunate, if not, don’t feel shortchanged or frustrated. Instead, take initiative and master the basics on your own.",
+        "options": [
+          { "label": "A", "text": "Don’t be afraid to ask for help", "is_correct": false },
+          { "label": "B", "text": "Don’t avoid the job orientation", "is_correct": false },
+          { "label": "C", "text": "Don’t feel disappointed if you are not given total support", "is_correct": true },
+          { "label": "D", "text": "Don’t lose confidence in yourself", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Title ____",
+        "paragraph": "It’s understandable that you may need help or guidance during your first few weeks at a new job, and asking co-workers for assistance or just to answer questions can be perfectly acceptable. But remember, you were hired because managers believed in your ability to get the job done. Ask for help if you need it, but believe in yourself and prove that you can do the work yourself.",
+        "options": [
+          { "label": "A", "text": "Don’t be afraid to ask for help", "is_correct": false },
+          { "label": "B", "text": "Don’t lose confidence in yourself", "is_correct": true },
+          { "label": "C", "text": "Don’t spend time on private matters", "is_correct": false },
+          { "label": "D", "text": "Don’t be dishonest", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Title ____",
+        "paragraph": "Most likely, you and your employer agreed to a certain salary during the hiring process. So don’t change your mind before you even show up at work. Don’t expect more money until you’ve worked long enough to prove your value to the employer.",
+        "options": [
+          { "label": "A", "text": "Don’t lose confidence in yourself", "is_correct": false },
+          { "label": "B", "text": "Don’t show up late", "is_correct": false },
+          { "label": "C", "text": "Don’t demand a higher income", "is_correct": true },
+          { "label": "D", "text": "Don’t feel disappointed if you are not given total support", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "According to the passage, it is anticipated that_________________.",
+        "paragraph": "Looking ahead from the present position where food production has kept ahead of population growth globally, but has fallen per capita in 55 (mainly African) countries, it would seem that these trends will continue. About 30 countries - most of them African - can expect serious problems unless they reduce population growth and give higher priority to agriculture and conservation. Though a warmer, wetter earth with high CO2 levels is likely to be capable of producing more food, the amounts will still be inadequate for many poorer countries. In many cases, the population projections are greater than the entire local land resources can support.",
+        "options": [
+          { "label": "A", "text": "the per capita income in Africa countries will continue to increase", "is_correct": false },
+          { "label": "B", "text": "food production will double in the years ahead", "is_correct": false },
+          { "label": "C", "text": "the present situation concerning population growth and food production will soon improve", "is_correct": false },
+          { "label": "D", "text": "all the African countries will soon solve all their population problems", "is_correct": false },
+          { "label": "E", "text": "unless serious measures are taken, the poor countries of the world will be faced with famine", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Of course you want to make a good impression as soon as you arrive at a new job, and show your new employer they made the right choice in hiring you. However, be cautious of suggesting new policies or strategies during your first few weeks, as it may not be the best way to demonstrate you are a team player. At first, take time to really understand and learn your job, then over time, you can make suggestions and changes as situations arise, and as your input and expertise is called upon.",
+        "paragraph": "Choose from the titles the one that best fits the gap.",
+        "options": [
+          { "label": "A", "text": "Don't lose confidence in yourself", "is_correct": false },
+          { "label": "B", "text": "Don't take too long before you start work", "is_correct": false },
+          { "label": "C", "text": "Don't spend time on private matters", "is_correct": false },
+          { "label": "D", "text": "Don't try to change things", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "If you’ve been listening to the news you already know about our national obesity levels rising by the day. It has never been more important to watch what you are eating and to get an adequate amount of exercise and sleep to keep yourself fit and healthy. Though it may feel like really hard work at first, once you adopt an exercise routine and start __________ , you’ll forget you ever did things differently.",
+        "paragraph": "Choose the phrase which best fits the gap.",
+        "options": [
+          { "label": "A", "text": "to adapt to a new situation", "is_correct": true },
+          { "label": "B", "text": "to reduce your protein intake", "is_correct": false },
+          { "label": "C", "text": "to make further steps towards stopping completely", "is_correct": false },
+          { "label": "D", "text": "to get rid of and eradicate completely from your life", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Look at your diet and what you’re eating now and make changes where you see fit. If you are susceptible to snacking, keep a piece of fruit or a few nuts at hand. The key is to eat small meals throughout the day. Reduce portion sizes, take out white bread and replace with whole grains and make sure each meal contains at least one portion of fruit and – or vegetables. Healthy food doesn’t have __________ , and you can get an abundance of low priced fruit and veggies, like apples, bananas, potatoes and peas.",
+        "paragraph": "Choose the phrase which best fits the gap.",
+        "options": [
+          { "label": "A", "text": "to be expensive in the least bit", "is_correct": true },
+          { "label": "B", "text": "to maintain good health and keep fit", "is_correct": false },
+          { "label": "C", "text": "to get a full eight hours every night", "is_correct": false },
+          { "label": "D", "text": "to change your sleep patterns", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "We all should be doing at least 30 minutes of exercise, 3 to 4 or more times a week, ________. This can be pretty much anything that is physical, like walking, cycling, running, swimming to weightlifting, etc. This too does not have to be expensive, and you can get a great work out without joining any costly gyms. Most of these exercises are inexpensive, and just doing a cardiovascular exercise, like walking, jogging, or walking on a treadmill a few times a week will do your body (and heart) good.",
+        "paragraph": "Choose the phrase which best fits the gap.",
+        "options": [
+          { "label": "A", "text": "to maintain good health and keep fit", "is_correct": true },
+          { "label": "B", "text": "to be expensive in the least bit", "is_correct": false },
+          { "label": "C", "text": "to adapt to a new situation", "is_correct": false },
+          { "label": "D", "text": "to get a full eight hours every night", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Emmanuel Mutai broke the record for the fastest running time for the London marathon.",
+        "paragraph": "Read an article “London Marathon Runners” and choose the correct answer",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": true },
+          { "label": "B", "text": "False", "is_correct": false },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The female winner finished the race before the male winner.",
+        "paragraph": "Read an article “London Marathon Runners” and choose the correct answer",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": false },
+          { "label": "B", "text": "False", "is_correct": true },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The winner of last year's London Marathon came within the top five.",
+        "paragraph": "Read an article “London Marathon Runners” and choose the correct answer",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": false },
+          { "label": "B", "text": "False", "is_correct": true  },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Two female British athletes have qualified for the Olympics.",
+        "paragraph": "Read an article “London Marathon Runners” and choose the correct answer",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": true },
+          { "label": "B", "text": "False", "is_correct": false },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Meg finds it difficult to talk to her sister.",
+        "paragraph": "Read an article “Ask E-tutor” and answer the question",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": true },
+          { "label": "B", "text": "False", "is_correct": false },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "E-tutor thinks Meg’s problem is unusual.",
+        "paragraph": "Read an article “Ask E-tutor” and answer the question",
+        "options": [
+          { "label": "A", "text": "True", "is_correct": false },
+          { "label": "B", "text": "False", "is_correct": true },
+          { "label": "C", "text": "Not given", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "As can be inferred from the passage, psychology __.",
+        "paragraph": "Psychology is literally the study of the mind (or soul) but its area has broadened somewhat in the last century as we have learned that one cannot consider the mind as totally isolated from the body, and it now includes the study of human personality and behaviour. Psychologists also study the behaviour and brain of animals whenever such studies throw light on human behaviour. It is important to realize that psychologists are first and foremost trained as scientists rather than as medical experts and do not necessarily take much interest in abnormalities of the brain and mental process.",
+        "options": [
+          { "label": "A", "text": "has in time developed as a branch of medicine", "is_correct": false },
+          { "label": "B", "text": "has always been confined to the study of the mind", "is_correct": false },
+          { "label": "C", "text": "primarily concentrates on the study of animal behaviour", "is_correct": false },
+          { "label": "D", "text": "mostly deals with mental abnormalities", "is_correct": false },
+          { "label": "E", "text": "is not concerned with the mind alone, but also with human-personality and behaviour", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "According to the passage, the main idea of London’s story is that .............. .",
+        "paragraph": "In The Call of the Wild, Jack London tells the story of a dog named Buck, which is kidnapped from the safety of his California home and turned by the brutality of humans into a leader in a sled dog in the Klondike, and finally into a leader of the wolves. Powerfully written and deeply disturbing, the book calls attention to the hidden forces – in both human beings and beasts – that come to the surface in a struggle for survival. London unconsciously shows his sense of identification with nature of the wolf, both as a lone animal and, through strength and cunning, as the leader of the pack.",
+        "options": [
+          { "label": "A", "text": "wild animals will, at all costs, try to return to their own environment", "is_correct": true },
+          { "label": "B", "text": "hidden powers in humans and animals are revealed when they struggle to survive", "is_correct": false },
+          { "label": "C", "text": "human being have treated animals throughout their history", "is_correct": false },
+          { "label": "D", "text": "not only humans but also animals can be kidnapped", "is_correct": false },
+          { "label": "E", "text": "a wolf has to be strong and cunning in order to be the leader of the pack", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "As a result of the expansion of human populations into wildlife habitats, ................ .",
+        "paragraph": "Ecologists have recently discovered dozens of infectious wildlife diseases that pose a significant threat to the conservation of global biodiversity and the health of an expanding human population. For example, a newly discovered fungal disease has been linked to the drastic decline and possible extinction of amphibians in the rain forests of Central America and Australia. Other diseases have led to the extinction of African wild dog populations and blindness of kangaroos in Australia. Since wildlife can act as a natural reservoir for diseases that are extremely virulent among humans, such as influenza and West Nile virus, as the human population expands into wildlife habitat, the conditions ripen for a new disease to emerge. Emerging infectious diseases of wildlife are caused by the spillover of pathogens from domestic animals to wildlife populations, the transport of domestic and wildlife species around the globe, and even climate change in pristine wilderness areas.",
+        "options": [
+          { "label": "A", "text": "the possibility of the occurrence of new diseases increases", "is_correct": true },
+          { "label": "B", "text": "people get more and more stalwart against such infectious diseases as influenza", "is_correct": false },
+          { "label": "C", "text": "they are affected by the different climate conditions positively", "is_correct": false },
+          { "label": "D", "text": "people find more food resources to live on", "is_correct": false },
+          { "label": "E", "text": "new residence areas are found where there is almost no risk of being ill", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "From the passage it's clear that Islamic medicine ............. .",
+        "paragraph": "From Spain and North Africa through the central lands of Egypt, Syria and Iraq, to Iran and India in the East, and over a period of roughly twelve centuries, Islamic medicine has shown great variation and diversity. As cosmopolitan Islamic culture developed, shared traditions spanned vast areas and crossed many centuries. Yet local conditions and innumerable other factors produced considerable diversity. Communications over such a vast area during the course of several centuries were, as would be expected, neither uniform nor very swift, and the dispersion of ideas and texts from one region to another was uneven. The general health of the Islamic community was influenced by many factors: the climatic conditions of the desert, marsh, mountain and littoral communities; the different living conditions of nomadic, rural, and urban populations; local economic factors and agricultural successes or failures; population migration as well as travel undertaken for commerce, for attendance at courts, or as a pilgrimage; the injuries and diseases attendant upon army camps and battles; and the incidence of plague and other epidemics as well as the occurrence of endemic conditions such as trachoma and other eye diseases.",
+        "options": [
+          { "label": "A", "text": "started to be practised first in Spain and North Africa in the 8th century", "is_correct": false },
+          { "label": "B", "text": "was not respected by European physicians due to its out-of-date nature", "is_correct": false },
+          { "label": "C", "text": "spread over quite a wide region in a few centuries’ time", "is_correct": true },
+          { "label": "D", "text": "gained its popularity partly because of the European methods it adopted", "is_correct": false },
+          { "label": "E", "text": "was not so common a practice in European countries as it was in the East", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "From the passage, it's understood that a person who has composed a symphony ............ .",
+        "paragraph": "Alfred Bernhard Nobel, a Swedish inventor and philanthropist, bequeathed most of his vast fortune in trust as a fund from which annual prizes could be awarded to individuals and organisations who had achieved the greatest benefit to humanity in a particular year. Originally, there were six classifications for outstanding contributions designated in Nobel’s will including, chemistry, physics, physiology or medicine, literature, and international peace. The prizes are administered by the Nobel Foundation in Stockholm. In 1969, a prize for economics endowed by the Central Bank of Sweden was added. Candidates for prizes must be nominated in writing by a qualified authority in the field of competition. Recipients in physics, chemistry, and economics are selected by the Royal Swedish Academy of sciences; in physiology or medicine by the Caroline Institute; in literature by the Swedish Academy; in peace by the Norwegian Nobel Committee appointed by Norway’s parliament. The prizes are all presented in Stocholm on December, 10, with the King of Sweden officiating, an appropriate tribute to Alfred Nobel on the anniversary of his death. Each one includes a gold medal, a diploma, and a cash award of about one million dollars.",
+        "options": [
+          { "label": "A", "text": "is regarded as a great contributor to mankind", "is_correct": false },
+          { "label": "B", "text": "used to take Nobel prizes before Alfred Nobel died", "is_correct": false },
+          { "label": "C", "text": "doesn't have the same possibility to get Nobel as a writer", "is_correct": false },
+          { "label": "D", "text": "might be awarded with a Nobel prize should the Nobel Foundation accept", "is_correct": false },
+          { "label": "E", "text": "doesn't have the right to be awarded with Nobel", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In order to be nominated to one of the Nobel prizes, ............... .",
+        "paragraph": "Alfred Bernhard Nobel, a Swedish inventor and philanthropist, bequeathed most of his vast fortune in trust as a fund from which annual prizes could be awarded to individuals and organisations who had achieved the greatest benefit to humanity in a particular year. Originally, there were six classifications for outstanding contributions designated in Nobel’s will including, chemistry, physics, physiology or medicine, literature, and international peace. The prizes are administered by the Nobel Foundation in Stockholm. In 1969, a prize for economics endowed by the Central Bank of Sweden was added. Candidates for prizes must be nominated in writing by a qualified authority in the field of competition. Recipients in physics, chemistry, and economics are selected by the Royal Swedish Academy of sciences; in physiology or medicine by the Caroline Institute; in literature by the Swedish Academy; in peace by the Norwegian Nobel Committee appointed by Norway’s parliament. The prizes are all presented in Stocholm on December, 10, with the King of Sweden officiating, an appropriate tribute to Alfred Nobel on the anniversary of his death. Each one includes a gold medal, a diploma, and a cash award of about one million dollars.",
+        "options": [
+          { "label": "A", "text": "one should reside in Sweden and be a graduate of Royal Swedish academy", "is_correct": false },
+          { "label": "B", "text": "someone authority in the related branch should show his written approval of it", "is_correct": true },
+          { "label": "C", "text": "a scientist must find someone who will talk in favour of him before the Nobel committee", "is_correct": false },
+          { "label": "D", "text": "one should be experienced and have many research papers", "is_correct": false },
+          { "label": "E", "text": "someone should be in good terms with the Nobel Foundation in Stockholm", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "Researchers have found that polyunsaturated fatty acids ................ .",
+        "paragraph": "In recent years evidence has accumulated that polyunsaturated fatty acids function in protecting humans and some laboratory animals from diseases of the arteries and heart such as atherosclerosis. In this disease, small patches of fatty material, composed mostly of cholesterol, from on the inside lining of the arteries. As the deposits increase in thickness, they may cut down on the blood flow to the organs supplied by the arteries until the structures are severely damaged. If this occurs in a branch of the coronary artery supplying the heart muscle, that portion of the muscle dies, and the person experiences a painful and sometime fatal heart attack. Another danger of atherosclerosis is that pieces of the fatty deposits may break free and travel in the bloodstream until they lodge in small vessels and block the flow of blood. This blockage may also cause heart damage, or, if it occurs in the brain, may damage cells and lead to a grave stroke.",
+        "options": [
+          { "label": "A", "text": "might be able to guard people and certain animals from atherosclerosis", "is_correct": true },
+          { "label": "B", "text": "are the substances that cause atherosclerosis", "is_correct": false },
+          { "label": "C", "text": "are wrongly thought as helpful to the illnesses people face", "is_correct": false },
+          { "label": "D", "text": "block the arteries and, thus, cause heart attacks", "is_correct": false },
+          { "label": "E", "text": "cover the outside part of the blood vessels in thickness", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The author of the passage seems to suggest that ............. .",
+        "paragraph": "Some experts think that labour by children is not productive. According to Jean Maurie Derrien, an expert at ILO (International Labour Organisation), children work power is a vicious circle and does not make nations rich, but only causes poverty. The reason is because if children work, the level of education, qualified work power or profession, and the rate of earning will get lower. The lack of healthy food, poor housing and lack of immunisation from diseases brings low working capabilities and, thus, have many impacts on children for the rest of their lives. In order to solve these problems, ILO started a program called IPEC in such developing countries as Turkey, Brazil, India, which includes serial conferences, seminars, and other activities, The program is still continuing, therefore the results are yet to come.",
+        "options": [
+          { "label": "A", "text": "unless immediate measures are taken, most parts of the world will turn poor", "is_correct": false },
+          { "label": "B", "text": "in a country where children work, poverty of the general public is inevitable", "is_correct": true },
+          { "label": "C", "text": "children labour generally happens in rich countries", "is_correct": false },
+          { "label": "D", "text": "children shouldn't work as it doesn't provide any benefit", "is_correct": false },
+          { "label": "E", "text": "when the education level of the working children improves, most countries will be richer", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The author thinks there is so much litter in the region because people ........ .",
+        "paragraph": "The Middle East faces a difficult environmental problem. Until the 1960s, many countries in the region had economies based totally on recyclable materials. No harmful waste existed. Everything was usable and anything that was thrown away was reused by nature. Since then the region has wholly embraced the pre-packaged, thrown-away life style. Unfortunately, the modern man-made waste continues to be treated as though it were organic, and is thrown away carelessly, so now there is litter everywhere, including plastic, which was one of the worst things that could have happened to the region.",
+        "options": [
+          { "label": "A", "text": "don't realise that man-made materials are not reused by nature", "is_correct": true },
+          { "label": "B", "text": "are concentrating more on their profits than on the environment", "is_correct": false },
+          { "label": "C", "text": "already know that litter is a world wide problem with no solution", "is_correct": false },
+          { "label": "D", "text": "believe creating a modern economy is more important than environmental concerns", "is_correct": false },
+          { "label": "E", "text": "do not treat their waste in a special way before they discard them", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "The extinction of amphibians in the rain forests of Central America and Australia could have been caused by .................. .",
+        "paragraph": "Ecologists have recently discovered dozens of infectious wildlife diseases that pose a significant threat to the conservation of global biodiversity and the health of an expanding human population. For example, a newly discovered fungal disease has been linked to the drastic decline and possible extinction of amphibians in the rain forests of Central America and Australia. Other diseases have led to the extinction of African wild dog populations and blindness of kangaroos in Australia. Since wildlife can act as a natural reservoir for diseases that are extremely virulent among humans, such as influenza and West Nile virus, as the human population expands into wildlife habitat, the conditions ripen for a new disease to emerge. Emerging infectious diseases of wildlife are caused by the spillover of pathogens from domestic animals to wildlife populations, the transport of domestic and wildlife species around the globe, and even climate change in pristine wilderness areas.",
+        "options": [
+          { "label": "A", "text": "some infectious diseases that are still unknown", "is_correct": false },
+          { "label": "B", "text": "the expansion of mankind to new fertile regions", "is_correct": false },
+          { "label": "C", "text": "a fungal disease which has been detected lately", "is_correct": true },
+          { "label": "D", "text": "the fact that ancient people were ignorant of health-care", "is_correct": false },
+          { "label": "E", "text": "unsanitary living conditions ancient tribes were in", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In the passages, attention is drawn to the fact that________.",
+        "paragraph": "Psychology is literally the study of the mind (or soul) but its area has broadened somewhat in the last century as we have learned that one cannot consider the mind as totally isolated from the body, and it now includes the study of human personality and behaviour. Psychologists also study the behaviour and brain of animals whenever such studies throw light on human behaviour. It is important to realize that psychologists are first and foremost trained as scientists rather than as medical experts and do not necessarily take much interest in abnormalities of the brain and mental process.",
+        "options": [
+          { "label": "A", "text": "psychologists give great importance to the study of mental processes for medical purposes", "is_correct": false },
+          { "label": "B", "text": "psychologists are basically scientists", "is_correct": true },
+          { "label": "C", "text": "the body and the mind are separate entities in the eyes of psychologists", "is_correct": false },
+          { "label": "D", "text": "the human mind can be best understood through the study of animal behaviour", "is_correct": false },
+          { "label": "E", "text": "there have been no noticeable developments in psychology since the last century", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "We can infer from the passage that Buck .............. .",
+        "paragraph": "In The Call of the Wild, Jack London tells the story of a dog named Buck, which is kidnapped from the safety of his California home and turned by the brutality of humans into a leader in a sled dog in the Klondike, and finally into a leader of the wolves. Powerfully written and deeply disturbing, the book calls attention to the hidden forces – in both human beings and beasts – that come to the surface in a struggle for survival. London unconsciously shows his sense of identification with nature of the wolf, both as a lone animal and, through strength and cunning, as the leader of the pack.",
+        "options": [
+          { "label": "A", "text": "was a pet dog before he was kidnapped", "is_correct": true },
+          { "label": "B", "text": "abandoned his home in California to join his own species", "is_correct": false },
+          { "label": "C", "text": "originally came from wolf parents", "is_correct": false },
+          { "label": "D", "text": "escaped from California because of humans' brutality", "is_correct": false },
+          { "label": "E", "text": "used to be a sled dog before his escape", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "It is pointed out in the passage that __.",
+        "paragraph": "Psychology is literally the study of the mind (or soul) but its area has broadened somewhat in the last century as we have learned that one cannot consider the mind as totally isolated from the body, and it now includes the study of human personality and behaviour. Psychologists also study the behaviour and brain of animals whenever such studies throw light on human behaviour. It is important to realize that psychologists are first and foremost trained as scientists rather than as medical experts and do not necessarily take much interest in abnormalities of the brain and mental process.",
+        "options": [
+          { "label": "A", "text": "a close cooperation between psychologists and medical experts is essential", "is_correct": false },
+          { "label": "B", "text": "the study of human behaviour alone is what interests present-day psychologists", "is_correct": false },
+          { "label": "C", "text": "as a branch of science, psychology is no longer to be understood in its literal sense", "is_correct": true },
+          { "label": "D", "text": "the mind and the body function independently", "is_correct": false },
+          { "label": "E", "text": "in recent years psychologists have concentrated mostly on the study of the mind", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "In the passage, it is argued that the reasons behind the aid given to underdeveloped countries______.",
+        "paragraph": "Aid to underdeveloped countries takes many forms and it is given for many reasons. Underdeveloped countries need aid to provide finance for development projects to provide foreign exchange with which imports for development purpose can be bought; and to provide the trained manpower and technical knowledge they lack. The motives of the donor are not always humanitarian. \"Aid can take a military form; it can be used to support an incompetent or unjust government. Nor is aid always beneficial to the recipient country. It may be wasted on ill-concerned or prestige projects, or cause the government simply to relax its own efforts.",
+        "options": [
+          { "label": "A", "text": "are always of a military nature", "is_correct": false },
+          { "label": "B", "text": "are varied in purpose and in effect", "is_correct": true },
+          { "label": "C", "text": "can be disregarded altogether", "is_correct": false },
+          { "label": "D", "text": "invariably involved humanitarian principals", "is_correct": false },
+          { "label": "E", "text": "relate only to the technical needs of the recipient country", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "One infers from the passage that what is generally referred to as aid ________.",
+        "paragraph": "Aid to underdeveloped countries takes many forms and it is given for many reasons. Underdeveloped countries need aid to provide finance for development projects to provide foreign exchange with which imports for development purpose can be bought; and to provide the trained manpower and technical knowledge they lack. The motives of the donor are not always humanitarian. \"Aid can take a military form; it can be used to support an incompetent or unjust government. Nor is aid always beneficial to the recipient country. It may be wasted on ill-concerned or prestige projects, or cause the government simply to relax its own efforts.",
+        "options": [
+          { "label": "A", "text": "can really be regarded as a waste of resources", "is_correct": false },
+          { "label": "B", "text": "does not necessarily benefit the recipient country", "is_correct": true },
+          { "label": "C", "text": "is actually one country's intervention in another country's internal affairs", "is_correct": false },
+          { "label": "D", "text": "is in fact, monetary support for development projects only", "is_correct": false },
+          { "label": "E", "text": "usually leads to the overthrow of the government of the recipient country", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B2",
+        "prompt": "According to the passage, unless they receive aid, underdeveloped countries ________.",
+        "paragraph": "Aid to underdeveloped countries takes many forms and it is given for many reasons. Underdeveloped countries need aid to provide finance for development projects to provide foreign exchange with which imports for development purpose can be bought; and to provide the trained manpower and technical knowledge they lack. The motives of the donor are not always humanitarian. \"Aid can take a military form; it can be used to support an incompetent or unjust government. Nor is aid always beneficial to the recipient country. It may be wasted on ill-concerned or prestige projects, or cause the government simply to relax its own efforts.",
+        "options": [
+          { "label": "A", "text": "cannot provide money and human recourses for development", "is_correct": true },
+          { "label": "B", "text": "will have to rely on foreign technical advice for many years to come", "is_correct": false },
+          { "label": "C", "text": "will loose their world-wide prestige", "is_correct": false },
+          { "label": "D", "text": "often face military coups", "is_correct": false },
+          { "label": "E", "text": "will be at the mercy of donor countries", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B2",
+        "prompt": "Complete the sentence with the correct word",
+        "paragraph": "'Holland,' as it is __________________________ known to most of us abroad - a name stemming from its once most prominent provinces - has more going on per kilometre than most countries, and more English-speaking natives.",
+        "options": [
+          { "label": "A", "text": "REGULARLY", "is_correct": false },
+          { "label": "B", "text": "OCCASIONALLY", "is_correct": false },
+          { "label": "C", "text": "COMMONLY", "is_correct": true },
+          { "label": "D", "text": "UNUSUALLY", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B2",
+        "prompt": "Complete the sentence with the correct word",
+        "paragraph": "Welcome to the Netherlands, a tiny country that only extends, at its broadest, 312 km north to south, and 264 km east to west - although the land area increases slightly each year as a _______________ of continuous land reclamation and drainage.",
+        "options": [
+          { "label": "A", "text": "WHOLE", "is_correct": false },
+          { "label": "B", "text": "RESULT", "is_correct": true },
+          { "label": "C", "text": "CONSEQUENTLY", "is_correct": false },
+          { "label": "D", "text": "RULE", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B2",
+        "prompt": "Complete the sentence with the correct word",
+        "paragraph": "Cattle and chicken are ______________________ animals.",
+        "options": [
+          { "label": "A", "text": "DOMESTICATED", "is_correct": false },
+          { "label": "B", "text": "PET", "is_correct": false },
+          { "label": "C", "text": "TAME", "is_correct": false },
+          { "label": "D", "text": "FARM", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B2",
+        "prompt": "Complete the sentence with the correct word",
+        "paragraph": "Don't forget to _________ the letter before you post it.",
+        "options": [
+          { "label": "A", "text": "FASTEN", "is_correct": false },
+          { "label": "B", "text": "SHUT", "is_correct": false },
+          { "label": "C", "text": "SEAL", "is_correct": true },
+          { "label": "D", "text": "DO UP", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B2",
+        "prompt": "Fill in the gap with the appropriate word",
+        "paragraph": "He turned up his ______________________ to protect his neck from the blowing wind.",
+        "options": [
+          { "label": "A", "text": "CAP", "is_correct": false },
+          { "label": "B", "text": "COLLAR", "is_correct": true },
+          { "label": "C", "text": "SLEEVE", "is_correct": false },
+          { "label": "D", "text": "SCARF", "is_correct": false }
+        ]
+      },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "How are we going to identify him ___________ all these people? It's impossible.",
+      "options": [
+        { "label": "A", "text": "BETWEEN", "is_correct": false },
+        { "label": "B", "text": "WITH", "is_correct": false },
+        { "label": "C", "text": "AMONG", "is_correct": true },
+        { "label": "D", "text": "TOGETHER", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "I often judge a book by looking at its _______.",
+      "options": [
+        { "label": "A", "text": "COVER", "is_correct": true },
+        { "label": "B", "text": "SKIN", "is_correct": false },
+        { "label": "C", "text": "FACE", "is_correct": false },
+        { "label": "D", "text": "COATING", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Fill in the gap with the appropriate word",
+      "paragraph": "I'm going to spend a few days with some ______________________ of mine who live on the continent.",
+      "options": [
+        { "label": "A", "text": "RELATIVES", "is_correct": true },
+        { "label": "B", "text": "FAMILIES", "is_correct": false },
+        { "label": "C", "text": "NEIGHBOURS", "is_correct": false },
+        { "label": "D", "text": "COMPANIES", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "It's an old and large house, so the __________________ costs are very high.",
+      "options": [
+        { "label": "A", "text": "PROTECTION", "is_correct": false },
+        { "label": "B", "text": "MAINTENANCE", "is_correct": true },
+        { "label": "C", "text": "CONSERVATION", "is_correct": false },
+        { "label": "D", "text": "PRESERVATION", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Major newspapers have expressed their _________ about the economic situation of the country.",
+      "options": [
+        { "label": "A", "text": "CONCERN", "is_correct": true },
+        { "label": "B", "text": "ALARM", "is_correct": false },
+        { "label": "C", "text": "ANXIETY", "is_correct": false },
+        { "label": "D", "text": "DISTRESS", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Many animals ________ to other regions when the weather changes.",
+      "options": [
+        { "label": "A", "text": "JOURNEY", "is_correct": false },
+        { "label": "B", "text": "MIGRATE", "is_correct": true },
+        { "label": "C", "text": "ROAM", "is_correct": false },
+        { "label": "D", "text": "WANDER", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Many multinational companies only move to developing countries in order to _________ them.",
+      "options": [
+        { "label": "A", "text": "MISUSE", "is_correct": false },
+        { "label": "B", "text": "DEVELOP", "is_correct": false },
+        { "label": "C", "text": "USE", "is_correct": false },
+        { "label": "D", "text": "EXPLOIT", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Maths was one __________ I was never good at.",
+      "options": [
+        { "label": "A", "text": "DEGREE", "is_correct": false },
+        { "label": "B", "text": "FIELD", "is_correct": false },
+        { "label": "C", "text": "TOPIC", "is_correct": false },
+        { "label": "D", "text": "SUBJECT", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Mike had to stay in hospital for several weeks where he was __________ for a heart weakness.",
+      "options": [
+        { "label": "A", "text": "CURED", "is_correct": false },
+        { "label": "B", "text": "ATTENDED", "is_correct": false },
+        { "label": "C", "text": "HEALED", "is_correct": false },
+        { "label": "D", "text": "TREATED", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Mrs. Butler was in deep ________________ after her husband's sudden death.",
+      "options": [
+        { "label": "A", "text": "REGRET", "is_correct": false },
+        { "label": "B", "text": "GRIEF", "is_correct": true },
+        { "label": "C", "text": "DISTURBANCE", "is_correct": false },
+        { "label": "D", "text": "GLOOM", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "How are we going to identify him ___________ all these people? It's impossible.",
+      "options": [
+        { "label": "A", "text": "BETWEEN", "is_correct": false },
+        { "label": "B", "text": "WITH", "is_correct": false },
+        { "label": "C", "text": "AMONG", "is_correct": true },
+        { "label": "D", "text": "TOGETHER", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "I often judge a book by looking at its _______.",
+      "options": [
+        { "label": "A", "text": "COVER", "is_correct": true },
+        { "label": "B", "text": "SKIN", "is_correct": false },
+        { "label": "C", "text": "FACE", "is_correct": false },
+        { "label": "D", "text": "COATING", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Fill in the gap with the appropriate word",
+      "paragraph": "I'm going to spend a few days with some ______________________ of mine who live on the continent.",
+      "options": [
+        { "label": "A", "text": "RELATIVES", "is_correct": true },
+        { "label": "B", "text": "FAMILIES", "is_correct": false },
+        { "label": "C", "text": "NEIGHBOURS", "is_correct": false },
+        { "label": "D", "text": "COMPANIES", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "It's an old and large house, so the __________________ costs are very high.",
+      "options": [
+        { "label": "A", "text": "PROTECTION", "is_correct": false },
+        { "label": "B", "text": "MAINTENANCE", "is_correct": true },
+        { "label": "C", "text": "CONSERVATION", "is_correct": false },
+        { "label": "D", "text": "PRESERVATION", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Major newspapers have expressed their _________ about the economic situation of the country.",
+      "options": [
+        { "label": "A", "text": "CONCERN", "is_correct": true },
+        { "label": "B", "text": "ALARM", "is_correct": false },
+        { "label": "C", "text": "ANXIETY", "is_correct": false },
+        { "label": "D", "text": "DISTRESS", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Many animals ________ to other regions when the weather changes.",
+      "options": [
+        { "label": "A", "text": "JOURNEY", "is_correct": false },
+        { "label": "B", "text": "MIGRATE", "is_correct": true },
+        { "label": "C", "text": "ROAM", "is_correct": false },
+        { "label": "D", "text": "WANDER", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Many multinational companies only move to developing countries in order to _________ them.",
+      "options": [
+        { "label": "A", "text": "MISUSE", "is_correct": false },
+        { "label": "B", "text": "DEVELOP", "is_correct": false },
+        { "label": "C", "text": "USE", "is_correct": false },
+        { "label": "D", "text": "EXPLOIT", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Maths was one __________ I was never good at.",
+      "options": [
+        { "label": "A", "text": "DEGREE", "is_correct": false },
+        { "label": "B", "text": "FIELD", "is_correct": false },
+        { "label": "C", "text": "TOPIC", "is_correct": false },
+        { "label": "D", "text": "SUBJECT", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Mike had to stay in hospital for several weeks where he was __________ for a heart weakness.",
+      "options": [
+        { "label": "A", "text": "CURED", "is_correct": false },
+        { "label": "B", "text": "ATTENDED", "is_correct": false },
+        { "label": "C", "text": "HEALED", "is_correct": false },
+        { "label": "D", "text": "TREATED", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Mrs. Butler was in deep ________________ after her husband's sudden death.",
+      "options": [
+        { "label": "A", "text": "REGRET", "is_correct": false },
+        { "label": "B", "text": "GRIEF", "is_correct": true },
+        { "label": "C", "text": "DISTURBANCE", "is_correct": false },
+        { "label": "D", "text": "GLOOM", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "My oldest __________________ relative is over 90.",
+      "options": [
+        { "label": "A", "text": "LIVE", "is_correct": false },
+        { "label": "B", "text": "ALIVE", "is_correct": false },
+        { "label": "C", "text": "LIFE", "is_correct": false },
+        { "label": "D", "text": "LIVING", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Nobody _________ me about any changes in the Secretary's itinerary.",
+      "options": [
+        { "label": "A", "text": "EXPLAINED", "is_correct": false },
+        { "label": "B", "text": "INFORMED", "is_correct": true },
+        { "label": "C", "text": "REPORTED", "is_correct": false },
+        { "label": "D", "text": "ADVISED", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Nobody knows what kind of plants you can find at the ____________ of the ocean.",
+      "options": [
+        { "label": "A", "text": "BED", "is_correct": false },
+        { "label": "B", "text": "END", "is_correct": false },
+        { "label": "C", "text": "BOTTOM", "is_correct": true },
+        { "label": "D", "text": "DEEP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Now if we want mobile _________ to the Web, we have to travel around with things like tablets and smartphones in our bags or pockets.",
+      "options": [
+        { "label": "A", "text": "LINE", "is_correct": false },
+        { "label": "B", "text": "ENTRY", "is_correct": false },
+        { "label": "C", "text": "ACCESS", "is_correct": true },
+        { "label": "D", "text": "LINK", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Only if you are a proficient speaker of a language that you have learned _______ in adulthood, can you really tell how hard it is for someone to get that level.",
+      "options": [
+        { "label": "A", "text": "FROM START", "is_correct": false },
+        { "label": "B", "text": "FROM NOTING", "is_correct": false },
+        { "label": "C", "text": "FROM SCRATCH", "is_correct": true },
+        { "label": "D", "text": "FROM ZERO", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Please, ________ the curtains so that nobody can see us.",
+      "options": [
+        { "label": "A", "text": "DRAW", "is_correct": true },
+        { "label": "B", "text": "TURN", "is_correct": false },
+        { "label": "C", "text": "CLOSE", "is_correct": false },
+        { "label": "D", "text": "SHUT", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The _________ number of infections has increased to over a thousand.",
+      "options": [
+        { "label": "A", "text": "WHOLE", "is_correct": false },
+        { "label": "B", "text": "COMPLETE", "is_correct": false },
+        { "label": "C", "text": "FULL", "is_correct": false },
+        { "label": "D", "text": "TOTAL", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The ___________ Prime Minister has moved to a residence in the countryside.",
+      "options": [
+        { "label": "A", "text": "FORMER", "is_correct": true },
+        { "label": "B", "text": "PRIOR", "is_correct": false },
+        { "label": "C", "text": "PAST", "is_correct": false },
+        { "label": "D", "text": "LATE", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The idea is _____________ on simple technology that is already in existence.",
+      "options": [
+        { "label": "A", "text": "BASED", "is_correct": true },
+        { "label": "B", "text": "STARTED", "is_correct": false },
+        { "label": "C", "text": "FOUNDED", "is_correct": false },
+        { "label": "D", "text": "BEGUN", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The manager is always in _________ contact with his players.",
+      "options": [
+        { "label": "A", "text": "DIRECT", "is_correct": true },
+        { "label": "B", "text": "STRAIGHT", "is_correct": false },
+        { "label": "C", "text": "INSTANT", "is_correct": false },
+        { "label": "D", "text": "IMMEDIATE", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The red wine you have spilt _________ the carpet.",
+      "options": [
+        { "label": "A", "text": "COLOURED", "is_correct": false },
+        { "label": "B", "text": "STAINED", "is_correct": true },
+        { "label": "C", "text": "POLLUTED", "is_correct": false },
+        { "label": "D", "text": "MARKED", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "There's no need to rush. Take your ____________ before you give me your answer.",
+      "options": [
+        { "label": "A", "text": "THOUGHTS", "is_correct": false },
+        { "label": "B", "text": "MINUTE", "is_correct": false },
+        { "label": "C", "text": "MOMENT", "is_correct": false },
+        { "label": "D", "text": "TIME", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "There's no turning back. This is the ________ of no return.",
+      "options": [
+        { "label": "A", "text": "SITE", "is_correct": false },
+        { "label": "B", "text": "MARK", "is_correct": false },
+        { "label": "C", "text": "POINT", "is_correct": true },
+        { "label": "D", "text": "TIME", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Thousands of refugees have crossed the ____________ since fighting in the region started.",
+      "options": [
+        { "label": "A", "text": "BORDER", "is_correct": true },
+        { "label": "B", "text": "BOUNDARY", "is_correct": false },
+        { "label": "C", "text": "BANK", "is_correct": false },
+        { "label": "D", "text": "EDGE", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "The possibilities are countless and the nationwide tourist office, which is on hand to give you information and ___________ reservations.",
+      "options": [
+        { "label": "A", "text": "SIT", "is_correct": false },
+        { "label": "B", "text": "CATCH", "is_correct": false },
+        { "label": "C", "text": "DO", "is_correct": false },
+        { "label": "D", "text": "MAKE", "is_correct": true }
+      ]
+    }
+  ] 

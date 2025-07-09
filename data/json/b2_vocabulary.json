@@ -1,0 +1,482 @@
+[
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "'Holland,' as it is __________________________ known to most of us abroad - a name stemming from its once most prominent provinces - has more going on per kilometre than most countries, and more English-speaking natives.",
+      "options": [
+        { "label": "A", "text": "REGULARLY", "is_correct": false },
+        { "label": "B", "text": "OCCASIONALLY", "is_correct": false },
+        { "label": "C", "text": "COMMONLY", "is_correct": true },
+        { "label": "D", "text": "UNUSUALLY", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Welcome to the Netherlands, a tiny country that only extends, at its broadest, 312 km north to south, and 264 km east to west - although the land area increases slightly each year as a _______________ of continuous land reclamation and drainage.",
+      "options": [
+        { "label": "A", "text": "WHOLE", "is_correct": false },
+        { "label": "B", "text": "RESULT", "is_correct": true },
+        { "label": "C", "text": "CONSEQUENTLY", "is_correct": false },
+        { "label": "D", "text": "RULE", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Cattle and chicken are ______________________ animals.",
+      "options": [
+        { "label": "A", "text": "DOMESTICATED", "is_correct": false },
+        { "label": "B", "text": "PET", "is_correct": false },
+        { "label": "C", "text": "TAME", "is_correct": false },
+        { "label": "D", "text": "FARM", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Complete the sentence with the correct word",
+      "paragraph": "Don't forget to _________ the letter before you post it.",
+      "options": [
+        { "label": "A", "text": "FASTEN", "is_correct": false },
+        { "label": "B", "text": "SHUT", "is_correct": false },
+        { "label": "C", "text": "SEAL", "is_correct": true },
+        { "label": "D", "text": "DO UP", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "level": "B2",
+      "prompt": "Fill in the gap with the appropriate word",
+      "paragraph": "He turned up his ______________________ to protect his neck from the blowing wind.",
+      "options": [
+        { "label": "A", "text": "CAP", "is_correct": false },
+        { "label": "B", "text": "COLLAR", "is_correct": true },
+        { "label": "C", "text": "SLEEVE", "is_correct": false },
+        { "label": "D", "text": "SCARF", "is_correct": false }
+      ]
+    },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "How are we going to identify him ___________ all these people? It's impossible.",
+    "options": [
+      { "label": "A", "text": "BETWEEN", "is_correct": false },
+      { "label": "B", "text": "WITH", "is_correct": false },
+      { "label": "C", "text": "AMONG", "is_correct": true },
+      { "label": "D", "text": "TOGETHER", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "I often judge a book by looking at its _______.",
+    "options": [
+      { "label": "A", "text": "COVER", "is_correct": true },
+      { "label": "B", "text": "SKIN", "is_correct": false },
+      { "label": "C", "text": "FACE", "is_correct": false },
+      { "label": "D", "text": "COATING", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Fill in the gap with the appropriate word",
+    "paragraph": "I'm going to spend a few days with some ______________________ of mine who live on the continent.",
+    "options": [
+      { "label": "A", "text": "RELATIVES", "is_correct": true },
+      { "label": "B", "text": "FAMILIES", "is_correct": false },
+      { "label": "C", "text": "NEIGHBOURS", "is_correct": false },
+      { "label": "D", "text": "COMPANIES", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "It's an old and large house, so the __________________ costs are very high.",
+    "options": [
+      { "label": "A", "text": "PROTECTION", "is_correct": false },
+      { "label": "B", "text": "MAINTENANCE", "is_correct": true },
+      { "label": "C", "text": "CONSERVATION", "is_correct": false },
+      { "label": "D", "text": "PRESERVATION", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Major newspapers have expressed their _________ about the economic situation of the country.",
+    "options": [
+      { "label": "A", "text": "CONCERN", "is_correct": true },
+      { "label": "B", "text": "ALARM", "is_correct": false },
+      { "label": "C", "text": "ANXIETY", "is_correct": false },
+      { "label": "D", "text": "DISTRESS", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Many animals ________ to other regions when the weather changes.",
+    "options": [
+      { "label": "A", "text": "JOURNEY", "is_correct": false },
+      { "label": "B", "text": "MIGRATE", "is_correct": true },
+      { "label": "C", "text": "ROAM", "is_correct": false },
+      { "label": "D", "text": "WANDER", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Many multinational companies only move to developing countries in order to _________ them.",
+    "options": [
+      { "label": "A", "text": "MISUSE", "is_correct": false },
+      { "label": "B", "text": "DEVELOP", "is_correct": false },
+      { "label": "C", "text": "USE", "is_correct": false },
+      { "label": "D", "text": "EXPLOIT", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Maths was one __________ I was never good at.",
+    "options": [
+      { "label": "A", "text": "DEGREE", "is_correct": false },
+      { "label": "B", "text": "FIELD", "is_correct": false },
+      { "label": "C", "text": "TOPIC", "is_correct": false },
+      { "label": "D", "text": "SUBJECT", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Mike had to stay in hospital for several weeks where he was __________ for a heart weakness.",
+    "options": [
+      { "label": "A", "text": "CURED", "is_correct": false },
+      { "label": "B", "text": "ATTENDED", "is_correct": false },
+      { "label": "C", "text": "HEALED", "is_correct": false },
+      { "label": "D", "text": "TREATED", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Mrs. Butler was in deep ________________ after her husband's sudden death.",
+    "options": [
+      { "label": "A", "text": "REGRET", "is_correct": false },
+      { "label": "B", "text": "GRIEF", "is_correct": true },
+      { "label": "C", "text": "DISTURBANCE", "is_correct": false },
+      { "label": "D", "text": "GLOOM", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "How are we going to identify him ___________ all these people? It's impossible.",
+    "options": [
+      { "label": "A", "text": "BETWEEN", "is_correct": false },
+      { "label": "B", "text": "WITH", "is_correct": false },
+      { "label": "C", "text": "AMONG", "is_correct": true },
+      { "label": "D", "text": "TOGETHER", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "I often judge a book by looking at its _______.",
+    "options": [
+      { "label": "A", "text": "COVER", "is_correct": true },
+      { "label": "B", "text": "SKIN", "is_correct": false },
+      { "label": "C", "text": "FACE", "is_correct": false },
+      { "label": "D", "text": "COATING", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Fill in the gap with the appropriate word",
+    "paragraph": "I'm going to spend a few days with some ______________________ of mine who live on the continent.",
+    "options": [
+      { "label": "A", "text": "RELATIVES", "is_correct": true },
+      { "label": "B", "text": "FAMILIES", "is_correct": false },
+      { "label": "C", "text": "NEIGHBOURS", "is_correct": false },
+      { "label": "D", "text": "COMPANIES", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "It's an old and large house, so the __________________ costs are very high.",
+    "options": [
+      { "label": "A", "text": "PROTECTION", "is_correct": false },
+      { "label": "B", "text": "MAINTENANCE", "is_correct": true },
+      { "label": "C", "text": "CONSERVATION", "is_correct": false },
+      { "label": "D", "text": "PRESERVATION", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Major newspapers have expressed their _________ about the economic situation of the country.",
+    "options": [
+      { "label": "A", "text": "CONCERN", "is_correct": true },
+      { "label": "B", "text": "ALARM", "is_correct": false },
+      { "label": "C", "text": "ANXIETY", "is_correct": false },
+      { "label": "D", "text": "DISTRESS", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Many animals ________ to other regions when the weather changes.",
+    "options": [
+      { "label": "A", "text": "JOURNEY", "is_correct": false },
+      { "label": "B", "text": "MIGRATE", "is_correct": true },
+      { "label": "C", "text": "ROAM", "is_correct": false },
+      { "label": "D", "text": "WANDER", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Many multinational companies only move to developing countries in order to _________ them.",
+    "options": [
+      { "label": "A", "text": "MISUSE", "is_correct": false },
+      { "label": "B", "text": "DEVELOP", "is_correct": false },
+      { "label": "C", "text": "USE", "is_correct": false },
+      { "label": "D", "text": "EXPLOIT", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Maths was one __________ I was never good at.",
+    "options": [
+      { "label": "A", "text": "DEGREE", "is_correct": false },
+      { "label": "B", "text": "FIELD", "is_correct": false },
+      { "label": "C", "text": "TOPIC", "is_correct": false },
+      { "label": "D", "text": "SUBJECT", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Mike had to stay in hospital for several weeks where he was __________ for a heart weakness.",
+    "options": [
+      { "label": "A", "text": "CURED", "is_correct": false },
+      { "label": "B", "text": "ATTENDED", "is_correct": false },
+      { "label": "C", "text": "HEALED", "is_correct": false },
+      { "label": "D", "text": "TREATED", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Mrs. Butler was in deep ________________ after her husband's sudden death.",
+    "options": [
+      { "label": "A", "text": "REGRET", "is_correct": false },
+      { "label": "B", "text": "GRIEF", "is_correct": true },
+      { "label": "C", "text": "DISTURBANCE", "is_correct": false },
+      { "label": "D", "text": "GLOOM", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "My oldest __________________ relative is over 90.",
+    "options": [
+      { "label": "A", "text": "LIVE", "is_correct": false },
+      { "label": "B", "text": "ALIVE", "is_correct": false },
+      { "label": "C", "text": "LIFE", "is_correct": false },
+      { "label": "D", "text": "LIVING", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Nobody _________ me about any changes in the Secretary's itinerary.",
+    "options": [
+      { "label": "A", "text": "EXPLAINED", "is_correct": false },
+      { "label": "B", "text": "INFORMED", "is_correct": true },
+      { "label": "C", "text": "REPORTED", "is_correct": false },
+      { "label": "D", "text": "ADVISED", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Nobody knows what kind of plants you can find at the ____________ of the ocean.",
+    "options": [
+      { "label": "A", "text": "BED", "is_correct": false },
+      { "label": "B", "text": "END", "is_correct": false },
+      { "label": "C", "text": "BOTTOM", "is_correct": true },
+      { "label": "D", "text": "DEEP", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Now if we want mobile _________ to the Web, we have to travel around with things like tablets and smartphones in our bags or pockets.",
+    "options": [
+      { "label": "A", "text": "LINE", "is_correct": false },
+      { "label": "B", "text": "ENTRY", "is_correct": false },
+      { "label": "C", "text": "ACCESS", "is_correct": true },
+      { "label": "D", "text": "LINK", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Only if you are a proficient speaker of a language that you have learned _______ in adulthood, can you really tell how hard it is for someone to get that level.",
+    "options": [
+      { "label": "A", "text": "FROM START", "is_correct": false },
+      { "label": "B", "text": "FROM NOTING", "is_correct": false },
+      { "label": "C", "text": "FROM SCRATCH", "is_correct": true },
+      { "label": "D", "text": "FROM ZERO", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Please, ________ the curtains so that nobody can see us.",
+    "options": [
+      { "label": "A", "text": "DRAW", "is_correct": true },
+      { "label": "B", "text": "TURN", "is_correct": false },
+      { "label": "C", "text": "CLOSE", "is_correct": false },
+      { "label": "D", "text": "SHUT", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The _________ number of infections has increased to over a thousand.",
+    "options": [
+      { "label": "A", "text": "WHOLE", "is_correct": false },
+      { "label": "B", "text": "COMPLETE", "is_correct": false },
+      { "label": "C", "text": "FULL", "is_correct": false },
+      { "label": "D", "text": "TOTAL", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The ___________ Prime Minister has moved to a residence in the countryside.",
+    "options": [
+      { "label": "A", "text": "FORMER", "is_correct": true },
+      { "label": "B", "text": "PRIOR", "is_correct": false },
+      { "label": "C", "text": "PAST", "is_correct": false },
+      { "label": "D", "text": "LATE", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The idea is _____________ on simple technology that is already in existence.",
+    "options": [
+      { "label": "A", "text": "BASED", "is_correct": true },
+      { "label": "B", "text": "STARTED", "is_correct": false },
+      { "label": "C", "text": "FOUNDED", "is_correct": false },
+      { "label": "D", "text": "BEGUN", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The manager is always in _________ contact with his players.",
+    "options": [
+      { "label": "A", "text": "DIRECT", "is_correct": true },
+      { "label": "B", "text": "STRAIGHT", "is_correct": false },
+      { "label": "C", "text": "INSTANT", "is_correct": false },
+      { "label": "D", "text": "IMMEDIATE", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The red wine you have spilt _________ the carpet.",
+    "options": [
+      { "label": "A", "text": "COLOURED", "is_correct": false },
+      { "label": "B", "text": "STAINED", "is_correct": true },
+      { "label": "C", "text": "POLLUTED", "is_correct": false },
+      { "label": "D", "text": "MARKED", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "There's no need to rush. Take your ____________ before you give me your answer.",
+    "options": [
+      { "label": "A", "text": "THOUGHTS", "is_correct": false },
+      { "label": "B", "text": "MINUTE", "is_correct": false },
+      { "label": "C", "text": "MOMENT", "is_correct": false },
+      { "label": "D", "text": "TIME", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "There's no turning back. This is the ________ of no return.",
+    "options": [
+      { "label": "A", "text": "SITE", "is_correct": false },
+      { "label": "B", "text": "MARK", "is_correct": false },
+      { "label": "C", "text": "POINT", "is_correct": true },
+      { "label": "D", "text": "TIME", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "Thousands of refugees have crossed the ____________ since fighting in the region started.",
+    "options": [
+      { "label": "A", "text": "BORDER", "is_correct": true },
+      { "label": "B", "text": "BOUNDARY", "is_correct": false },
+      { "label": "C", "text": "BANK", "is_correct": false },
+      { "label": "D", "text": "EDGE", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Vocabulary",
+    "level": "B2",
+    "prompt": "Complete the sentence with the correct word",
+    "paragraph": "The possibilities are countless and the nationwide tourist office, which is on hand to give you information and ___________ reservations.",
+    "options": [
+      { "label": "A", "text": "SIT", "is_correct": false },
+      { "label": "B", "text": "CATCH", "is_correct": false },
+      { "label": "C", "text": "DO", "is_correct": false },
+      { "label": "D", "text": "MAKE", "is_correct": true }
+    ]
+  }
+]

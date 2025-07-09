@@ -1,0 +1,4061 @@
+[
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "________ you speak French before you moved to Paris?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Can",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Could",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Managed to",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "Couldn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "_____John give you those flowers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Did",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Have",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Was",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "Is",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "A football match lasts______ninety minutes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "while",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "for",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "in",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "_____I was in Paris, I made a lot of friends.",
+      "options": [
+        {
+          "label": "A",
+          "text": "While",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "During",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "For",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "In",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "______ my stay in hospital, the nurses looked after me very well.",
+      "options": [
+        {
+          "label": "A",
+          "text": "While",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "During",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "For",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "In",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "He hates ___ calculators.",
+      "options": [
+        {
+          "label": "A",
+          "text": "use",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "using",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "used",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "to use",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Can we go ______quiet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "somewhere",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "anywhere",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "nowhere",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "everywhere",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Come and see me ____ you want. I don't mind.",
+      "options": [
+        {
+          "label": "A",
+          "text": "some time",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "any time",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "no time",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "every time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Give me Peter's letter. If I ___him, I ___it to him.",
+      "options": [
+        {
+          "label": "A",
+          "text": "see-will give",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "saw-would give",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "meet-would visit",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "had seen- would give",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Can I have______to drink?",
+      "options": [
+        {
+          "label": "A",
+          "text": "something",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "anything",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "nothing",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "everything",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Anna likes ice-cream but John ____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "haven't",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "hasn't",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "isn't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "doesn't",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "How many people ______you invited to the party?",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "were",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I _____ extra money teaching computer studies.",
+      "options": [
+        {
+          "label": "A",
+          "text": "earn",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "earns",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "win",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "buy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I _____ lunch in the university canteen.",
+      "options": [
+        {
+          "label": "A",
+          "text": "eats",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "drink",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "has",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I _____ my homework very quickly last night.",
+      "options": [
+        {
+          "label": "A",
+          "text": "do",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "am",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I _____ the traffic in Bangkok.",
+      "options": [
+        {
+          "label": "A",
+          "text": "play",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "hate",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "has",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I don't like ice-cream but Jill ______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "is",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "does",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I have been to Australia but Anna _____ .",
+      "options": [
+        {
+          "label": "A",
+          "text": "haven't",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "hasn't",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "isn't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "doesn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I have to work about 80 hours a week, so I'm very busy. But if I ____ any spare time, I _____a sport like golf.",
+      "options": [
+        {
+          "label": "A",
+          "text": "will have/will take up",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "had/will take up",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "will have/had",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "had/would take up",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I learned to drive ____ 1980 ___the age of 17.",
+      "options": [
+        {
+          "label": "A",
+          "text": "at/at",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "in/at",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "on/at",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "* /at",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I lived in Paris ____several years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "while",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "for",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "in",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I phoned yesterday, but I ______get an answer. Where were you?",
+      "options": [
+        {
+          "label": "A",
+          "text": "can",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "could",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "managed to",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "couldn't",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I was in hospital _____ three weeks.",
+      "options": [
+        {
+          "label": "A",
+          "text": "while",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "for",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "in",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I watched TV last night but my sister_____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "hasn't",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "didn't",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "isn't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "doesn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I went for a ten-mile run last Saturday. It nearly killed me! I _______ move on Sunday.",
+      "options": [
+        {
+          "label": "A",
+          "text": "can",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "could",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "managed to",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "couldn't",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "I would hate __ your party.",
+      "options": [
+        {
+          "label": "A",
+          "text": "miss",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "miss to",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "missed",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "to miss",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "If I___ taller, I ____be a policeman, but I'm too short.",
+      "options": [
+        {
+          "label": "A",
+          "text": "was/can",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "had/could",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "were/could",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "am/will",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "If you need ____, just ask.",
+      "options": [
+        {
+          "label": "A",
+          "text": "something",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "anything",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "nothing",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "everything",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "In my country you______ get married when you're sixteen.",
+      "options": [
+        {
+          "label": "A",
+          "text": "can",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "could",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "managed to",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "couldn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "It _____ her fifteen minutes to______ school.",
+      "options": [
+        {
+          "label": "A",
+          "text": "took/go",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "has taken/ walk",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "takes/walk",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "takes/to walk",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "John loves flying but we ______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "haven't",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "don't",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "isn't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "doesn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Lots of trees_____blown down by the wind.",
+      "options": [
+        {
+          "label": "A",
+          "text": "were",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "is",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Maria isn't studying hard but I ______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "am",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "are",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Mary never _____the washing up.",
+      "options": [
+        {
+          "label": "A",
+          "text": "does",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "do",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "is",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Most days the shop_____ at 10.00 p.m.",
+      "options": [
+        {
+          "label": "A",
+          "text": "sells",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "opened",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "closes",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "run",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "My brother learned ____ the same time as me, but I passed first.",
+      "options": [
+        {
+          "label": "A",
+          "text": "at",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "in",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "on",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "*",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Please, start your meal. If you _____ your soup now, it_____ cold.",
+      "options": [
+        {
+          "label": "A",
+          "text": "didn't have/would go",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "had/got",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "can eat/doesn't go",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "don't have/will go",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "She ___a shower every morning before school.",
+      "options": [
+        {
+          "label": "A",
+          "text": "does",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "is",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "She____ school at 7:45 a.m.",
+      "options": [
+        {
+          "label": "A",
+          "text": "go",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "begin",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "starts",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "goes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Sue and Geoff ______a shop.",
+      "options": [
+        {
+          "label": "A",
+          "text": "work",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "study",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "run",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "runs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Suppose! If it ___last weekend, we ____to play tennis.",
+      "options": [
+        {
+          "label": "A",
+          "text": "rained/wouldn't be able",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "rains/won't be able",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "rain/would be able",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "had rained/could",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Thank goodness we ___a dishwasher!",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "were",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "The neighbours were having a row, and I ______hear every word they said.",
+      "options": [
+        {
+          "label": "A",
+          "text": "can",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "could",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "managed to",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "couldn't",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "The phone rang________ I was having supper.",
+      "options": [
+        {
+          "label": "A",
+          "text": "while",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "for",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "in",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "They ____ camping any more.",
+      "options": [
+        {
+          "label": "A",
+          "text": "go",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "doesn't go",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "don't go",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "have gone",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "They can't promise ___ the work today.",
+      "options": [
+        {
+          "label": "A",
+          "text": "finish",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "finishing",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "finished",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "to finish",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "This kind of shop _____ a milk bar.",
+      "options": [
+        {
+          "label": "A",
+          "text": "is called",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "called",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "is calling",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "has being called",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Ursula _____four brothers and sisters.",
+      "options": [
+        {
+          "label": "A",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "has",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "haven't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "having",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "We _____a beautiful puppy called Molly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "having",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "had",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "We _____got a beautiful puppy called Molly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "were",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "We ___talking to James about his exam.",
+      "options": [
+        {
+          "label": "A",
+          "text": "don't",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "haven't",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "wasn't",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "aren't",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Where_____you yesterday?",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "did",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "were",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Why ___you leaving so early?",
+      "options": [
+        {
+          "label": "A",
+          "text": "was",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "have",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "is",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "are",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "Grammar",
+      "level": "B1",
+      "prompt": "Would you like____to eat?",
+      "options": [
+        {
+          "label": "A",
+          "text": "something",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "anything",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "nothing",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "everything",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The passage mainly discusses ----.",
+        "paragraph": "Although there is a great deal of variation within each gender, on the average, men and women discuss a surprisingly different range of topics. According to some studies, women and men ranging in age from seventeen to eighty described the range of topics each discussed with friends of the same sex. Certain topics were common to both men and women: work, movies, and television proved to be frequent topics for both groups. The differences between men and women were more striking than the similarities. Female friends spent much more time discussing personal and domestic subjects, relationship problems, family, health and reproductive matters, weight, food and clothing. Men, on the other hand, were more likely to discuss music, current events, sports and business. Women were more likely to gossip about close friends and family. By contrast, men spent more time gossiping about sports figures and media personalities. These differences can lead to frustration when men and women try to converse with one another.",
+        "options": [
+          {"label": "A", "text": "what women's conversational topics are", "is_correct": false},
+          {"label": "B", "text": "why men don't like conversing with women", "is_correct": false},
+          {"label": "C", "text": "the topics men like discussing", "is_correct": false},
+          {"label": "D", "text": "why women talk more than men", "is_correct": false},
+          {"label": "E", "text": "the conversational topics of men and women", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We learn from the passage that an ultralight airplane ----.",
+        "paragraph": "An ultralight airplane is very different from a conventional airplane. It looks like a lawn chair with wings, weighs no more than 254 pounds, flies up to 60 miles an hour, and carries about 5 gallons of fuel. Most ultralights are sold as kits and take about 40 hours to assemble. Flying an ultralight airplane is so easy that a pilot with no experience can fly one. Accidents are rarely fatal or even serious because the ultralight lands so slowly and gently and carries very little fuel. Some models now have parachutes attached, while others have parachute packs which pilots can wear.",
+        "options": [
+          {"label": "A", "text": "provides the only opportunity to fly affordably", "is_correct": false},
+          {"label": "B", "text": "doesn't fly very well if it weighs less than 254 pounds", "is_correct": false},
+          {"label": "C", "text": "is inexpensive but difficult to fly", "is_correct": false},
+          {"label": "D", "text": "can be put together in a short time", "is_correct": true},
+          {"label": "E", "text": "is only permitted to be used for private recreational flying", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "According to the passage, ----.",
+        "paragraph": "Earthquake is a sudden movement in Earth's crust which produces vibration. These vibrations may be detectable only by sensitive instruments called seismographs, or else they may kill thousands as they destroy cities. Many earthquakes are caused when rocks move along faults. Severe earthquakes are most common near the edges of the 'plates' in the Earth's crust, such as around the Pacific Ocean, along the mid-Atlantic ridge and in the Mediterranean and South- West Asian regions. They occur when the plates move. So, the earthquakes are caused by volcanic action, explosions and other factors, and earthquakes under the sea trigger off huge waves called tsunamis.",
+        "options": [
+          {"label": "A", "text": "rocks move when the earthquakes occur", "is_correct": false},
+          {"label": "B", "text": "seismographs may devastate cities if not detected", "is_correct": false},
+          {"label": "C", "text": "earthquakes are caused by huge waves called tsunamis", "is_correct": false},
+          {"label": "D", "text": "earthquakes are more likely to happen where there are faults", "is_correct": true},
+          {"label": "E", "text": "sudden movements in the earth's crust are called volcanic eruption", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We understand from the passage that ----.",
+        "paragraph": "First language, also known as mother tongue, is generally the language a person learns first. However, one can have two or more native languages thus being a native bilingual or indeed multilingual. The order in which these languages are learned is not necessarily the order of proficiency. Lacking in first language skills often make learning other languages difficult. Often a child learns the basics of his or her first language or languages from his or her family. The term mother tongue, however, should not be interpreted to mean that it is the language of one's mother. For instance, in some paternal societies, the wife moves in with the husband and thus may have a different first language or dialect than the local language of the husband. Yet their children usually only speak their local language.",
+        "options": [
+          {"label": "A", "text": "most bilinguals don't have a dominant language", "is_correct": false},
+          {"label": "B", "text": "the acquisition of a first language is the most complex skill anyone ever learns", "is_correct": false},
+          {"label": "C", "text": "most children have learning difficulties in acquiring their first language", "is_correct": false},
+          {"label": "D", "text": "one's mother tongue might not be the language of the parents", "is_correct": true},
+          {"label": "E", "text": "it is very rare for bilinguals to have equal competence in both their languages", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "As it is stated in the passage, speaking ----.",
+        "paragraph": "It often appears that we have more to gain by speaking than by listening. One big advantage of speaking is that it gives you a chance to control others' thoughts and actions. Whatever your goal is, the key to success seems to be the ability to speak well. Another apparent advantage of speaking is the chance it provides to gain the admiration, respect, or liking of others. Finally, talking gives you the chance to release energy in a way that listening can't. In the same way, you can often lessen your anger by letting it out verbally.",
+        "options": [
+          {"label": "A", "text": "has advantages over listening", "is_correct": true},
+          {"label": "B", "text": "doesn't help one to release harmful emotions", "is_correct": false},
+          {"label": "C", "text": "like listening has many advantages", "is_correct": false},
+          {"label": "D", "text": "is as equally important as listening is", "is_correct": false},
+          {"label": "E", "text": "can sometimes be really exhausting unlike listening", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "According to the passage ----.",
+        "paragraph": "Magellan is a Portuguese navigator who shared the idea of Christopher Columbus and others that the Far East could be reached by sailing westward. He embarked from Spain in August 1519 with a fleet of five ships, sailed southward down the coast of South America and reached the Pacific Ocean through the Strait named after him. He then gave the Pacific its name, because his first impression of it was one of peace and calm. Magellan was killed by warring tribesmen in the Philippines, but one of his ships finally arrived back in Spain in September 1522 via the Indian and Atlantic Oceans, the first to have circumnavigated the world.",
+        "options": [
+          {"label": "A", "text": "the name Pacific comes from the harshness and hostility of the Pacific Ocean", "is_correct": false},
+          {"label": "B", "text": "Christopher Columbus is also a Portuguese seafarer", "is_correct": false},
+          {"label": "C", "text": "Magellan had difficulties while fighting with the tribesmen", "is_correct": false},
+          {"label": "D", "text": "the Portuguese have more audacity than any other nations in the world", "is_correct": false},
+          {"label": "E", "text": "four of the five ships were destroyed and only one of them was able to arrive back after 3 years", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "According to the passage, the nurse's function has been expanded because of ----.",
+        "paragraph": "Modern scientific and technological developments in the practice of medicine and public health have drawn nursing into new and wider fields of activity, and its functions have been expanded accordingly. Therefore, nursing is no longer limited mainly to activities within the hospital, or to what is called curative nursing. It has become also a community service in which preventive and rehabilitative functions are a vital part of its program. The modern concept of nursing considers the hospital, however central, as only one of many health agencies in the community.",
+        "options": [
+          {"label": "A", "text": "the nurse's activities in the hospital", "is_correct": false},
+          {"label": "B", "text": "hospitals, which are the most common work environments for nurses", "is_correct": false},
+          {"label": "C", "text": "the reluctance of nurses to work in the hospital", "is_correct": false},
+          {"label": "D", "text": "the necessity of working longer hours", "is_correct": false},
+          {"label": "E", "text": "the progress in science and technology in related fields", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We learn from the reading that when students graduate from high school ----.",
+        "paragraph": "One of the major processes that takes place in schools, of course, is that students learn. When they graduate from high school, many can use a computer, write essays with three-part theses, and differentiate equations. In addition to learning specific skills, they learn to think critically, to weigh evidence and to develop independent judgment. The extent to which this development takes place is related to both school and home environments. Teachers who are more open to new ideas and less authoritarian produce students who have greater intellectual flexibility and higher achievement test scores. Studies show that teachers are most demanding when they are of the same social class as their students. The greater the difference between their own social class and that of their pupils, the more rigidly they structure their classrooms and the fewer demands they place on their students.",
+        "options": [
+          {"label": "A", "text": "none of them are able to think critically", "is_correct": false},
+          {"label": "B", "text": "they can take the overall responsibility of anything", "is_correct": false},
+          {"label": "C", "text": "all of them have a good knowledge of computer usage", "is_correct": false},
+          {"label": "D", "text": "many of them have gained specific skills like writing essays and differentiating equations", "is_correct": true},
+          {"label": "E", "text": "most of them lack knowledge because of unavailability of ideal learning conditions", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "It can be inferred from the passage that ----.",
+        "paragraph": "Panda is the name for two nocturnal Asian mammals: the red panda and the giant panda. The red panda, also known as lesser panda and cat bear, is found at high elevations in the Himalayas. It resembles a raccoon but has a longer body and tail and a more rounded head. Its thick fur is rust color to deep chestnut, with black on the under parts, limbs, and ears. The red panda spends much of its time in trees but feeds on the ground, eating primarily bamboo leaves but also fruit and roots. The giant panda superficially resembles a bear. The body is chiefly white, and the limbs are brownish black, with the dark color extending up over the shoulder. The ears and eye patches are black. Giant pandas live in restricted areas of the high mountain bamboo forests of central China; their diet consists entirely of bamboo shoots. Rare in the wild, they produce young poorly when they are not in their natural environment. Giant pandas are protected by law in China.",
+        "options": [
+          {"label": "A", "text": "though they share a name, red and giant pandas are not alike in many ways", "is_correct": true},
+          {"label": "B", "text": "the number of the bamboo forests of China is decreasing", "is_correct": false},
+          {"label": "C", "text": "red pandas usually live on chestnuts just like giant pandas", "is_correct": false},
+          {"label": "D", "text": "it is surprising that the giant pandas are not in danger of becoming extinct", "is_correct": false},
+          {"label": "E", "text": "all the mammals at high elevations in the Himalayas are nocturnal", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "It is stated in the article that ----.",
+        "paragraph": "Parents teach their children to be fearful and cautious of specific dangers, such as fire or crossing the road. Anxiety can be useful because it helps protect the child from harm. However, children can be fearful of situations or objects that adults do not consider threatening. The sources of fear may change as the child matures; for example, a fear of the dark or monsters under the bed may give way to fears of burglary or violence. Tactics that don't work include teasing the child for being afraid, or compelling them to confront fearful situations. Helping the child to deal with fear includes taking their feelings seriously, encouraging them to talk about their anxieties, telling them the facts, and giving them the opportunity to confront their fears at their own pace and with your support.",
+        "options": [
+          {"label": "A", "text": "parents should not teach their children to be cautious of specific dangers", "is_correct": false},
+          {"label": "B", "text": "the best way to avoid fears during childhood is to ignore them", "is_correct": false},
+          {"label": "C", "text": "every single child has a fear of burglary and violence", "is_correct": false},
+          {"label": "D", "text": "making fun of the child's fears is the best way to get rid of them", "is_correct": false},
+          {"label": "E", "text": "the fears of the childhood can lead to some other fears in the adulthood", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "In recent years, the traffic in China has got _____.",
+        "paragraph": "Read the passage and choose the correct answer. As one of the world’s fastest growing economies, there has been a huge increase in China’s urban population. With so many more people also able to afford cars, China’s cities now have some of the biggest traffic congestion problems and produce more pollution than any other country in the world.",
+        "options": [
+          {"label": "A", "text": "faster", "is_correct": false},
+          {"label": "B", "text": "better", "is_correct": false},
+          {"label": "C", "text": "worse", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "It’s common to _______ if we aren’t telling the truth.",
+        "paragraph": "Read the passage and choose the correct answer. Experiments have shown that we use our hands to talk with much less than usual when what we are saying is not true. We don’t know exactly what our hands are saying, but we know they are probably communicating something important so we try not to use them. A person who says he or she is very pleased with something, and they have their arms folded while they are speaking, may actually be feeling quite the opposite.",
+        "options": [
+          {"label": "A", "text": "use our hands more", "is_correct": false},
+          {"label": "B", "text": "use our hands less", "is_correct": true},
+          {"label": "C", "text": "look at our hands", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "People who aren’t being honest often _______.",
+        "paragraph": "Read the passage and choose the correct answer. If we are lying, we often cover our mouth with our hand or put a finger on our lip. Part of us knows that what we are saying is not true, and tries to stop it coming out.",
+        "options": [
+          {"label": "A", "text": "touch their faces more frequently", "is_correct": true},
+          {"label": "B", "text": "try to stop talking", "is_correct": false},
+          {"label": "C", "text": "touch their hair", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "In _____ the UN made a promise to cut the poverty figures by half.",
+        "paragraph": "Read the passage and choose the correct answer. In 1990, the World Bank published a report showing that there were over a billion people in the world with an income of just one dollar a day. At the start of this century, the United Nations promised to halve this figure by 2015. It has been working hard to keep this promise ever since. A series of short films was made to show what you can buy in different countries with this tiny amount. In a market in Nepal, for example, they could only buy four bananas and a loaf of bread. It was impossible to buy meat or any protein.",
+        "options": [
+          {"label": "A", "text": "2015", "is_correct": true},
+          {"label": "B", "text": "2000", "is_correct": false},
+          {"label": "C", "text": "1900", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "In Nepal it costs one dollar to buy _____ and some bread.",
+        "paragraph": "Read the passage and choose the correct answer. In 1990, the World Bank published a report showing that there were over a billion people in the world with an income of just one dollar a day. At the start of this century, the United Nations promised to halve this figure by 2015. It has been working hard to keep this promise ever since. A series of short films was made to show what you can buy in different countries with this tiny amount. In a market in Nepal, for example, they could only buy four bananas and a loaf of bread. It was impossible to buy meat or any protein.",
+        "options": [
+          {"label": "A", "text": "cheese", "is_correct": false},
+          {"label": "B", "text": "meet", "is_correct": false},
+          {"label": "C", "text": "a few bananas", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "It wasn’t possible to buy _____ with a dollar.",
+        "paragraph": "Read the passage and choose the correct answer. In the US, two school teachers decided to try spending only one dollar each day on food for a month and have now written a book about their experience. They say they were often starving, and got bored with eating the same food. And they couldn’t afford to buy healthy foods such as fresh fruit and vegetables. The book describes how much rich countries waste, and how they try to save money by buying cheap food from other countries.",
+        "options": [
+          {"label": "A", "text": "unhealthy food", "is_correct": false},
+          {"label": "B", "text": "anything", "is_correct": false},
+          {"label": "C", "text": "fruit", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The book shows how much rich countries _____.",
+        "paragraph": "Read the passage and choose the correct answer. In the US, two school teachers decided to try spending only one dollar each day on food for a month and have now written a book about their experience. They say they were often starving, and got bored with eating the same food. And they couldn’t afford to buy healthy foods such as fresh fruit and vegetables. The book describes how much rich countries waste, and how they try to save money by buying cheap food from other countries.",
+        "options": [
+          {"label": "A", "text": "throw away", "is_correct": true},
+          {"label": "B", "text": "spend each day", "is_correct": false},
+          {"label": "C", "text": "can afford to buy", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Two school teachers spent one dollar a day on _____.",
+        "paragraph": "Read the passage and choose the correct answer. In the US, two school teachers decided to try spending only one dollar each day on food for a month and have now written a book about their experience. They say they were often starving, and got bored with eating the same food. And they couldn’t afford to buy healthy foods such as fresh fruit and vegetables. The book describes how much rich countries waste, and how they try to save money by buying cheap food from other countries.",
+        "options": [
+          {"label": "A", "text": "a book", "is_correct": false},
+          {"label": "B", "text": "vegetables", "is_correct": false},
+          {"label": "C", "text": "eating", "is_correct": true}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Two school teachers were often very _____.",
+        "paragraph": "Read the passage and choose the correct answer. In the US, two school teachers decided to try spending only one dollar each day on food for a month and have now written a book about their experience. They say they were often starving, and got bored with eating the same food. And they couldn’t afford to buy healthy foods such as fresh fruit and vegetables. The book describes how much rich countries waste, and how they try to save money by buying cheap food from other countries.",
+        "options": [
+          {"label": "A", "text": "tired", "is_correct": false},
+          {"label": "B", "text": "hungry", "is_correct": true},
+          {"label": "C", "text": "healthy", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We are making _____ landline calls these days.",
+        "paragraph": "Read the passage and choose the correct answer. Is the phone call becoming a thing of the past? New research suggests we are now more likely to text or email friends or family than dial their number. The amount of time we spend talking on our mobile phones has gone down by 5% and by twice that for landline calls, whereas the number of text messages we send has doubled in the last few years.",
+        "options": [
+          {"label": "A", "text": "5% fewer", "is_correct": false},
+          {"label": "B", "text": "10% fewer", "is_correct": true},
+          {"label": "C", "text": "1-% more", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "When it comes to watching body language, legs and feet _______.",
+        "paragraph": "Read the passage and choose the correct answer. Legs and feet are the most revealing parts of our body as they are the furthest from our face and we don’t usually pay attention to what they are doing. An interviewer might be listening patiently, smiling, and nodding, but if he’s tapping his foot, this could tell us that he is not enjoying the interview at all.",
+        "options": [
+          {"label": "A", "text": "aren’t as interesting as faces", "is_correct": false},
+          {"label": "B", "text": "are the most revealing", "is_correct": true},
+          {"label": "C", "text": "aren’t worth looking at", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The charity 1 Dollar a Day lends people money to _____.",
+        "paragraph": "Read the passage and choose the correct answer. Many people have been horrified to learn how enormous the problem of world poverty is and have taken action in different ways. A UK charity called 1 Dollar a Day has been raising money to invest in projects to improve health, clean water, education, etc. They have also given people loans to help them set up a business as it is difficult to borrow money if you have no bank account.",
+        "options": [
+          {"label": "A", "text": "get water", "is_correct": false},
+          {"label": "B", "text": "start a business", "is_correct": true},
+          {"label": "C", "text": "buy food", "is_correct": false}
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "If a person’s words and body language don’t match, we can feel _____.",
+        "paragraph": "Read the passage and choose the correct answer. Most of us don’t know exactly what someone else’s body language means. But if we feel uneasy in someone’s company, it may be because their words and their body are saying different things from each other. This difference can have a significant effect on how we get on with that person.",
+        "options": [
+          {
+            "label": "A",
+            "text": "at ease",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "relaxed",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "uncomfortable",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "A safety system will stop accidents with _____.",
+        "paragraph": "Read the passage and choose the correct answer. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). The engineer has thought of everything. The bus will follow fixed routes and passengers will board the bus from stations above the ground. These stations will also recharge the bus with electricity. If you’re worried about the bus crashing into other vehicles, don’t be. A system of lights and alarms will stop this from happening. Youzhou Song has even designed escape doors which open at the side in an emergency, just like on an aeroplane.",
+        "options": [
+          {
+            "label": "A",
+            "text": "pedestrians",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "traffic lights",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "cars",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "An engineer has designed _____ to resolve traffic congestion.",
+        "paragraph": "Read the passage and choose the correct answer. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's congestion traffic problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). This bus, which looks like a train, holds passengers on the top level while cars can continue to drive beneath. The bus, travelling at about 40 kilometres an hour, will not move as fast as a car, but it will never have the problems of traffic jams. It is as wide as two lanes of the road, but it won’t slow down the traffic. It can carry 1,200 passengers, and replace up to 40 conventional buses, saving 860 tons of fuel and 2,640 tons of carbon emissions per year. As it also runs on a combination of electricity and solar power, it offers a much greener, cleaner, quieter and more economical form of transport. It is also three times faster and ten times cheaper to build than the same length of underground railway. Designed with a huge window in the top of the bus, it is also a lighter and more cheerful way to travel!",
+        "options": [
+          {
+            "label": "A",
+            "text": "a traing",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "a bus",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "a bridge",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The new vehicle will travel more slowly than _____.",
+        "paragraph": "Read the passage and choose the correct answer. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). This bus, which looks like a train, holds passengers on the top level while cars can continue to drive beneath. The bus, travelling at about 40 kilometres an hour, will not move as fast as a car, but it will never have the problems of traffic jams. It is as wide as two lanes of the road, but it won’t slow down the traffic. It can carry 1,200 passengers, and replace up to 40 conventional buses, saving 860 tons of fuel and 2,640 tons of carbon emissions per year. As it also runs on a combination of electricity and solar power, it offers a much greener, cleaner, quieter and more economical form of transport. It is also three times faster and ten times cheaper to build than the same length of underground railway. Designed with a huge window in the top of the bus, it is also a lighter and more cheerful way to travel!",
+        "options": [
+          {
+            "label": "A",
+            "text": "a car",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "a normal bus",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "all other traffic",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The other forms of transport are not as _____ as the new system.",
+        "paragraph": "Read the passage and choose the correct answer. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). This bus, which looks like a train, holds passengers on the top level while cars can continue to drive beneath. The bus, travelling at about 40 kilometres an hour, will not move as fast as a car, but it will never have the problems of traffic jams. It is as wide as two lanes of the road, but it won’t slow down the traffic. It can carry 1,200 passengers, and replace up to 40 conventional buses, saving 860 tons of fuel and 2,640 tons of carbon emissions per year. As it also runs on a combination of electricity and solar power, it offers a much greener, cleaner, quieter and more economical form of transport. It is also three times faster and ten times cheaper to build than the same length of underground railway. Designed with a huge window in the top of the bus, it is also a lighter and more cheerful way to travel!",
+        "options": [
+          {
+            "label": "A",
+            "text": "noisy",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "quiet",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "expensive",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The bus will get electricity from _____.",
+        "paragraph": "Read the passage and choose the correct answer. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). The engineer has thought of everything. The bus will follow fixed routes and passengers will board the bus from stations above the ground. These stations will also recharge the bus with electricity. If you’re worried about the bus crashing into other vehicles, don’t be. A system of lights and alarms will stop this from happening. Youzhou Song has even designed escape doors which open at the side in an emergency, just like on an aeroplane.",
+        "options": [
+          {
+            "label": "A",
+            "text": "the stations",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "the ground",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "the route",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "In 2008, _____ of the world’s population was very poor.",
+        "paragraph": "Read the passage and choose the correct answer. The World Bank has recently published another report on how the situation has changed since 1990. One dollar is worth less now, and food and fuel cost more, so it is difficult to work out exactly how much progress there has been. However, there have clearly been some amazing changes. Between 1990 and 2008, the number of people who earned salaries below the poverty line went down from 43% of the developing world to 22%, so the UN has already made a big difference. Of course there is still a huge amount to do to improve the lives of millions of people throughout the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "43%",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "22%",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "cover a billion",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The writer says we still need to do _____ to help people.",
+        "paragraph": "Read the passage and choose the correct answer. The World Bank has recently published a new report on how the situation has changed since 1990. One dollar is worth less now, and food and fuel cost more, so it is difficult to work out exactly how much progress there has been. However, there have clearly been some amazing changes. Between 1990 and 2008, the number of people who earned salaries below the poverty line went down from 43% of the developing world to 22%, so the UN has already made a big difference. Of course there is still a huge amount to do to improve the lives of millions of people throughout the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "a little",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "a lot",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "some things",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Since 1990, the situation has changed _____.",
+        "paragraph": "Read the passage and choose the correct answer. The World Bank has recently published another report on how the situation has changed since 1990. One dollar is worth less now, and food and fuel cost more, so it is difficult to work out exactly how much progress there has been. However, there have clearly been some amazing changes. Between 1990 and 2008, the number of people who earned salaries below the poverty line went down from 43% of the developing world to 22%, so the UN has already made a big difference. Of course there is still a huge amount to do to improve the lives of millions of people throughout the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "very little",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "not at all",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "a surprising amount",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Some people who receive a phone call prefer to reply by _____.",
+        "paragraph": "Read the passage and choose the correct answer. There is no question that we have changed the ways we use the telephone. These days we often feel we shouldn’t call someone without making an arrangement to call first. Many people are frustrated if they are disturbed by an unexpected phone call. We want to be able to choose when we reply and we don’t want to have to chat when we are busy with something else. Written communication allows us to respond quickly and economically. It also means we can think about what we want to say before we get in touch. Phones can also be noisy in open-plan offices, and many people won’t call back if you leave a message on their voicemail. They will email instead.",
+        "options": [
+          {
+            "label": "A",
+            "text": "text",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "phone",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "email",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We like to _____ before we reply to something.",
+        "paragraph": "Read the passage and choose the correct answer. There is no question that we have changed the ways we use the telephone. These days we often feel we shouldn’t call someone without making an arrangement to call first. Many people are frustrated if they are disturbed by an unexpected phone call. We want to be able to choose when we reply and we don’t want to have to chat when we are busy with something else. Written communication allows us to respond quickly and economically. It also means we can think about what we want to say before we get in touch. Phones can also be noisy in open-plan offices, and many people won’t call back if you leave a message on their voicemail. They will email instead.",
+        "options": [
+          {
+            "label": "A",
+            "text": "plan our ideas",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "talk to friends",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "take a long time",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "When we’re _____ we don’t like talking on the phone.",
+        "paragraph": "Read the passage and choose the correct answer. There is no question that we have changed the ways we use the telephone. These days we often feel we shouldn’t call someone without making an arrangement to call first. Many people are frustrated if they are disturbed by an unexpected phone call. We want to be able to choose when we reply and we don’t want to have to chat when we are busy with something else. Written communication allows us to respond quickly and economically. It also means we can think about what we want to say before we get in touch. Phones can also be noisy in open-plan offices, and many people won’t call back if you leave a message on their voicemail. They will email instead.",
+        "options": [
+          {
+            "label": "A",
+            "text": "out",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "at home",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "busy",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "People who are afraid tend to _______.",
+        "paragraph": "Read the passage and choose the correct answer. Touching our ear or hair and, most commonly, our nose are signs that we might be feeling anxious, or that we are angry or frightened but don’t feel able to express it.",
+        "options": [
+          {
+            "label": "A",
+            "text": "cover their mouths",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "touch their noses",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "touch their hands",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Our body language shows _____.",
+        "paragraph": "Read the passage and choose the correct answer. Up to 90 per cent of communication is non-verbal. So we might say one thing, but our body language often tells a different story. Body language refers to the pattern of gestures that express our inner thoughts and feelings in communication.",
+        "options": [
+          {
+            "label": "A",
+            "text": "what we want people to think",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "what we’re really thinking",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "that we always tell the truth",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Traffic has got worse in China because more people have cars.",
+        "paragraph": "Read the passage and mark the statement true or false. As one of the world’s fastest growing economies, there has been a huge increase in China’s urban population. With so many more people also able to afford cars, China’s cities now have some of the biggest traffic congestion problems and produce more pollution than any other country in the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Georgina thinks that Anna is charming.",
+        "paragraph": "Read the passage and mark the statement true or false. Hello, my name is Georgiana! I was really pleased when my son wanted to move back home. I love spending time with Anna, my granddaughter. She’s a lovely little girl at the minute – so happy and affectionate – everybody who meets her likes her. It will be wonderful to watch her grow up. I think even my unsociable husband is enjoying it!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Liz decided to run the London Marathon before she moved to Oxford.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Liz! I had recently moved to Oxford from Bristol when I decided to run the London Marathon. I didn’t want to train alone so I advertised for a running partner at my local gym, and Harriet got in touch. We met for coffee and got on really well. It was amazing how many things we had in common, for example she had recently moved to Oxford, too. While we were getting fit we also became close friends. Unfortunately I got injured three weeks before the race and couldn’t take part. I was sad about the race, but am delighted about my new friendship. And we’re already thinking about next year ...",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Liz found someone to train with by putting an advertisement in the gym.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Liz! I had recently moved to Oxford from Bristol when I decided to run the London Marathon. I didn’t want to train alone so I advertised for a running partner at my local gym, and Harriet got in touch. We met for coffee and got on really well. It was amazing how many things we had in common, for example she had recently moved to Oxford, too. While we were getting fit we also became close friends. Unfortunately I got injured three weeks before the race and couldn’t take part. I was sad about the race, but am delighted about my new friendship. And we’re already thinking about next year ...",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie and Roger are engaged now.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie didn’t see Roger for 30 years after she got married.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie and Roger were playing golf with friends when they met again.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie and Roger are engaged now.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie didn’t see Roger for 30 years after she got married.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Marjorie and Roger were playing golf with friends when they met again.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, I’m Marjorie! Many years ago I used to play tennis with a man called Roger. He usually beat me but I remember how kind he was. We lost touch when I got married and I thought I’d never see him again. That was 30 years ago. When I retired last year, I needed a new activity, especially as I had also recently got divorced, so I took up golf. One day I was going around the course alone, when I saw a man, also playing on his own. When he turned round, I realized it was my old friend! We couldn’t believe it! After that we started playing regularly. Yesterday, Roger proposed in the middle of the golf course – he’d put a ring inside a golf ball! I couldn’t believe it when I saw the ring, but I said ‘yes’!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Steve and Paul have become good friends.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, my name is Paul! I was looking for a flatmate a few months ago because I had just split up with my partner and she had moved out. To forget her, I started working out at the gym after work. I slowly got to know Steve who was often there at the same time, although we didn’t become friends until we were both warming up one day, and he said he was looking for somewhere to live as his girlfriend had just dumped him. I told him that I had a room in my flat and that I was looking for a flatmate. He moved in two days later. We’ve become good mates and we both agree that we’re much easier to live with than our ex-girlfriends!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Paul moved out of his flat after he broke up with his girlfriend.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi, my name is Paul! I was looking for a flatmate a few months ago because I had just split up with my partner and she had moved out. To forget her, I started working out at the gym after work. I slowly got to know Steve who was often there at the same time, although we didn’t become friends until we were both warming up one day, and he said he was looking for somewhere to live as his girlfriend had just dumped him. I told him that I had a room in my flat and that I was looking for a flatmate. He moved in two days later. We’ve become good mates and we both agree that we’re much easier to live with than our ex-girlfriends!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Alan says that they are going to live with his parents for many years.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi! My name is Alan and my wife and I live together with my parents. We also have a daughter. At first, I was worried about having to live together with my parents because my mother can be bossy, but actually, she is being sensitive and we’re lucky to have a reliable babysitter in the house! My dad is sometimes moody, but he’s very affectionate with Anna. We’re planning to buy our own house in a couple of years, but I think we’ll stay near my parents because the relationship between Anna and her grandparents is so special.",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Chris is happy that Georgina has a good relationship with Esther.",
+        "paragraph": "Read the passage and mark the statement true or false. Hi! My name is Chris and my wife, Georgiana, and I live together with our son, Alan, his wife, Esther, and their daughter, Anna. I prefer a quiet life and a tidy house, and I think young people should be independent, but my wife loves having the family here. From a selfish point of view, it’s good for me too because Georgina is quite talkative and now she can chat to her daughter-in-law. I think it’s a very satisfactory situation for everyone concerned!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We are sending twice as many texts.",
+        "paragraph": "Read the passage and mark the statement true or false. Is the phone call becoming a thing of the past? New research suggests we are now more likely to text or email friends or family than dial their number. The amount of time we spend talking on our mobile phones has gone down by 5% and by twice that for landline calls, whereas the number of text messages we send has doubled in the last few years.",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The family meets to talk about how they are getting on once a month.",
+        "paragraph": "Read the passage and mark the statement true or false. My husband and I live together with our son, his wife and their daughter. We eat together twice a week and, once a month, we have a family conference – my husband and I, my son and his wife – to discuss how things are going. We try to respect each other’s space. Having my son here makes me less anxious about the future, too. At the moment, we’re healthy, but in a few years we’re going to need more help.",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Cars and the new bus will use different levels.",
+        "paragraph": "Read the passage and mark the statement true or false. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). This bus, which looks like a train, holds passengers on the top level while cars can continue to drive beneath. The bus, travelling at about 40 kilometres an hour, will not move as fast as a car, but it will never have the problems of traffic jams. It is as wide as two lanes of the road, but it won’t slow down the traffic. It can carry 1,200 passengers, and replace up to 40 conventional buses, saving 860 tons of fuel and 2,640 tons of carbon emissions per year. As it also runs on a combination of electricity and solar power, it offers a much greener, cleaner, quieter and more economical form of transport. It is also three times faster and ten times cheaper to build than the same length of underground railway. Designed with a huge window in the top of the bus, it is also a lighter and more cheerful way to travel!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The new bus will carry 40 people.",
+        "paragraph": "Read the passage and mark the statement true or false. One Chinese engineer, Youzhou Song, has designed an exciting solution to China's traffic congestion problems: the straddling bus (a bus which goes across and above part of the road, like a moving bridge). This bus, which looks like a train, holds passengers on the top level while cars can continue to drive beneath. The bus, travelling at about 40 kilometres an hour, will not move as fast as a car, but it will never have the problems of traffic jams. It is as wide as two lanes of the road, but it won’t slow down the traffic. It can carry 1,200 passengers, and replace up to 40 conventional buses, saving 860 tons of fuel and 2,640 tons of carbon emissions per year. As it also runs on a combination of electricity and solar power, it offers a much greener, cleaner, quieter and more economical form of transport. It is also three times faster and ten times cheaper to build than the same length of underground railway. Designed with a huge window in the top of the bus, it is also a lighter and more cheerful way to travel!",
+        "options": [
+          {
+            "label": "A",
+            "text": "true",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "false",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Our body language shows _____.",
+        "paragraph": "Up to 90 per cent of communication is non-verbal. So we might say one thing, but our body language often tells a different story. Body language refers to the pattern of gestures that express our inner thoughts and feelings in communication.",
+        "options": [
+          {
+            "label": "A",
+            "text": "what we want people to think",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "what we’re really thinking",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "that we always tell the truth",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "According to the passage, knowing the cause of scratchy throats, stuffy noses and body aches ----.",
+        "paragraph": "Scratchy throats, stuffy noses and body aches all spell misery, but being able to tell if the cause is a cold or flu may make a difference in how long the flu lasts. That's because the prescription drugs available for the flu need to be taken soon after the illness sets in although the symptoms can be eased with over the counter medications. As for colds, the sooner a person starts taking over-the-counter remedy, the sooner relief will come. Cold symptoms such as stuffy nose, runny nose and scratchy throat typically develop gradually, and adults and teens often do not get a fever. On the other hand, fever is one of the characteristic features of the flu for all ages. And in general, flu symptoms including fever and chills, sore throat and body aches come on suddenly and are more severe than cold symptoms.",
+        "options": [
+          {
+            "label": "A",
+            "text": "reduces the likelihood of catching cold",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "sometimes doesn't help patients lessen the severity of symptoms",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "encourages patients to buy over-the-counter medications",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "will shorten the duration of the flu",
+            "is_correct": true
+          },
+          {
+            "label": "E",
+            "text": "prevents people from getting infected",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "We understand from the passage that the construction of the Stonehenge ----.",
+        "paragraph": "Stonehenge is an ancient monument situated about ten miles north of Salisbury in England. It was built about 4500 years ago, but by whom and for what purpose remains a mystery. The builders must have known of geometry. They may have been influenced by the Mycenaeans, whose architecture was similar. Some of the stones must have been brought from West Wales, over 135 miles away. These stones weigh more than fifty tons. They may have been brought on rafts and rollers. Experts say that it must have taken 1500 men more than five years to transport them. Stonehenge was probably built in three stages. First, settlers from continental Europe built a temple for sun worship. Later the 'Beaker' people added the stone circles. Finally, people of the Wesse Culture transformed Stonehenge into an observatory. They could calculate the exact time of Midsummer and Midwinter and of equinoxes.",
+        "options": [
+          {
+            "label": "A",
+            "text": "began 135 miles away from Salisbury",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "is thought to have taken place in more than one stage",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "was first documented by the Mycenaeans",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "is not a mystery that needs to be solved",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "was completed in less than five years",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The writer points out that the best solution is to drink ----.",
+        "paragraph": "Tea had a reputation for being both safe and almost always beneficial. However, scientists are now suggesting that tea may not be as safe as we had previously believed. Tea contains caffeine, and caffeine has been linked to sleeplessness and to the unpleasant jumpy feeling some people get when stressed. More seriously, there is a link between miscarriages, and pregnant women are advised to reduce their intake of tea until after their baby is born. Due to its critical side-effects, some people who like tea choose to be safer and drink a beverage from which the caffeine has been removed, decaffeinated tea, but many claim that it simply doesn't taste right. The reasonable thing to do is probably moderation; continue to enjoy a cup of tea, but don't have too many!",
+        "options": [
+          {
+            "label": "A",
+            "text": "decaffeinated tea",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "instant coffee",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "tea in moderation",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "other beverages like hot chocolate",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "no tea at all",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "The writer says we still need to do _____ to help people.",
+        "paragraph": "The World Bank has recently published a new report on how the situation has changed since 1990. One dollar is worth less now, and food and fuel cost more, so it is difficult to work out exactly how much progress there has been. However, there have clearly been some amazing changes. Between 1990 and 2008, the number of people who earned salaries below the poverty line went down from 43% of the developing world to 22%, so the UN has already made a big difference. Of course there is still a huge amount to do to improve the lives of millions of people throughout the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "a little",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "a lot",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "some things",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "Since 1990, the situation has changed _____.",
+        "paragraph": "The World Bank has recently published another report on how the situation has changed since 1990. One dollar is worth less now, and food and fuel cost more, so it is difficult to work out exactly how much progress there has been. However, there have clearly been some amazing changes. Between 1990 and 2008, the number of people who earned salaries below the poverty line went down from 43% of the developing world to 22%, so the UN has already made a big difference. Of course there is still a huge amount to do to improve the lives of millions of people throughout the world.",
+        "options": [
+          {
+            "label": "A",
+            "text": "very little",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "not at all",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "a surprising amount",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "This passage is mainly concerned with ----.",
+        "paragraph": "When early humans hunted and gathered food, they were not in control of their environment. They could only interact with their surroundings as lower organisms did. When humans learned to make fire, however, they became capable of altering their environment. To provide themselves with fuel they stripped bark from trees, causing the trees to die. Clearings were burned in forests to increase the growth of grass and to provide a greater grazing area for the wild animals that humans fed upon. This development led to farming and the domestication of animals. Fire also provided the means for cooking plants which had previously been inedible. Only when the process of meeting the basic need for food reached a certain level of sophistication was it possible for humans to follow other pursuits such as the founding of cities.",
+        "options": [
+          {
+            "label": "A",
+            "text": "the evolution of farming techniques",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "the role of hunting as a source of food",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "how the discovery of fire changed the development of mankind",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "basic food-gathering techniques of early humans",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "how people supplied themselves with food prior to the discovery of how to make fire",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Reading",
+        "level": "B1",
+        "prompt": "As it is pointed out in the passage, the color of the sunset ----.",
+        "paragraph": "When the air is clear, the sunset will appear yellow, because the light from the sun has passed a long distance through air and the blue light has been scattered away. If the air is polluted with small particles, natural or otherwise, the sunset will be more red. Sunsets over the sea may also be orange, due to salt particles in the air. The sky around the sun is seen reddened, as well as the light coming directly from the sun. This is because all light is scattered relatively well through small angles, but blue light is then more likely to be scattered twice over the greater distances, leaving the yellow, red and orange colors.",
+        "options": [
+          {
+            "label": "A",
+            "text": "may be lighter than expected due to salt particles in the air",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "is red if the sky is clear",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "owes its blueness to the distance between the sun and the earth",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "is a combination of all the colors",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "depends on the weather conditions and the location where it takes place",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Diamonds are____, which is probably one of the reasons they are valuable.",
+        "options": [
+          {
+            "label": "A",
+            "text": "broad",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "rare",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "flexible",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "talented",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Even today, many scientists are still unsure about the_______________of global warming.",
+        "options": [
+          {
+            "label": "A",
+            "text": "review",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "cause",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "effort",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "flood",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "For a company to succeed, good management is _____.",
+        "options": [
+          {
+            "label": "A",
+            "text": "tough",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "essential",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "broad",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "affordable",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Forest fires can start naturally; for example, when __________ strikes the ground during a storm.",
+        "options": [
+          {
+            "label": "A",
+            "text": "lightning",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "thunder",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "gasoline",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "rubbish",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "I got a cheque _ a hundred pounds this morning.",
+        "options": [
+          {
+            "label": "A",
+            "text": "in",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "on",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "out of",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "of",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "I don't mind your baking a cake, but just make sure you ___ everything when you've finished.",
+        "options": [
+          {
+            "label": "A",
+            "text": "put/away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "clear/up",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "take/back",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "I won't be able to go shopping with you today, I'm afraid. I've got a lot to do at the moment. Can we_____it___till next week?",
+        "options": [
+          {
+            "label": "A",
+            "text": "put/off",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "find/out",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "take/back",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "I'll dry the dishes if you _ them _ .",
+        "options": [
+          {
+            "label": "A",
+            "text": "put/away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "find/out",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "wash/up",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "If an employee is no longer needed, he or she can be made ____ .",
+        "options": [
+          {
+            "label": "A",
+            "text": "resigned",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "redundant",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "employer",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "retiring",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "If an employer is interested in meeting you, you will be asked to come to a/an _ .",
+        "options": [
+          {
+            "label": "A",
+            "text": "sensation",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "addition",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "completion",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "interview",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "If you have the right talents and experience for a job, then you are ______for it.",
+        "options": [
+          {
+            "label": "A",
+            "text": "resigned",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "resumed",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "careered",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "qualified",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "In twenty years' time, the food supplies will be so ___ for some countries that people will start immigrating in huge numbers.",
+        "options": [
+          {
+            "label": "A",
+            "text": "scale",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "scarce",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "scan",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "scare",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "It is a very strange fact that frogs____water through their skins.",
+        "options": [
+          {
+            "label": "A",
+            "text": "accelerate",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "balance",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "access",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "absorb",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Jack______did a thing at work today. He spent most of his time chatting with the secretary.",
+        "options": [
+          {
+            "label": "A",
+            "text": "seldom",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "rarely",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "hardly",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "slightly",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "John recently changed his _____. He used to be an accountant, but now he's a real estate agent.",
+        "options": [
+          {
+            "label": "A",
+            "text": "source",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "mood",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "profit",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "career",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Johnathan had his ________tested yesterday. The doctor said he needed glasses.",
+        "options": [
+          {
+            "label": "A",
+            "text": "stamina",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "vision",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "courage",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "pressure",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Kate's lifestyle is ___________. She jogs every day and plays tennis three times a week.",
+        "options": [
+          {
+            "label": "A",
+            "text": "cautious",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "worthy",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "active",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "silent",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Lisa is ___ buying a pet but she's not sure what kind to get.",
+        "options": [
+          {
+            "label": "A",
+            "text": "recalling",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "considering",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "regretting",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "recommending",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Many people in the world are forced to leave their countries and become________because of their religious or political views.",
+        "options": [
+          {
+            "label": "A",
+            "text": "patriot",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "peasant",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "refugee",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "bandit",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "My boss_________ me the task of cleaning the staff kitchen.",
+        "options": [
+          {
+            "label": "A",
+            "text": "labelled",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "shipped",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "assigned",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "recruited",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "One day, I want to climb Mt. Everest. That's a goal I want to_______________.",
+        "options": [
+          {
+            "label": "A",
+            "text": "achieve",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "recall",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "invent",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "acquire",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "One should never ______ the importance of family life in the overall development of a child.",
+        "options": [
+          {
+            "label": "A",
+            "text": "capture",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "underestimate",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "calculate",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "gamble",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Queen Victoria wore some beautiful______________on her neck at the party.",
+        "options": [
+          {
+            "label": "A",
+            "text": "jewellery",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "inspiration",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "criticism",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "odor",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Takeshi's job with the government is______. He'll probably work there until he dies.",
+        "options": [
+          {
+            "label": "A",
+            "text": "loyal",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "efficient",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "stable",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "limited",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The chances of winning the lottery are very low. Although Jim ________he'll ever win, he buys a lottery ticket every weekend.",
+        "options": [
+          {
+            "label": "A",
+            "text": "imagines",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "contains",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "reports",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "doubts",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The company owner _______ the meeting. The other managers didn't even get the chance to speak.",
+        "options": [
+          {
+            "label": "A",
+            "text": "ensured",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "facilitated",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "dominated",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "alleviated",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The factory workers are _ strike because they want more money.",
+        "options": [
+          {
+            "label": "A",
+            "text": "in",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "on",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "out of",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "of",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The fire was so intense that it took the firemen three hours to _it .",
+        "options": [
+          {
+            "label": "A",
+            "text": "put/away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "find/out",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "put/out",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "clear/up",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The government wants to _______a new scheme to encourage people to start their own businesses.",
+        "options": [
+          {
+            "label": "A",
+            "text": "put away",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "find out",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "try out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "clear up",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The police are ___________a murder that happened last night downtown They don't know who the killer is yet.",
+        "options": [
+          {
+            "label": "A",
+            "text": "investigating",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "coordinating",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "demonstrating",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "searching",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "The water around Tokyo is too _____________to swim in or drink.",
+        "options": [
+          {
+            "label": "A",
+            "text": "slippery",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "polluted",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "extinct",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "thick",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Theft and _________ are still among the most serious crimes in many countries.",
+        "options": [
+          {
+            "label": "A",
+            "text": "welfare",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "homicide",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "sacrifice",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "ignorance",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "They weren't in a safe area, so John________________Brenda to her car from the restaurant.",
+        "options": [
+          {
+            "label": "A",
+            "text": "accompanied",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "indicated",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "scattered",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "appealed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Thousands of people are _ work in this town. It's really difficult to get a job.",
+        "options": [
+          {
+            "label": "A",
+            "text": "in",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "on",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "out of",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "of",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Tina doesn't like speaking English in front of others because she is not ________in her English skills.",
+        "options": [
+          {
+            "label": "A",
+            "text": "available",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "confident",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "visible",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "wealthy",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "To ____there would be enough food at the party, Kelly ordered twice as much as she thought she needed.",
+        "options": [
+          {
+            "label": "A",
+            "text": "preview",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "suspect",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "predict",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "ensure",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Can you ______ _______the time of the next train to London?' 'O.K. I'll phone the station.'",
+        "options": [
+          {
+            "label": "A",
+            "text": "put away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "find out",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "put out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "clear up",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "\"Look at these shoes! They're brand new, and the heel's fallen off already.\" - \"______ them ______ and change them, then.\"",
+        "options": [
+          {
+            "label": "A",
+            "text": "Put/away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Find/out",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "Put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "Take/back",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "A car slowed down as it _______the stop sign.",
+        "options": [
+          {
+            "label": "A",
+            "text": "focused",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "approached",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "trained",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "wiped",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "After two hours of hard training, the coach felt that his players______ a break.",
+        "options": [
+          {
+            "label": "A",
+            "text": "deserved",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "encouraged",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "identified",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "wasted",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Bob got _______ from his job because his boss caught him stealing office supplies.",
+        "options": [
+          {
+            "label": "A",
+            "text": "signed",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "fired",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "split",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "reached",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "After Mark saw his test score, he was ____________ He thought that he had failed.",
+        "options": [
+          {
+            "label": "A",
+            "text": "disabled",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "relieved",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "exhausted",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "meaningless",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "'Can I _____ these jeans ___ please?' - 'Sure. The changing rooms are over there.'",
+        "options": [
+          {
+            "label": "A",
+            "text": "put/away",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "try/out",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "try/on",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "All the runners had completed the first ______ of the race when a sudden rain started.",
+        "options": [
+          {
+            "label": "A",
+            "text": "hint",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "ladder",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "lane",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "lap",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "We must have an _ supply of food before we start our journey.",
+        "options": [
+          {
+            "label": "A",
+            "text": "absolute",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "abstract",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "abundant",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "aboard",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Weather experts have that next summer will be extremely hot.",
+        "options": [
+          {
+            "label": "A",
+            "text": "reflected",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "included",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "predicted",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "prescribed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "What should I do with this form?' - '____it_____.'",
+        "options": [
+          {
+            "label": "A",
+            "text": "Find/out",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Fill/in",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "Put/out",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "Clear/up",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "When you try and get a job, you usually have to complete a/an _______form.",
+        "options": [
+          {
+            "label": "A",
+            "text": "resignation",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "resume",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "application",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "retirement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "When you want to leave a job, you have to give your ___.",
+        "options": [
+          {
+            "label": "A",
+            "text": "resignation",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "resume",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "career",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "retirement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Yesterday morning, I found my little bird lying dead inside his____.",
+        "options": [
+          {
+            "label": "A",
+            "text": "cave",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "cage",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "cemetery",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "pavement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "You can often find about a new job by a/an in a newspaper.",
+        "options": [
+          {
+            "label": "A",
+            "text": "news",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "completion",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "sensation",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "advertisement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "You're really annoying me. You're doing it _ purpose, aren't you?",
+        "options": [
+          {
+            "label": "A",
+            "text": "in",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "on",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "out of",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "of",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "After watching the Burger King commercial, I had a strong___________to eat a hamburger.",
+        "options": [
+          {
+            "label": "A",
+            "text": "desire",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "injury",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "fever",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "order",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "level": "B1",
+        "prompt": "Carol didn't have a good___________for being late this morning. She just slept too long.",
+        "options": [
+          {
+            "label": "A",
+            "text": "blame",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "excuse",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "scenario",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "mood",
+            "is_correct": false
+          }
+        ]
+      }
+  ]
+  

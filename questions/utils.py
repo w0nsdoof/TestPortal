@@ -282,3 +282,119 @@ def parse_vocabulary_sheet(sheet, level):
             row += 1
 
 
+def import_questions_from_json(json_data, level=None, clear_existing=False):
+    """
+    Import questions from JSON data
+    
+    Args:
+        json_data (list): List of question dictionaries
+        level (str): English level (A1, A2, B1, B2, C1)
+        clear_existing (bool): Whether to clear existing questions for this level
+    
+    Returns:
+        int: Number of questions imported
+    """
+    from django.db import transaction
+    
+    if not isinstance(json_data, list):
+        raise ValueError("JSON data must be a list of questions")
+    
+    if not level:
+        raise ValueError("Level must be specified")
+    
+    with transaction.atomic():
+        if clear_existing:
+            Question.objects.filter(level=level).delete()
+        
+        imported_count = 0
+        
+        for question_data in json_data:
+            try:
+                # Extract question fields
+                question_type = question_data.get('type', '').upper()
+                prompt = question_data.get('prompt', '')
+                paragraph = question_data.get('paragraph', '')
+                options_data = question_data.get('options', [])
+                
+                # Validate required fields
+                if not prompt or not options_data:
+                    continue
+                
+                # Map question type
+                type_mapping = {
+                    'GRAMMAR': QuestionType.GRAMMAR,
+                    'READING': QuestionType.READING,
+                    'VOCABULARY': QuestionType.VOCABULARY,
+                }
+                
+                if question_type not in type_mapping:
+                    continue
+                
+                # Create the question
+                question = Question.objects.create(
+                    type=type_mapping[question_type],
+                    level=level,
+                    prompt=prompt,
+                    paragraph=paragraph if paragraph else None
+                )
+                
+                # Create options
+                for option_data in options_data:
+                    label = option_data.get('label', '')
+                    text = option_data.get('text', '')
+                    is_correct = option_data.get('is_correct', False)
+                    
+                    if not text:
+                        continue
+                    
+                    Option.objects.create(
+                        question=question,
+                        label=label.upper(),
+                        text=text,
+                        is_correct=is_correct
+                    )
+                
+                imported_count += 1
+                
+            except Exception as e:
+                print(f"Error creating question: {e}")
+                continue
+        
+        return imported_count
+
+
+def import_questions_from_json_file(file_path, level=None, clear_existing=False):
+    """
+    Import questions from a JSON file
+    
+    Args:
+        file_path (str): Path to the JSON file
+        level (str): English level (A1, A2, B1, B2, C1)
+        clear_existing (bool): Whether to clear existing questions for this level
+    
+    Returns:
+        int: Number of questions imported
+    """
+    import json
+    import os
+    
+    # Determine level from filename if not provided
+    if not level:
+        filename = os.path.basename(file_path)
+        if filename.startswith('a2'):
+            level = 'A2'
+        elif filename.startswith('b1'):
+            level = 'B1'
+        elif filename.startswith('b2'):
+            level = 'B2'
+        elif filename.startswith('c1'):
+            level = 'C1'
+        else:
+            level = 'A1'  # Default
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        json_data = json.load(file)
+    
+    return import_questions_from_json(json_data, level, clear_existing)
+
+

@@ -1,0 +1,1460 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "________ you speak French before you moved to Paris?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "Could",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "Managed to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Couldn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "_____John give you those flowers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Did",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "Have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "Was",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "A football match lasts______ninety minutes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "while",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "during",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "for",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "_____I was in Paris, I made a lot of friends.",
+    "options": [
+      {
+        "label": "A",
+        "text": "While",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "During",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "For",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "In",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "______ my stay in hospital, the nurses looked after me very well.",
+    "options": [
+      {
+        "label": "A",
+        "text": "While",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "During",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "For",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "In",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "He hates ___ calculators.",
+    "options": [
+      {
+        "label": "A",
+        "text": "use",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "using",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "used",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "to use",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Can we go ______quiet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "somewhere",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "anywhere",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "nowhere",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "everywhere",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Come and see me ____ you want. I don't mind.",
+    "options": [
+      {
+        "label": "A",
+        "text": "some time",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "any time",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "no time",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "every time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Give me Peter's letter. If I ___him, I ___it to him.",
+    "options": [
+      {
+        "label": "A",
+        "text": "see-will give",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "saw-would give",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "meet-would visit",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "had seen- would give",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Can I have______to drink?",
+    "options": [
+      {
+        "label": "A",
+        "text": "something",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "anything",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "nothing",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "everything",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Anna likes ice-cream but John ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "haven't",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "hasn't",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "doesn't",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "How many people ______you invited to the party?",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "were",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I _____ extra money teaching computer studies.",
+    "options": [
+      {
+        "label": "A",
+        "text": "earn",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "earns",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "win",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "buy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I _____ lunch in the university canteen.",
+    "options": [
+      {
+        "label": "A",
+        "text": "eats",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "drink",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I _____ my homework very quickly last night.",
+    "options": [
+      {
+        "label": "A",
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I _____ the traffic in Bangkok.",
+    "options": [
+      {
+        "label": "A",
+        "text": "play",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "hate",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I don't like ice-cream but Jill ______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "does",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I have been to Australia but Anna _____ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "haven't",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "hasn't",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "doesn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I have to work about 80 hours a week, so I'm very busy. But if I ____ any spare time, I _____a sport like golf.",
+    "options": [
+      {
+        "label": "A",
+        "text": "will have/will take up",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "had/will take up",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "will have/had",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "had/would take up",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I learned to drive ____ 1980 ___the age of 17.",
+    "options": [
+      {
+        "label": "A",
+        "text": "at/at",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "in/at",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "on/at",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "* /at",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I lived in Paris ____several years.",
+    "options": [
+      {
+        "label": "A",
+        "text": "while",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "during",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "for",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I phoned yesterday, but I ______get an answer. Where were you?",
+    "options": [
+      {
+        "label": "A",
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "could",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "managed to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "couldn't",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I was in hospital _____ three weeks.",
+    "options": [
+      {
+        "label": "A",
+        "text": "while",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "during",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "for",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I watched TV last night but my sister_____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "hasn't",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "didn't",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "doesn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I went for a ten-mile run last Saturday. It nearly killed me! I _______ move on Sunday.",
+    "options": [
+      {
+        "label": "A",
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "could",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "managed to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "couldn't",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "I would hate __ your party.",
+    "options": [
+      {
+        "label": "A",
+        "text": "miss",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "miss to",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "missed",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "to miss",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "If I___ taller, I ____be a policeman, but I'm too short.",
+    "options": [
+      {
+        "label": "A",
+        "text": "was/can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "had/could",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "were/could",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "am/will",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "If you need ____, just ask.",
+    "options": [
+      {
+        "label": "A",
+        "text": "something",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "anything",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "nothing",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "everything",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "In my country you______ get married when you're sixteen.",
+    "options": [
+      {
+        "label": "A",
+        "text": "can",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "could",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "managed to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "couldn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "It _____ her fifteen minutes to______ school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "took/go",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "has taken/ walk",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "takes/walk",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "takes/to walk",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "John loves flying but we ______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "haven't",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "don't",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "doesn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Lots of trees_____blown down by the wind.",
+    "options": [
+      {
+        "label": "A",
+        "text": "were",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Maria isn't studying hard but I ______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Mary never _____the washing up.",
+    "options": [
+      {
+        "label": "A",
+        "text": "does",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Most days the shop_____ at 10.00 p.m.",
+    "options": [
+      {
+        "label": "A",
+        "text": "sells",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "opened",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "closes",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "run",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "My brother learned ____ the same time as me, but I passed first.",
+    "options": [
+      {
+        "label": "A",
+        "text": "at",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "*",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Please, start your meal. If you _____ your soup now, it_____ cold.",
+    "options": [
+      {
+        "label": "A",
+        "text": "didn't have/would go",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "had/got",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "can eat/doesn't go",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "don't have/will go",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "She ___a shower every morning before school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "She____ school at 7:45 a.m.",
+    "options": [
+      {
+        "label": "A",
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "begin",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "starts",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "goes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Sue and Geoff ______a shop.",
+    "options": [
+      {
+        "label": "A",
+        "text": "work",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "study",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "runs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Suppose! If it ___last weekend, we ____to play tennis.",
+    "options": [
+      {
+        "label": "A",
+        "text": "rained/wouldn't be able",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "rains/won't be able",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "rain/would be able",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "had rained/could",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Thank goodness we ___a dishwasher!",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "were",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "The neighbours were having a row, and I ______hear every word they said.",
+    "options": [
+      {
+        "label": "A",
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "could",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "managed to",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "couldn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "The phone rang________ I was having supper.",
+    "options": [
+      {
+        "label": "A",
+        "text": "while",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "during",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "for",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "They ____ camping any more.",
+    "options": [
+      {
+        "label": "A",
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "doesn't go",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "don't go",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text": "have gone",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "They can't promise ___ the work today.",
+    "options": [
+      {
+        "label": "A",
+        "text": "finish",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "finishing",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "finished",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "to finish",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "This kind of shop _____ a milk bar.",
+    "options": [
+      {
+        "label": "A",
+        "text": "is called",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "called",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "is calling",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "has being called",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Ursula _____four brothers and sisters.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "haven't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "having",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "We _____a beautiful puppy called Molly.",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "having",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "had",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "We _____got a beautiful puppy called Molly.",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "were",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "We ___talking to James about his exam.",
+    "options": [
+      {
+        "label": "A",
+        "text": "don't",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "haven't",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "wasn't",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "aren't",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Where_____you yesterday?",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "were",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Why ___you leaving so early?",
+    "options": [
+      {
+        "label": "A",
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "are",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "prompt": "Would you like____to eat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "something",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text": "anything",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text": "nothing",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text": "everything",
+        "is_correct": false
+      }
+    ]
+  }
+]

@@ -273,9 +273,20 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("EN")
+  const [language, setLanguage] = useState<Language>("RU")
 
+  // Считываем язык из query-параметра lang при первом рендере
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search)
+      const urlLangRaw = params.get("lang")
+      const urlLang = urlLangRaw ? urlLangRaw.toUpperCase() : null
+      if (urlLang && ["EN", "RU", "KZ"].includes(urlLang)) {
+        setLanguage(urlLang as Language)
+        localStorage.setItem("kbtu-language", urlLang)
+        return
+      }
+    }
     // Load saved language from localStorage
     const savedLanguage = localStorage.getItem("kbtu-language") as Language
     if (savedLanguage && ["EN", "RU", "KZ"].includes(savedLanguage)) {

@@ -116,9 +116,6 @@ export default function Component() {
 
         {/* Action Buttons */}
         <div className="flex gap-4 pt-6">
-          <Button variant="outline" className="flex-1 h-12 text-base border-gray-400 hover:bg-gray-50 bg-transparent">
-            {t.acceptTerms}
-          </Button>
           <Button className="flex-1 h-12 text-base bg-blue-600 hover:bg-blue-700" onClick={handleProceed} disabled={loading}>
             {loading ? "Loading..." : t.proceed}
           </Button>

@@ -13,6 +13,10 @@ interface Translations {
   acceptTerms: string
   proceed: string
   initialScreen: string
+  iinLengthError: string
+  iinDigitsError: string
+  firstnameError: string
+  surnameError: string
 
   // Welcome page
   welcomeTitle: string
@@ -72,11 +76,15 @@ const translations: Record<Language, Translations> = {
     // Login page
     login: "Login",
     iinPlaceholder: "Individual Identification Number (12 digits)",
-    surnamePlaceholder: "surname",
-    firstnamePlaceholder: "firstname",
+    surnamePlaceholder: "Surname",
+    firstnamePlaceholder: "Firstname",
     acceptTerms: "Accept Terms and Services",
     proceed: "Proceed",
     initialScreen: "Initial screen",
+    iinLengthError: "IIN must be exactly 12 digits",
+    iinDigitsError: "IIN must contain only digits",
+    firstnameError: "First name must contain only letters",
+    surnameError: "Surname must contain only letters",
 
     // Welcome page
     welcomeTitle: "KELET (KBTU English Language Entry Test)",
@@ -137,11 +145,15 @@ const translations: Record<Language, Translations> = {
     // Login page
     login: "Вход",
     iinPlaceholder: "Индивидуальный идентификационный номер (12 цифр)",
-    surnamePlaceholder: "фамилия",
-    firstnamePlaceholder: "имя",
+    surnamePlaceholder: "Фамилия",
+    firstnamePlaceholder: "Имя",
     acceptTerms: "Принять условия и соглашения",
     proceed: "Продолжить",
     initialScreen: "Начальный экран",
+    iinLengthError: "ИИН должен содержать ровно 12 цифр",
+    iinDigitsError: "ИИН должен содержать только цифры",
+    firstnameError: "Имя должно содержать только буквы",
+    surnameError: "Фамилия должна содержать только буквы",
 
     // Welcome page
     welcomeTitle: "KELET (KBTU English Language Entry Test)",
@@ -202,11 +214,15 @@ const translations: Record<Language, Translations> = {
     // Login page
     login: "Кіру",
     iinPlaceholder: "Жеке сәйкестендіру нөмірі (12 сан)",
-    surnamePlaceholder: "тегі",
-    firstnamePlaceholder: "аты",
+    surnamePlaceholder: "Тегі",
+    firstnamePlaceholder: "Аты",
     acceptTerms: "Шарттар мен келісімдерді қабылдау",
     proceed: "Жалғастыру",
     initialScreen: "Бастапқы экран",
+    iinLengthError: "ЖСН дәл 12 саннан тұруы керек",
+    iinDigitsError: "ЖСН тек сандардан тұруы керек",
+    firstnameError: "Аты тек әріптерден тұруы керек",
+    surnameError: "Тегі тек әріптерден тұруы керек",
 
     // Welcome page
     welcomeTitle: "KELET (KBTU English Language Entry Test)",

@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from drf_spectacular.utils import extend_schema, OpenApiParameter
 from django.utils import timezone
+from django.db.models import OuterRef, Subquery
 
 from .models import TestResult, TestSession, UserAnswer
 from .serializers import TestResultSerializer, SubmitAnswersSerializer
@@ -285,10 +286,15 @@ def test_results_by_iin_batch(request):
     # Get all applicants with the provided IINs
     applicants = Applicant.objects.filter(iin__in=iin_list)
     
-    # Get all test results for these applicants
-    test_results = TestResult.objects.filter(applicant__in=applicants)
+    # Subquery to get the latest TestResult for each applicant
+    latest_result_subquery = TestResult.objects.filter(applicant=OuterRef('pk')).order_by('-created_at')
     
-    serializer = TestResultSerializer(test_results, many=True)
+    # Get the latest TestResult for each applicant
+    latest_results = TestResult.objects.filter(id__in=Subquery(
+        applicants.annotate(latest_result_id=Subquery(latest_result_subquery.values('id')[:1])).values('latest_result_id')
+    ))
+    
+    serializer = TestResultSerializer(latest_results, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
 @extend_schema(

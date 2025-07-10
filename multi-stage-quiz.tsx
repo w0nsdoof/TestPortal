@@ -73,6 +73,9 @@ export default function MultiStageQuiz() {
   const [sessionStatus, setSessionStatus] = useState<SessionStatus | null>(null)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
   const hasInitialized = useRef(false)
+  const [isWarning, setIsWarning] = useState(false)
+  const [isFinalMinute, setIsFinalMinute] = useState(false)
+  const [stageIsFinishing, setStageIsFinishing] = useState(false)
 
   const currentStage = stages[currentStageIndex]
 
@@ -91,13 +94,22 @@ export default function MultiStageQuiz() {
         return
       }
 
+      // Восстанавливаем ответы из localStorage
+      let savedAnswers: Record<string, string | number> = {}
+      try {
+        const saved = localStorage.getItem("kbtu-answers")
+        if (saved) {
+          savedAnswers = JSON.parse(saved)
+        }
+      } catch {}
+
       try {
         // Check session status first
         const statusResponse = await fetch(`${host}/tests/session-status/?iin=${iin}`)
+        let statusData = null
         if (statusResponse.ok) {
-          const statusData = await statusResponse.json()
+          statusData = await statusResponse.json()
           setSessionStatus(statusData)
-          
           // If session is complete, redirect to results
           if (statusData.session_complete) {
             window.location.href = "/already-completed"
@@ -105,8 +117,21 @@ export default function MultiStageQuiz() {
           }
         }
 
-        // Start with Grammar stage
-        await loadStageQuestions(0)
+        // Новый формат: session_status.stages
+        let nextStageIdx = 0
+        if (statusData && statusData.session_status && statusData.session_status.stages) {
+          const stageOrder = ["Grammar", "Vocabulary", "Reading"]
+          const stagesObj = statusData.session_status.stages
+          nextStageIdx = stageOrder.findIndex(stage => !stagesObj[stage].finished)
+          if (nextStageIdx === -1) {
+            // Все этапы завершены
+            window.location.href = "/already-completed"
+            return
+          }
+        }
+        setCurrentStageIndex(nextStageIdx)
+        // Загружаем вопросы для нужного этапа
+        await loadStageQuestions(nextStageIdx, savedAnswers)
         hasInitialized.current = true
         setLoading(false)
       } catch (err) {
@@ -119,7 +144,7 @@ export default function MultiStageQuiz() {
     initializeTest()
   }, [])
 
-  const loadStageQuestions = async (stageIndex: number) => {
+  const loadStageQuestions = async (stageIndex: number, savedAnswers?: Record<string, string | number>) => {
     const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
     const iin = localStorage.getItem("kbtu-iin")
     const stageType = stages[stageIndex].type
@@ -155,7 +180,17 @@ export default function MultiStageQuiz() {
         }))
       })) : []
 
-      // Update stage with questions and remaining time
+      // Восстанавливаем ответы для этого этапа
+      let restoredAnswers: Record<string, string | number> = {}
+      if (savedAnswers) {
+        for (const q of questions) {
+          if (savedAnswers[q.id] !== undefined) {
+            restoredAnswers[q.id] = savedAnswers[q.id]
+          }
+        }
+      }
+
+      // Update stage with questions, remaining time, и answers
       setStages(prev => prev.map((stage, index) => 
         index === stageIndex 
           ? {
@@ -164,10 +199,26 @@ export default function MultiStageQuiz() {
               status: "in_progress",
               startedAt: new Date(),
               remainingTime: data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stage.timeLimit * 60,
-              level: data.level
+              level: data.level,
+              answers: restoredAnswers
             }
           : stage
       ))
+
+      // После загрузки вопросов для текущего этапа, обновляем answers для всех этапов из savedAnswers
+      if (savedAnswers) {
+        setStages(prev => prev.map((stage) => {
+          // Для текущего этапа уже обновили выше
+          if (stage.type === stages[stageIndex].type) return stage;
+          // Для остальных этапов просто обновляем answers из savedAnswers
+          const stageAnswers: Record<string, string | number> = {}
+          for (const qid in savedAnswers) {
+            // qid может быть любого этапа, но мы не знаем вопросы, просто сохраняем
+            stageAnswers[qid] = savedAnswers[qid]
+          }
+          return { ...stage, answers: { ...stage.answers, ...stageAnswers } }
+        }))
+      }
 
       // Start timer for this stage
       startStageTimer(stageIndex, data.remaining_time_minutes ? Math.floor(data.remaining_time_minutes * 60) : stages[stageIndex].timeLimit * 60)
@@ -187,6 +238,18 @@ export default function MultiStageQuiz() {
       setStages(prev => prev.map((stage, index) => {
         if (index === stageIndex && stage.status === "in_progress") {
           const newRemainingTime = stage.remainingTime - 1
+          
+          // Каждые 5 минут (300 секунд), кроме последней минуты
+          if (newRemainingTime > 60 && newRemainingTime % 300 === 0) {
+            setIsWarning(true)
+            setTimeout(() => setIsWarning(false), 2000) // 2 секунды анимации
+          }
+          // Последняя минута
+          if (newRemainingTime <= 60) {
+            setIsFinalMinute(true)
+          } else {
+            setIsFinalMinute(false)
+          }
           
           if (newRemainingTime <= 0) {
             // Time's up - auto-submit and finish stage
@@ -218,6 +281,25 @@ export default function MultiStageQuiz() {
   }
 
   const handleProceed = () => {
+    const currentQuestion = currentStage.questions[currentStage.currentQuestion]
+    if (currentQuestion && currentQuestion.options && currentQuestion.options.length === 1) {
+      // typing question
+      const userInput = currentStage.answers[currentQuestion.id] || ""
+      const correct = currentQuestion.options[0].text.trim().toLowerCase()
+      const user = (typeof userInput === "string" ? userInput : "").trim().toLowerCase()
+      setStages(prev => prev.map((stage, index) => {
+        if (index === currentStageIndex) {
+          return {
+            ...stage,
+            answers: {
+              ...stage.answers,
+              [currentQuestion.id]: user && user === correct ? currentQuestion.options[0].id : ""
+            }
+          }
+        }
+        return stage
+      }))
+    }
     if (currentStage.currentQuestion < currentStage.questions.length - 1) {
       // Move to next question in current stage
       setStages(prev => prev.map((stage, index) => 
@@ -232,6 +314,7 @@ export default function MultiStageQuiz() {
   }
 
   const finishStage = async (stageIndex: number) => {
+    setStageIsFinishing(true)
     const stage = stages[stageIndex]
     const host = process.env.NEXT_PUBLIC_API_HOST || "http://127.0.0.1:8000"
     const iin = localStorage.getItem("kbtu-iin")
@@ -239,10 +322,12 @@ export default function MultiStageQuiz() {
     const level = stage.level
 
     try {
+      // Сохраняем все ответы в localStorage
+      const allAnswers = stages.reduce((acc, stage) => ({ ...acc, ...stage.answers }), {})
+      localStorage.setItem("kbtu-answers", JSON.stringify(allAnswers))
+
       if (isLastStage) {
         // At the last stage, first submit all answers, then finish the last stage
-        const allAnswers = stages.reduce((acc, stage) => ({ ...acc, ...stage.answers }), {})
-        localStorage.setItem("kbtu-answers", JSON.stringify(allAnswers))
         const submitSuccess = await submitAllAnswers(allAnswers)
         if (!submitSuccess) return // If submit fails, do not proceed
       }
@@ -253,6 +338,7 @@ export default function MultiStageQuiz() {
       })
 
       if (!finishResponse.ok) {
+        setStageIsFinishing(false)
         throw new Error("Failed to finish stage")
       }
 
@@ -278,13 +364,17 @@ export default function MultiStageQuiz() {
         const nextStageIndex = stageIndex + 1
         if (nextStageIndex < stages.length) {
           setCurrentStageIndex(nextStageIndex)
+          // Сбросить выбранный вопрос на первом вопросе нового этапа
+          setStages(prev => prev.map((stage, idx) => idx === nextStageIndex ? { ...stage, currentQuestion: 0 } : stage))
           await loadStageQuestions(nextStageIndex)
         }
       }
     } catch (err) {
+      setStageIsFinishing(false)
       console.error("Failed to finish stage:", err)
       alert("Failed to finish stage. Please try again.")
     }
+    setStageIsFinishing(false)
   }
 
   // Submit all answers at the end, returns true if successful
@@ -369,7 +459,11 @@ export default function MultiStageQuiz() {
                  t.readingStage}
               </h2>
               <div className="text-right">
-                <div className="text-2xl font-bold text-red-600">
+                <div className={
+                  `text-2xl font-bold transition-all duration-300 ` +
+                  (isFinalMinute ? "text-red-700 animate-pulse" : "text-red-600") +
+                  (isWarning ? " animate-bounce" : "")
+                }>
                   {formatTime(currentStage.remainingTime)}
                 </div>
                 <div className="text-sm text-gray-600">{t.remainingTime}</div>
@@ -408,7 +502,7 @@ export default function MultiStageQuiz() {
           <div className="flex justify-center pt-6">
             <Button
               onClick={handleProceed}
-              disabled={selectedAnswer === undefined}
+              disabled={selectedAnswer === undefined || stageIsFinishing}
               className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-3 text-lg"
             >
               {currentStage.currentQuestion < currentStage.questions.length - 1 ? t.proceed : t.finishStage}

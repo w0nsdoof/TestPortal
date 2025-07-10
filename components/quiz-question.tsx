@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import type { QuizQuestion } from "../types/quiz"
+import { useState, useEffect } from "react"
 
 interface QuizQuestionProps {
   question: QuizQuestion
@@ -80,6 +81,41 @@ export default function QuizQuestionComponent({ question, selectedAnswer, onAnsw
           </Card>
         )}
         {renderMCQOptions()}
+      </div>
+    )
+  }
+
+  // Typing question logic
+  if (question.options && question.options.length === 1) {
+    const [inputValue, setInputValue] = useState("")
+    useEffect(() => {
+      onAnswerSelect(inputValue)
+      // eslint-disable-next-line
+    }, [inputValue])
+    return (
+      <div className="space-y-6">
+        {/* Question Text */}
+        <div className="bg-gray-300 p-6 rounded">
+          <h2 className="text-lg font-medium text-center">{question.question || "Question Selection"}</h2>
+          {question.readingText && (
+            <Card className="p-6 bg-gray-50 mt-4">
+              <div className="prose max-w-none">
+                <p className="text-sm leading-relaxed whitespace-pre-line">{question.readingText}</p>
+              </div>
+            </Card>
+          )}
+        </div>
+        {/* Typing input */}
+        <div className="flex flex-col items-center gap-4">
+          <input
+            type="text"
+            className="border border-gray-400 rounded px-4 py-2 w-full max-w-xs text-lg"
+            placeholder="Type your answer..."
+            value={inputValue}
+            onChange={e => setInputValue(e.target.value)}
+            autoFocus
+          />
+        </div>
       </div>
     )
   }

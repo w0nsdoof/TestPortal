@@ -97,7 +97,6 @@ export default function Component() {
         <div className="flex justify-between items-start">
           <span className="text-gray-600 font-medium text-lg">{t.login}</span>
           <div className="flex items-center gap-2">
-            <Phone className="w-4 h-4 text-gray-500" />
             <Select value={language} onValueChange={setLanguage}>
               <SelectTrigger className="w-auto border-none p-0 h-auto">
                 <SelectValue />

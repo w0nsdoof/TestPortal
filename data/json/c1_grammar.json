@@ -1,0 +1,499 @@
+[
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "... Richard, it seems he finally made his decision",
+    "options": [
+      { "label": "A", "text": "Had spoken to", "is_correct": false },
+      { "label": "B", "text": "Having spoken to", "is_correct": true },
+      { "label": "C", "text": "Speaking to", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Alex dreads ________ to retire.",
+    "options": [
+      { "label": "A", "text": "to have", "is_correct": false },
+      { "label": "B", "text": "have", "is_correct": false },
+      { "label": "C", "text": "having", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "All my life ...",
+    "options": [
+      { "label": "A", "text": "-I loved going to the movies", "is_correct": false },
+      { "label": "B", "text": "I have loved to go to the movies", "is_correct": false },
+      { "label": "C", "text": "I´ve loved going to the movies", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      { "label": "A", "text": "Your birthday´s next month, isn´t it?", "is_correct": false },
+      { "label": "B", "text": "Your birthday will be next month, won´t it?", "is_correct": true },
+      { "label": "C", "text": "Your birthday is going to be next month, isn´t it?", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      { "label": "A", "text": "The doctor said it was nothing to worry about", "is_correct": true },
+      { "label": "B", "text": "The doctor said its nothing. Don´t worry", "is_correct": false },
+      { "label": "C", "text": "The doctor said it isn´t something to worry about", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      { "label": "A", "text": "I can´t imagine why he said that", "is_correct": true },
+      { "label": "B", "text": "I might imagine why he said that", "is_correct": false },
+      { "label": "C", "text": "I don´t imagine why he said that", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Choose the correct sentence:",
+    "options": [
+      { "label": "A", "text": "The painting sold for three thousand euros", "is_correct": false },
+      { "label": "B", "text": "The painting was sold for three thousand euros", "is_correct": true },
+      { "label": "C", "text": "The painting was being sold for three thousand euros", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Having … his driving test several times, Paul finally passed at the fourth attempt.",
+    "options": [
+      { "label": "A", "text": "taken", "is_correct": true },
+      { "label": "B", "text": "made", "is_correct": false },
+      { "label": "C", "text": "had", "is_correct": false },
+      { "label": "D", "text": "attended", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "He Jin said she, … interested in going to a museum.",
+    "options": [
+      { "label": "A", "text": "hadn’t been", "is_correct": false },
+      { "label": "B", "text": "isn’t", "is_correct": false },
+      { "label": "C", "text": "wasn’t", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "He´s had his car...",
+    "options": [
+      { "label": "A", "text": "when he passed his driving test", "is_correct": false },
+      { "label": "B", "text": "since he passed his driving test", "is_correct": true },
+      { "label": "C", "text": "as he passed his driving test", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I ...... that we arrive on time. I don't want to miss the beginning",
+    "options": [
+      { "label": "A", "text": "hope", "is_correct": true },
+      { "label": "B", "text": "await", "is_correct": false },
+      { "label": "C", "text": "expect", "is_correct": false },
+      { "label": "D", "text": "wait", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I appreciate ________ able to study in peace and quiet.",
+    "options": [
+      { "label": "A", "text": "being", "is_correct": true },
+      { "label": "B", "text": "be", "is_correct": false },
+      { "label": "C", "text": "to be", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I asked my sister if ...... a bottle of perfume for me at the airport.",
+    "options": [
+      { "label": "A", "text": "she had buy", "is_correct": false },
+      { "label": "B", "text": "she would bought", "is_correct": false },
+      { "label": "C", "text": "she had bought", "is_correct": true },
+      { "label": "D", "text": "she bought", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I don´t think Tokyo...",
+    "options": [
+      { "label": "A", "text": "is as dangerous like London", "is_correct": false },
+      { "label": "B", "text": "is so dangerous as London", "is_correct": false },
+      { "label": "C", "text": "is as dangerous as London", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I had never seen it before, and ...... I knew exactly what to do.",
+    "options": [
+      { "label": "A", "text": "still", "is_correct": false },
+      { "label": "B", "text": "yet", "is_correct": true },
+      { "label": "C", "text": "         just", "is_correct": false },
+      { "label": "D", "text": "even", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I have never been ... in all my life!",
+    "options": [
+      { "label": "A", "text": "such embarrassed", "is_correct": false },
+      { "label": "B", "text": "so embarrassed", "is_correct": true },
+      { "label": "C", "text": "such an embarrassed", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I prefer to buy CDs … download music from my computer.",
+    "options": [
+      { "label": "A", "text": "in contrast to", "is_correct": false },
+      { "label": "B", "text": "as opposed to", "is_correct": false },
+      { "label": "C", "text": "rather than", "is_correct": true },
+      { "label": "D", "text": "in comparison to", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I was relieved ________ out that I had passed the exam.",
+    "options": [
+      { "label": "A", "text": "finding", "is_correct": false },
+      { "label": "B", "text": "to find", "is_correct": true },
+      { "label": "C", "text": "find", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "I’d lived in Australia, so I was used to … on the left side of the road.",
+    "options": [
+      { "label": "A", "text": "driving", "is_correct": true },
+      { "label": "B", "text": "drive", "is_correct": false },
+      { "label": "C", "text": "having driven", "is_correct": false },
+      { "label": "D", "text": "drove", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "If you lost your key, try ________ a pin or something sharp to open the door.",
+    "options": [
+      { "label": "A", "text": "using", "is_correct": true },
+      { "label": "B", "text": "use", "is_correct": false },
+      { "label": "C", "text": "to use", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "It ...... ages since the last time I saw you",
+    "options": [
+      { "label": "A", "text": "has been", "is_correct": false },
+      { "label": "B", "text": "was be", "is_correct": false },
+      { "label": "C", "text": "must been", "is_correct": false },
+      { "label": "D", "text": "must have been", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Maintaining an accurate balance sheet is essential, … business you’re in.",
+    "options": [
+      { "label": "A", "text": "however", "is_correct": false },
+      { "label": "B", "text": "wherever", "is_correct": false },
+      { "label": "C", "text": "whatever", "is_correct": true },
+      { "label": "D", "text": "whenever", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Not for many months, … find a solution to the problem.",
+    "options": [
+      { "label": "A", "text": "we did", "is_correct": false },
+      { "label": "B", "text": "did we", "is_correct": true },
+      { "label": "C", "text": "didn’t we", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "She tried to make me ________ that she was my mother.",
+    "options": [
+      { "label": "A", "text": "to believe", "is_correct": false },
+      { "label": "B", "text": "believing", "is_correct": false },
+      { "label": "C", "text": "believe", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "She was late for work today because she ...... to go to the doctor's.",
+    "options": [
+      { "label": "A", "text": "must", "is_correct": false },
+      { "label": "B", "text": "had", "is_correct": true },
+      { "label": "C", "text": "have", "is_correct": false },
+      { "label": "D", "text": "should", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Speed cameras … shown to reduce accidents.",
+    "options": [
+      { "label": "A", "text": "have", "is_correct": false },
+      { "label": "B", "text": "were being", "is_correct": false },
+      { "label": "C", "text": "have been", "is_correct": true },
+      { "label": "D", "text": "are being", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The flight to London was ...... expensive than I thought.",
+    "options": [
+      { "label": "A", "text": "more less", "is_correct": false },
+      { "label": "B", "text": "much less", "is_correct": true },
+      { "label": "C", "text": "more or less", "is_correct": false },
+      { "label": "D", "text": "least", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The horses struggled ________ the carriage out of the mud.",
+    "options": [
+      { "label": "A", "text": "-pulling", "is_correct": false },
+      { "label": "B", "text": "to pull", "is_correct": true },
+      { "label": "C", "text": "pull", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The manager let Jane ________ early as she had a doctor's appointment.",
+    "options": [
+      { "label": "A", "text": "going", "is_correct": false },
+      { "label": "B", "text": "to go", "is_correct": false },
+      { "label": "C", "text": "go", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "The number of turtles on the island … by 70% over the last decade.",
+    "options": [
+      { "label": "A", "text": "has declined", "is_correct": true },
+      { "label": "B", "text": "has been declining", "is_correct": false },
+      { "label": "C", "text": "has been declined", "is_correct": false },
+      { "label": "D", "text": "is declining", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "There you are! …",
+    "options": [
+      { "label": "A", "text": "I have waited for ages", "is_correct": false },
+      { "label": "B", "text": "I have been waiting for ages", "is_correct": true },
+      { "label": "C", "text": "I waited for ages", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Vivian can't help ________ about her children.",
+    "options": [
+      { "label": "A", "text": "worrying", "is_correct": true },
+      { "label": "B", "text": "worry", "is_correct": false },
+      { "label": "C", "text": "to worry", "is_correct": false }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "You ...... exhausted after your exam yesterday.",
+    "options": [
+      { "label": "A", "text": "should be", "is_correct": false },
+      { "label": "B", "text": "must be", "is_correct": false },
+      { "label": "C", "text": "must been", "is_correct": false },
+      { "label": "D", "text": "must have been", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "You don't happen to know where Malcom might be, … you?",
+    "options": [
+      { "label": "A", "text": "mightn’t", "is_correct": false },
+      { "label": "B", "text": "don’t", "is_correct": false },
+      { "label": "C", "text": "do", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "It's something of a mystery how ancient bridge builders succeeded __________ spanning this wide river.",
+    "options": [
+      { "label": "A", "text": "in", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "Are you sure you want to go on holiday to that part of the world, considering all the problems _________are right now?",
+    "options": [
+      { "label": "A", "text": "there", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "Life hasn't been found on any planet in the solar system, _________ from our own.",
+    "options": [
+      { "label": "A", "text": "apart", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "The city of Istanbul in Turkey was known _________ Constantinople until the early 20th century.",
+    "options": [
+      { "label": "A", "text": "as", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "In _________ to a company car and large annual bonuses, we are also offering help in finding a new house.",
+    "options": [
+      { "label": "A", "text": "addition", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "The difficulty with _________ he managed to speak showed how upset he was.",
+    "options": [
+      { "label": "A", "text": "which", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "I love Lebanese food but what's the country itself _________? Tell me about the weather, for example.",
+    "options": [
+      { "label": "A", "text": "like", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "_________ deep is that river? Do you think we'll need a boat to cross it?",
+    "options": [
+      { "label": "A", "text": "how", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "There are several very interesting ingredients we can add to this cake. ________ of them is nutmeg and another is vanilla.",
+    "options": [
+      { "label": "A", "text": "one", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "We discussed who would give money for the gift for about ten minutes and ________ the end, Cyril just grabbed the bill and paid.",
+    "options": [
+      { "label": "A", "text": "in", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "________ from yourself, do you know anyone else who'd be willing to volunteer?",
+    "options": [
+      { "label": "A", "text": "apart", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "Brunei, a tiny ________ very wealthy state, lies in Asia.",
+    "options": [
+      { "label": "A", "text": "but", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "My mother warned my brother that dinner would be at 6pm and ________ this, he was eating doughnuts half an hour before!",
+    "options": [
+      { "label": "A", "text": "despite", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "It looks ________ though the new employee is going to be late on his first day.",
+    "options": [
+      { "label": "A", "text": "as", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "________ the work you do for the government, what else do you do for a living?",
+    "options": [
+      { "label": "A", "text": "besides", "is_correct": true }
+    ]
+  },
+  {
+    "type": "Grammar",
+    "level": "C1",
+    "prompt": "Type in ONE word which you think best completes the sentence. Look carefully at the words both before and after the space.",
+    "paragraph": "We loved the house, but couldn't contact the agent and that's________ is the most frustrating thing.",
+    "options": [
+      { "label": "A", "text": "what", "is_correct": true }
+    ]
+  }
+]

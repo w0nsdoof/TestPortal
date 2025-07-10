@@ -1,0 +1,1216 @@
+[
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: Everything you need for your climb can be found in the village situated at the ______ of the mountain.",
+      "options": [
+        { "label": "A", "text": "head", "is_correct": false },
+        { "label": "B", "text": "foot", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: He bought the cottage with a ______ to doing it up and selling it at a later date.",
+      "options": [
+        { "label": "A", "text": "eye", "is_correct": true },
+        { "label": "B", "text": "heart", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: He had always said yes. But this time he was going to put his ______ down.",
+      "options": [
+        { "label": "A", "text": "hand", "is_correct": false },
+        { "label": "B", "text": "foot", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: I don’t know off ______. I’ll have to look it up in the encyclopedia.",
+      "options": [
+        { "label": "A", "text": "heart", "is_correct": true },
+        { "label": "B", "text": "hand", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: I don’t think he’s really determined. In the end, he’ll get cold ______ and cancel the whole thing.",
+      "options": [
+        { "label": "A", "text": "feet", "is_correct": true },
+        { "label": "B", "text": "heart", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: It was happening right under my ______, and I didn’t realise it.",
+      "options": [
+        { "label": "A", "text": "nose", "is_correct": true },
+        { "label": "B", "text": "foot", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: It’s a terrible car and what really gets up my ______ is that I paid a fortune for it.",
+      "options": [
+        { "label": "A", "text": "teeth", "is_correct": false },
+        { "label": "B", "text": "nose", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: It’s impossible to anticipate all the questions that you are going to be asked. You’re going to have to think on your ______.",
+      "options": [
+        { "label": "A", "text": "head", "is_correct": false },
+        { "label": "B", "text": "feet", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: Mum had her ______ on the painting for months, so we bought it for her on her birthday.",
+      "options": [
+        { "label": "A", "text": "heart", "is_correct": false },
+        { "label": "B", "text": "eye", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: Now it looks like I’m going to have to ______ the bill for the repairs.",
+      "options": [
+        { "label": "A", "text": "hand", "is_correct": false },
+        { "label": "B", "text": "foot", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: The lecturer had such a ridiculous voice that neither of us could keep a straight ______.",
+      "options": [
+        { "label": "A", "text": "eye", "is_correct": false },
+        { "label": "B", "text": "face", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: The little girl was obviously very upset as she was sitting on the step crying her ______ out.",
+      "options": [
+        { "label": "A", "text": "eyes", "is_correct": true },
+        { "label": "B", "text": "chest", "is_correct": false }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: We ought to ______ home. It’s late and I’m working early tomorrow.",
+      "options": [
+        { "label": "A", "text": "hand", "is_correct": false },
+        { "label": "B", "text": "head", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: We were the first company to set up business in China, so we have a ______ start over our competitors.",
+      "options": [
+        { "label": "A", "text": "neck", "is_correct": false },
+        { "label": "B", "text": "head", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: Why do you always have to stick your ______ into other people’s affairs?",
+      "options": [
+        { "label": "A", "text": "hand", "is_correct": false },
+        { "label": "B", "text": "nose", "is_correct": true }
+      ]
+    },
+    {
+      "type": "Vocabulary",
+      "prompt": "Choose the correct option to complete this sentence: You have to ______ it to Joe — his company is a roaring success.",
+      "options": [
+        { "label": "A", "text": "back", "is_correct": false },
+        { "label": "B", "text": "hand", "is_correct": true }
+      ]
+    },
+    {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He crossed his ______.",
+        "options": [
+          { "label": "A", "text": "Shoulders", "is_correct": false },
+          { "label": "B", "text": "Heart", "is_correct": false },
+          { "label": "C", "text": "Teeth", "is_correct": false },
+          { "label": "D", "text": "Fist", "is_correct": false },
+          { "label": "E", "text": "Eyebrows", "is_correct": false },
+          { "label": "F", "text": "Legs", "is_correct": true },
+          { "label": "G", "text": "Muscles", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: She folded her ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": false },
+          { "label": "B", "text": "Toe", "is_correct": false },
+          { "label": "C", "text": "Throat", "is_correct": false },
+          { "label": "D", "text": "Head", "is_correct": false },
+          { "label": "E", "text": "Stomach", "is_correct": false },
+          { "label": "F", "text": "Ankle", "is_correct": false },
+          { "label": "G", "text": "Arms", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He stubbed his ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": false },
+          { "label": "B", "text": "Toe", "is_correct": true },
+          { "label": "C", "text": "Throat", "is_correct": false },
+          { "label": "D", "text": "Head", "is_correct": false },
+          { "label": "E", "text": "Stomach", "is_correct": false },
+          { "label": "F", "text": "Ankle", "is_correct": false },
+          { "label": "G", "text": "Arms", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He clenched his ______.",
+        "options": [
+          { "label": "A", "text": "Shoulders", "is_correct": false },
+          { "label": "B", "text": "Heart", "is_correct": false },
+          { "label": "C", "text": "Teeth", "is_correct": false },
+          { "label": "D", "text": "Fist", "is_correct": true },
+          { "label": "E", "text": "Eyebrows", "is_correct": false },
+          { "label": "F", "text": "Legs", "is_correct": false },
+          { "label": "G", "text": "Muscles", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: His ______ was pounding.",
+        "options": [
+          { "label": "A", "text": "Shoulders", "is_correct": false },
+          { "label": "B", "text": "Heart", "is_correct": true },
+          { "label": "C", "text": "Teeth", "is_correct": false },
+          { "label": "D", "text": "Fist", "is_correct": false },
+          { "label": "E", "text": "Eyebrows", "is_correct": false },
+          { "label": "F", "text": "Legs", "is_correct": false },
+          { "label": "G", "text": "Muscles", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He shook his ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": false },
+          { "label": "B", "text": "Toe", "is_correct": false },
+          { "label": "C", "text": "Throat", "is_correct": false },
+          { "label": "D", "text": "Head", "is_correct": true },
+          { "label": "E", "text": "Stomach", "is_correct": false },
+          { "label": "F", "text": "Ankle", "is_correct": false },
+          { "label": "G", "text": "Arms", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: She sprained her ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": false },
+          { "label": "B", "text": "Toe", "is_correct": false },
+          { "label": "C", "text": "Throat", "is_correct": false },
+          { "label": "D", "text": "Head", "is_correct": false },
+          { "label": "E", "text": "Stomach", "is_correct": false },
+          { "label": "F", "text": "Ankle", "is_correct": true },
+          { "label": "G", "text": "Arms", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He cleared his ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": false },
+          { "label": "B", "text": "Toe", "is_correct": false },
+          { "label": "C", "text": "Throat", "is_correct": true },
+          { "label": "D", "text": "Head", "is_correct": false },
+          { "label": "E", "text": "Stomach", "is_correct": false },
+          { "label": "F", "text": "Ankle", "is_correct": false },
+          { "label": "G", "text": "Arms", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocations with an appropriate part of the body from the list: He didn’t bat a/an ______.",
+        "options": [
+          { "label": "A", "text": "Eyelid", "is_correct": true },
+          { "label": "B", "text": "Toe", "is_correct": false },
+          { "label": "C", "text": "Throat", "is_correct": false },
+          { "label": "D", "text": "Head", "is_correct": false },
+          { "label": "E", "text": "Eyebrow", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the collocation: He shrugged his ______.",
+        "options": [
+          { "label": "A", "text": "Shoulders", "is_correct": true },
+          { "label": "B", "text": "Heart", "is_correct": false },
+          { "label": "C", "text": "Teeth", "is_correct": false },
+          { "label": "D", "text": "Eyebrows", "is_correct": false },
+          { "label": "E", "text": "Legs", "is_correct": false },
+          { "label": "F", "text": "Muscles", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: What you need is two or three years’ playing experience under your ______.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Belt", "is_correct": false },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": false },
+          { "label": "E", "text": "Boot", "is_correct": false },
+          { "label": "F", "text": "Cap", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: We were delayed taking off, the cabin crew were rude, and to ______ it all, our luggage had been lost.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Belt", "is_correct": false },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": true },
+          { "label": "E", "text": "Boot", "is_correct": false },
+          { "label": "F", "text": "Cap", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: It’s not difficult to see who wears the ______ in that house.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Hat", "is_correct": false },
+          { "label": "C", "text": "Boot", "is_correct": false },
+          { "label": "D", "text": "Trousers", "is_correct": true },
+          { "label": "E", "text": "Cap", "is_correct": false },
+          { "label": "F", "text": "Belt", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: These trousers fit me like a/an ______.",
+        "options": [
+          { "label": "A", "text": "Shoes", "is_correct": false },
+          { "label": "B", "text": "Pocket", "is_correct": false },
+          { "label": "C", "text": "Sleeve", "is_correct": false },
+          { "label": "D", "text": "Belt", "is_correct": false },
+          { "label": "E", "text": "Glove", "is_correct": true },
+          { "label": "F", "text": "Collar", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: If you can’t afford to lend me the money, tell me. I don’t want you to be out of ______.",
+        "options": [
+          { "label": "A", "text": "Shoes", "is_correct": false },
+          { "label": "B", "text": "Pocket", "is_correct": true },
+          { "label": "C", "text": "Sleeve", "is_correct": false },
+          { "label": "D", "text": "Belt", "is_correct": false },
+          { "label": "E", "text": "Glove", "is_correct": false },
+          { "label": "F", "text": "Collar", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: My opponent had a look of quiet confidence. What did he have up his ______?",
+        "options": [
+          { "label": "A", "text": "Shoes", "is_correct": false },
+          { "label": "B", "text": "Pocket", "is_correct": false },
+          { "label": "C", "text": "Sleeve", "is_correct": true },
+          { "label": "D", "text": "Belt", "is_correct": false },
+          { "label": "E", "text": "Glove", "is_correct": false },
+          { "label": "F", "text": "Collar", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: It’s time you pulled your ______ up and got down to some serious work.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": true },
+          { "label": "B", "text": "Belt", "is_correct": false },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": false },
+          { "label": "E", "text": "Boot", "is_correct": false },
+          { "label": "F", "text": "Cap", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: I don’t know what I’d do if I were in her ______.",
+        "options": [
+          { "label": "A", "text": "Shoes", "is_correct": true },
+          { "label": "B", "text": "Pocket", "is_correct": false },
+          { "label": "C", "text": "Sleeve", "is_correct": false },
+          { "label": "D", "text": "Belt", "is_correct": false },
+          { "label": "E", "text": "Glove", "is_correct": false },
+          { "label": "F", "text": "Collar", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: He’d throw extravagant parties at the drop of a ______.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Belt", "is_correct": false },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": true },
+          { "label": "E", "text": "Boot", "is_correct": false },
+          { "label": "F", "text": "Cap", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: Why are you getting so hot under the ______?",
+        "options": [
+          { "label": "A", "text": "Shoes", "is_correct": false },
+          { "label": "B", "text": "Pocket", "is_correct": false },
+          { "label": "C", "text": "Sleeve", "is_correct": false },
+          { "label": "D", "text": "Belt", "is_correct": false },
+          { "label": "E", "text": "Glove", "is_correct": false },
+          { "label": "F", "text": "Collar", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: Calling him the worst football player on the planet was a bit below the ______.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Belt", "is_correct": true },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": false },
+          { "label": "E", "text": "Boot", "is_correct": false },
+          { "label": "F", "text": "Cap", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Complete the idiom: No, he didn’t resign. He got the ______.",
+        "options": [
+          { "label": "A", "text": "Socks", "is_correct": false },
+          { "label": "B", "text": "Belt", "is_correct": false },
+          { "label": "C", "text": "Trousers", "is_correct": false },
+          { "label": "D", "text": "Hat", "is_correct": false },
+          { "label": "E", "text": "Boot", "is_correct": true },
+          { "label": "F", "text": "Cap", "is_correct": false }
+        ]
+      },
+      [
+        {
+          "type": "Vocabulary",
+          "prompt": "He doesn’t want a ______ collar job.",
+          "options": [
+            { "text": "Blue", "is_correct": false },
+            { "text": "White", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "I didn’t believe I’d won the prize until I saw it in black and ______.",
+          "options": [
+            { "text": "Red", "is_correct": false },
+            { "text": "White", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "I didn’t realise hockey was such a violent game. I’m ______ and blue all over.",
+          "options": [
+            { "text": "Red", "is_correct": false },
+            { "text": "Black", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "I parked and quickly ran into the bank. I didn’t realise I’d left my car on a double ______ line.",
+          "options": [
+            { "text": "Yellow", "is_correct": true },
+            { "text": "White", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "I wish I had ______ fingers like you. I only have to look at a plant and it dies.",
+          "options": [
+            { "text": "Yellow", "is_correct": false },
+            { "text": "Green", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "If you don’t know the company’s number, look it up in the ______ Pages.",
+          "options": [
+            { "text": "White", "is_correct": false },
+            { "text": "Yellow", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Now that the chairman has given us the ______ light, we can go ahead and buy.",
+          "options": [
+            { "text": "Red", "is_correct": false },
+            { "text": "Green", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a nail-biting ______",
+          "options": [
+            { "text": "finish", "is_correct": true },
+            { "text": "person", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a well-thumbed ______",
+          "options": [
+            { "text": "book", "is_correct": true },
+            { "text": "road", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a mouth-watering ______",
+          "options": [
+            { "text": "dessert", "is_correct": true },
+            { "text": "disease", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: an eye-catching ______",
+          "options": [
+            { "text": "dress", "is_correct": true },
+            { "text": "fruit", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a light-hearted ______",
+          "options": [
+            { "text": "comedy", "is_correct": true },
+            { "text": "fruit", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a narrow-minded ______",
+          "options": [
+            { "text": "street", "is_correct": false },
+            { "text": "person", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a blood-curdling ______",
+          "options": [
+            { "text": "recipe", "is_correct": false },
+            { "text": "scream", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a hair-raising ______",
+          "options": [
+            { "text": "shampoo", "is_correct": false },
+            { "text": "bus journey", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: a head-on ______",
+          "options": [
+            { "text": "collision", "is_correct": true },
+            { "text": "decision", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "Only one of the nouns below goes with this adjective: firsthand ______",
+          "options": [
+            { "text": "cars", "is_correct": false },
+            { "text": "knowledge", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "She went as ______ as a sheet when I mentioned his name.",
+          "options": [
+            { "text": "White", "is_correct": true },
+            { "text": "Blue", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "The bank refused to lend me any more money as my account was in the ______.",
+          "options": [
+            { "text": "Black", "is_correct": false },
+            { "text": "Red", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "We hadn’t seen her in years and then the other day she came to visit us out of the ______.",
+          "options": [
+            { "text": "Red", "is_correct": false },
+            { "text": "Blue", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "We live in the ______ belt just outside London.",
+          "options": [
+            { "text": "Green", "is_correct": true },
+            { "text": "Black", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "We only see each other once in a ______ moon.",
+          "options": [
+            { "text": "White", "is_correct": false },
+            { "text": "Blue", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "You can shout and argue until you’re ______ in the face, but I’m not going ...",
+          "options": [
+            { "text": "Red", "is_correct": false },
+            { "text": "Blue", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "You can’t deny that you did it. You were caught ______ handed.",
+          "options": [
+            { "text": "Red", "is_correct": true },
+            { "text": "Black", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "You should have seen the ______ look she gave him when he criticised her.",
+          "options": [
+            { "text": "Yellow", "is_correct": false },
+            { "text": "Black", "is_correct": true }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "You wouldn’t believe how much ______ tape is involved in getting a work permit here.",
+          "options": [
+            { "text": "Red", "is_correct": true },
+            { "text": "Green", "is_correct": false }
+          ]
+        },
+        {
+          "type": "Vocabulary",
+          "prompt": "You’re a coward. You’re ______. You were afraid to do it.",
+          "options": [
+            { "text": "Yellow", "is_correct": true },
+            { "text": "Red", "is_correct": false }
+          ]
+        }
+      ],
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: PRECISE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: NORMAL",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ACCURATE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: LOGICAL",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": true },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ACCESSIBLE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": true },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: DISCREET",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": true },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: LEGIBLE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": true },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: OBEDIENT",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": true },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: PLAUSIBLE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: ORTHODOX",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": true },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: PRACTICAL",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: SCRUPULOUS",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": true },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: RESPONSIBLE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": true },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: REPLACEABLE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": true },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: LOYAL",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": false },
+          { "label": "B", "text": "dis-", "is_correct": true },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Make the opposites of the given adjective by choosing one of the prefixes: RIPE",
+        "options": [
+          { "label": "A", "text": "un-", "is_correct": true },
+          { "label": "B", "text": "dis-", "is_correct": false },
+          { "label": "C", "text": "il-", "is_correct": false },
+          { "label": "D", "text": "in-", "is_correct": false },
+          { "label": "E", "text": "ab-", "is_correct": false },
+          { "label": "F", "text": "ir-", "is_correct": false },
+          { "label": "G", "text": "im-", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Baby chimps ______ their mothers whereas human babies have to be carried.",
+        "options": [
+          { "label": "A", "text": "cling to", "is_correct": true },
+          { "label": "B", "text": "carry", "is_correct": false },
+          { "label": "C", "text": "climb", "is_correct": false },
+          { "label": "D", "text": "cling at", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If I had allowed for extra expenses like medical costs, I wouldn't have ...",
+        "options": [
+          { "label": "A", "text": "made a lot of money", "is_correct": false },
+          { "label": "B", "text": "spent a lot of money", "is_correct": true },
+          { "label": "C", "text": "run out of money", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "You'll have to give the jacket back to whoever you ...",
+        "options": [
+          { "label": "A", "text": "bought it from", "is_correct": false },
+          { "label": "B", "text": "sold it to", "is_correct": true },
+          { "label": "C", "text": "gave it to", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "A lot of famous musicians help charities and development projects by drumming up ...",
+        "options": [
+          { "label": "A", "text": "great new songs", "is_correct": false },
+          { "label": "B", "text": "support from their fans", "is_correct": true },
+          { "label": "C", "text": "greedy politicians", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "A newspaper relies on the honesty and accuracy of ...",
+        "options": [
+          { "label": "A", "text": "its customers", "is_correct": false },
+          { "label": "B", "text": "its reporters", "is_correct": true },
+          { "label": "C", "text": "its news", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "After checking his work, Lee’s boss told him to carry on because he’d ...",
+        "options": [
+          { "label": "A", "text": "made many mistakes", "is_correct": false },
+          { "label": "B", "text": "finished the work", "is_correct": false },
+          { "label": "C", "text": "done a good job", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "After I’ve washed my shirts, I hang them up ...",
+        "options": [
+          { "label": "A", "text": "in the drawer", "is_correct": false },
+          { "label": "B", "text": "in the cupboard", "is_correct": true },
+          { "label": "C", "text": "in the clothes basket", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "After talking to his teacher, Jason has owned up to ...",
+        "options": [
+          { "label": "A", "text": "failing his exam", "is_correct": false },
+          { "label": "B", "text": "passing his exam", "is_correct": false },
+          { "label": "C", "text": "cheating in his exam", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "After we’d boarded the plane, the stewardess handed out ...",
+        "options": [
+          { "label": "A", "text": "seats", "is_correct": false },
+          { "label": "B", "text": "passengers", "is_correct": false },
+          { "label": "C", "text": "drinks", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "After we’d eaten our meal, we asked the waiter for ...",
+        "options": [
+          { "label": "A", "text": "the waitress", "is_correct": false },
+          { "label": "B", "text": "the bill", "is_correct": true },
+          { "label": "C", "text": "the food", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Before buying the phone, I tried it out to see ...",
+        "options": [
+          { "label": "A", "text": "if I could break it", "is_correct": false },
+          { "label": "B", "text": "if it worked properly", "is_correct": true },
+          { "label": "C", "text": "how much it cost", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Before deciding to get a puppy, you need to carefully weigh up ...",
+        "options": [
+          { "label": "A", "text": "the price you’ll pay", "is_correct": false },
+          { "label": "B", "text": "your pets", "is_correct": false },
+          { "label": "C", "text": "the benefits and drawbacks", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Before you buy the car, you’ll have to pick out ...",
+        "options": [
+          { "label": "A", "text": "some money", "is_correct": false },
+          { "label": "B", "text": "a colour", "is_correct": true },
+          { "label": "C", "text": "your driver’s licence", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Clair and Ben named their daughter after Clair’s grandmother Grace, so they are both called ...",
+        "options": [
+          { "label": "A", "text": "Clair", "is_correct": false },
+          { "label": "B", "text": "Grace", "is_correct": true },
+          { "label": "C", "text": "Granny", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Do you know what became of that girl Jane who used to work here? I haven’t heard anything about her ...",
+        "options": [
+          { "label": "A", "text": "since yesterday", "is_correct": false },
+          { "label": "B", "text": "for ages", "is_correct": true },
+          { "label": "C", "text": "all day", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Hiroko asked Makiko out because he ...",
+        "options": [
+          { "label": "A", "text": "wanted her to go away", "is_correct": false },
+          { "label": "B", "text": "didn't believe what she'd said", "is_correct": false },
+          { "label": "C", "text": "wanted to get to know her", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "I bumped into my old friend Robert when I went to ...",
+        "options": [
+          { "label": "A", "text": "his house for dinner", "is_correct": false },
+          { "label": "B", "text": "some big play backstage", "is_correct": false },
+          { "label": "C", "text": "the supermarket this morning", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "I knew that money was missing from the company, but it never occurred to me that my partner was stealing it because I had ...",
+        "options": [
+          { "label": "A", "text": "always suspected him", "is_correct": false },
+          { "label": "B", "text": "never understood him", "is_correct": false },
+          { "label": "C", "text": "always trusted him", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "I wanted to read up on publishing fashion magazines, so I found ...",
+        "options": [
+          { "label": "A", "text": "a book of fashion photography", "is_correct": false },
+          { "label": "B", "text": "a newspaper", "is_correct": false },
+          { "label": "C", "text": "some new fashion magazines", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If Maria keeps coming to work late, she’ll end up ...",
+        "options": [
+          { "label": "A", "text": "getting a promotion", "is_correct": false },
+          { "label": "B", "text": "getting a raise", "is_correct": false },
+          { "label": "C", "text": "getting fired", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If politicians are involved in corrupt activities, it means they are ...",
+        "options": [
+          { "label": "A", "text": "investigating corruption", "is_correct": false },
+          { "label": "B", "text": "fighting against corruption", "is_correct": false },
+          { "label": "C", "text": "corrupt politicians", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If you give away a lot of money, most people will say you are ...",
+        "options": [
+          { "label": "A", "text": "a generous person", "is_correct": true },
+          { "label": "B", "text": "a strange person", "is_correct": false },
+          { "label": "C", "text": "a selfish person", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If you meet a salesman, they’ll try to talk you into ...",
+        "options": [
+          { "label": "A", "text": "selling something", "is_correct": false },
+          { "label": "B", "text": "buying something", "is_correct": true },
+          { "label": "C", "text": "sharing something", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If you need to find something out, you can ...",
+        "options": [
+          { "label": "A", "text": "chat it up", "is_correct": false },
+          { "label": "B", "text": "look it up", "is_correct": true },
+          { "label": "C", "text": "speak it up", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "If you’ve used up all your prepaid phone calls, you’ll have to ...",
+        "options": [
+          { "label": "A", "text": "get a new phone", "is_correct": false },
+          { "label": "B", "text": "make fewer calls", "is_correct": false },
+          { "label": "C", "text": "top up your phone account", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "In a democracy, the decision on who will govern the country is left up to the country’s ...",
+        "options": [
+          { "label": "A", "text": "Great Leader", "is_correct": false },
+          { "label": "B", "text": "king or queen", "is_correct": false },
+          { "label": "C", "text": "citizens", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Isabel has grown up since the last time I saw her ...",
+        "options": [
+          { "label": "A", "text": "six hours ago", "is_correct": false },
+          { "label": "B", "text": "six days ago", "is_correct": false },
+          { "label": "C", "text": "six years ago", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "It would be wrong to sit in for someone if they couldn’t make it to ...",
+        "options": [
+          { "label": "A", "text": "a staff meeting", "is_correct": false },
+          { "label": "B", "text": "a college exam", "is_correct": true },
+          { "label": "C", "text": "a card game", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Jamal opted for overtime because he ...",
+        "options": [
+          { "label": "A", "text": "needed to make more money", "is_correct": true },
+          { "label": "B", "text": "wanted more time with his kids", "is_correct": false },
+          { "label": "C", "text": "had stress-related health problems", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "John and his father sound the same when they speak, so I can’t tell them apart when they ...",
+        "options": [
+          { "label": "A", "text": "walk into a room", "is_correct": false },
+          { "label": "B", "text": "send me emails", "is_correct": false },
+          { "label": "C", "text": "answer the phone", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Lots of people want to be published writers, but only those who stick at it for a long time ...",
+        "options": [
+          { "label": "A", "text": "give in", "is_correct": false },
+          { "label": "B", "text": "give up", "is_correct": false },
+          { "label": "C", "text": "succeed", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Mark loves to show off. He’s always trying to ...",
+        "options": [
+          { "label": "A", "text": "impress people", "is_correct": true },
+          { "label": "B", "text": "care for people", "is_correct": false },
+          { "label": "C", "text": "annoy people", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Michael wants to be a world-class footballer, so he’s working on ...",
+        "options": [
+          { "label": "A", "text": "his favourite players", "is_correct": false },
+          { "label": "B", "text": "the gym every day", "is_correct": false },
+          { "label": "C", "text": "his ball-control skills", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "My son has ruled out a career as a doctor because ...",
+        "options": [
+          { "label": "A", "text": "he hates the sight of blood", "is_correct": true },
+          { "label": "B", "text": "he thinks he’d be good at it", "is_correct": false },
+          { "label": "C", "text": "he doesn’t get sick very often", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Our cable TV company is doing a viewer survey, and they want us to fill out this ...",
+        "options": [
+          { "label": "A", "text": "questionnaire", "is_correct": true },
+          { "label": "B", "text": "TV guide", "is_correct": false },
+          { "label": "C", "text": "new show", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Paul has worked out a way to ...",
+        "options": [
+          { "label": "A", "text": "solve the problem", "is_correct": true },
+          { "label": "B", "text": "create the problem", "is_correct": false },
+          { "label": "C", "text": "increase the problem", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Sandra realised she’d left her passport behind, so she ...",
+        "options": [
+          { "label": "A", "text": "moved it to the front", "is_correct": false },
+          { "label": "B", "text": "went back to get it", "is_correct": true },
+          { "label": "C", "text": "took someone else’s", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Sarah was kicked out of the exam room because she ...",
+        "options": [
+          { "label": "A", "text": "needed to go to the toilet", "is_correct": false },
+          { "label": "B", "text": "finished early", "is_correct": false },
+          { "label": "C", "text": "tried to cheat", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "Smoking cigarettes can lead to ...",
+        "options": [
+          { "label": "A", "text": "excellent health", "is_correct": false },
+          { "label": "B", "text": "lung cancer", "is_correct": true },
+          { "label": "C", "text": "sweet-smelling breath", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "The accident investigator wrote up his final report on the fire after he had ...",
+        "options": [
+          { "label": "A", "text": "heard about the fire", "is_correct": false },
+          { "label": "B", "text": "seen the fire", "is_correct": false },
+          { "label": "C", "text": "reviewed his notes on the fire", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "The best person to deal with a medical emergency would be ...",
+        "options": [
+          { "label": "A", "text": "a dealer", "is_correct": false },
+          { "label": "B", "text": "a doctor", "is_correct": true },
+          { "label": "C", "text": "a sick person", "is_correct": false }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "The judge read the statement out because he ...",
+        "options": [
+          { "label": "A", "text": "didn’t want everyone to hear it", "is_correct": false },
+          { "label": "B", "text": "didn’t want anyone to hear it", "is_correct": false },
+          { "label": "C", "text": "couldn’t understand it", "is_correct": true }
+        ]
+      },
+      {
+        "type": "Vocabulary",
+        "prompt": "The Olympic Games always end with ...",
+        "options": [
+          { "label": "A", "text": "an Opening Ceremony", "is_correct": false },
+          { "label": "B", "text": "a Closing Ceremony", "is_correct": true },
+          { "label": "C", "text": "a Wedding Ceremony", "is_correct": false }
+        ]
+      }    
+  ]
+  
